@@ -9,15 +9,18 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomePage from './pages/HomePage.tsx';
+import CreateQuestion from './pages/CreateQuestion.tsx';
+import TestPage from './pages/TestPage.tsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} element={<HomePage />} />
-      {/* <Route path="projects/:slug" element={<ProjectPage />} />
-      <Route path="signin" element={<SigninPage />} />
-      <Route path="signup" element={<SignupPage />} /> */}
-      {/* ... etc. */}
+      
+      <Route path="create_question" element={<CreateQuestion />} />
+      <Route path="test" element={<TestPage />} />
+      
+      
     </Route>
   )
 );
