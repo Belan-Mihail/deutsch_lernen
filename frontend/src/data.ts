@@ -1,6 +1,7 @@
+import TestType from "./types/TestType";
 
 
-const GermanWordsTest = [
+const GermanWordsTest:TestType[] = [
     {
         language: 'ger',
         word: 'vorwärtskommen',
