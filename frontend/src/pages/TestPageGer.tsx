@@ -27,27 +27,27 @@ const TestPageGer: React.FC = (): React.ReactNode => {
   return (
     <div className="m-16 items-center flex flex-col gap-8">
       <div>
-        <h3 className="font-semibold text-2xl">How to translate this word</h3>
+        <h3 className="font-semibold text-center text-wrap text-2xl">How to translate this word</h3>
       </div>
       <div>
-        <p className="font-semibold text-2xl my-4 text-center">{currentQuestion?.word}</p>
-        <p>
-          <span className="mx-2 text-2xl text-green-600">{currentQuestion?.forms[0]}</span>
-          <span className="mx-2 text-2xl text-green-600">{currentQuestion?.forms[1]}</span>
-          <span className="mx-2 text-2xl text-green-600">{currentQuestion?.forms[2]}</span>
+        <p className="font-semibold text-center text-wrap text-2xl my-2">{currentQuestion?.word}</p>
+        <p className="text-center text-wrap">
+          <span className="mx-2 text-2xl text-center text-wrap text-green-600">{currentQuestion?.forms[0]}</span> <br />
+          <span className="mx-2 text-2xl text-center text-wrap text-orange-600">{currentQuestion?.forms[1]}</span> <br />
+          <span className="mx-2 text-2xl text-center text-nowrap text-red-600">{currentQuestion?.forms[2]}</span>
         </p>
       </div>
-      <div className="grid grid-cols-2 grid-rows-2 gap-16">
+      <div className="grid max-[640px]:grid-cols-1 max-[640px]:grid-rows-1 grid-cols-2 grid-rows-2 gap-8">
         {/* {currentAnswer && currentAnswer == currentQuestion.correctAnswer} */}
         <div
           onClick={() => setCurrentAnswer(currentQuestion!.variantA)}
           className={
             
             currentAnswer === currentQuestion!.correctAnswer && currentAnswer === currentQuestion!.variantA
-              ? "font-semibold text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl" :
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl" :
               currentAnswer !== currentQuestion!.correctAnswer && currentAnswer === currentQuestion!.variantA 
-              ? "font-semibold text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
-              : " font-semibold text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white  "
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
+              : " font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white  "
           }
         >
           {currentQuestion!.variantA}
@@ -57,10 +57,10 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           className={
             
             currentAnswer === currentQuestion!.correctAnswer && currentAnswer === currentQuestion!.variantB
-              ? "font-semibold text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl" :
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl" :
               currentAnswer !== currentQuestion!.correctAnswer && currentAnswer === currentQuestion!.variantB 
-              ? "font-semibold text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
-              : " font-semibold text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white  "
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
+              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white"
           }
         >
           {currentQuestion!.variantB}
@@ -70,10 +70,10 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           className={
             
             currentAnswer === currentQuestion!.correctAnswer && currentAnswer === currentQuestion!.variantC
-              ? "font-semibold text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl" :
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl" :
               currentAnswer !== currentQuestion!.correctAnswer && currentAnswer === currentQuestion!.variantC 
-              ? "font-semibold text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
-              : " font-semibold text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white  "
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
+              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white"
           }
         >
           {currentQuestion!.variantC}
@@ -83,10 +83,10 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           className={
             
             currentAnswer === currentQuestion!.correctAnswer && currentAnswer === currentQuestion!.variantD
-              ? "font-semibold text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl" :
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl" :
               currentAnswer !== currentQuestion!.correctAnswer && currentAnswer === currentQuestion!.variantD 
-              ? "font-semibold text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
-              : " font-semibold text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white  "
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
+              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white"
           }
         >
           {currentQuestion!.variantD}
