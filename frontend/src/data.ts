@@ -28,7 +28,7 @@ const GermanWordsTest:TestType[] = [
     {
         language: 'ger',
         word: 'jeweilig',
-        forms: [],
+        forms: ['-'],
         type: 'adv',
         variantA: 'соответственно, соответствующий',
         variantB: 'текущий, прежний',
