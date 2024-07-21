@@ -46,7 +46,40 @@ const GermanWordsTest:TestType[] = [
         variantC: 'гневный',
         variantD: 'сострадающий',
         correctAnswer: 'сострадающий'
-    }
+    },
+    {
+        language: 'ger',
+        word: 'ablenken sich von',
+        forms: ['lenkt ab', 'lenkte ab', 'hat abgelenkt'],
+        type: 'verb',
+        variantA: 'обходить, объездать',
+        variantB: 'устранять, завершать',
+        variantC: 'отказываться, отказывать',
+        variantD: 'отвлекать, отклонять',
+        correctAnswer: 'отвлекать, отклонять'
+    },
+    {
+        language: 'ger',
+        word: 'vorkommen',
+        forms: ['kommt vor', 'kam vor', 'ist vorgekommen'],
+        type: 'verb',
+        variantA: 'казаться, случаться',
+        variantB: 'возвращать, возвращаться',
+        variantC: 'выходить, отходить',
+        variantD: 'исходить от, пологаться',
+        correctAnswer: 'казаться, случаться'
+    },
+    {
+        language: 'ger',
+        word: 'abfinden sich mit',
+        forms: ['findet ab', 'fand ab', 'hat abgefunden'],
+        type: 'verb',
+        variantA: 'отвлекаться',
+        variantB: 'обнаруживать',
+        variantC: 'смириться',
+        variantD: 'устраиваться',
+        correctAnswer: 'смириться'
+    },
 ]
 
 export default GermanWordsTest;
