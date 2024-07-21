@@ -4,7 +4,7 @@ import TestType from "./types/TestType";
 const GermanWordsTest:TestType[] = [
     {
         language: 'ger',
-        word: 'vorwärtskommen',
+        word: 'vorwärts kommen',
         forms: ['kommt vorwärts', 'kam vorwärts', 'ist vorwärtsgekommen'],
         type: 'verb',
         variantA: 'возращаться',
@@ -49,7 +49,7 @@ const GermanWordsTest:TestType[] = [
     },
     {
         language: 'ger',
-        word: 'ablenken sich von',
+        word: 'ab lenken SICH VON',
         forms: ['lenkt ab', 'lenkte ab', 'hat abgelenkt'],
         type: 'verb',
         variantA: 'обходить, объездать',
@@ -60,7 +60,7 @@ const GermanWordsTest:TestType[] = [
     },
     {
         language: 'ger',
-        word: 'vorkommen',
+        word: 'vor kommen',
         forms: ['kommt vor', 'kam vor', 'ist vorgekommen'],
         type: 'verb',
         variantA: 'казаться, случаться',
@@ -71,7 +71,7 @@ const GermanWordsTest:TestType[] = [
     },
     {
         language: 'ger',
-        word: 'abfinden sich mit',
+        word: 'ab finden SICH MIT',
         forms: ['findet ab', 'fand ab', 'hat abgefunden'],
         type: 'verb',
         variantA: 'отвлекаться',
@@ -79,6 +79,72 @@ const GermanWordsTest:TestType[] = [
         variantC: 'смириться',
         variantD: 'устраиваться',
         correctAnswer: 'смириться'
+    },
+    {
+        language: 'ger',
+        word: 'entspannen SICH MIT',
+        forms: ['entspannt', 'entspannte', 'hat entspannt'],
+        type: 'verb',
+        variantA: 'заботиться, проявлять заботу',
+        variantB: 'улыбаться, радоваться',
+        variantC: 'негодовать, расстраиваться',
+        variantD: 'расслабляться, отдыхать',
+        correctAnswer: 'расслабляться, отдыхать'
+    },
+    {
+        language: 'ger',
+        word: 'die Gepflogenheit',
+        forms: ['die Gepflogenheiten'],
+        type: 'nomen',
+        variantA: 'традиция, обычай',
+        variantB: 'силуэт',
+        variantC: 'смирение, успокоение',
+        variantD: 'усталость, бессоница',
+        correctAnswer: 'традиция, обычай'
+    },
+    {
+        language: 'ger',
+        word: 'gewöhnen sich AN',
+        forms: ['gewöhnt', 'gewöhnte', 'hat gewöhnt'],
+        type: 'verb',
+        variantA: 'удовлетворять, устраивать',
+        variantB: 'свыкнуться, осваиваться',
+        variantC: 'негодовать, расстраиваться',
+        variantD: 'раздражаться, нервничать',
+        correctAnswer: 'свыкнуться, осваиваться'
+    },
+    {
+        language: 'ger',
+        word: 'der Abstand',
+        forms: ['die Abstände'],
+        type: 'nomen',
+        variantA: 'традиция, обычай',
+        variantB: 'успех, гармония',
+        variantC: 'интервал, дистанция',
+        variantD: 'процесс, действие',
+        correctAnswer: 'интервал, дистанция'
+    },
+    {
+        language: 'ger',
+        word: 'ein halten',
+        forms: ['hält ein', 'hielt ein', 'hat eingehalten'],
+        type: 'verb',
+        variantA: 'получать, сохранять',
+        variantB: 'включать в себя, содержать',
+        variantC: 'приводить в соответсвиие, упорядочивать',
+        variantD: 'соблюдать, придерживаться',
+        correctAnswer: 'соблюдать, придерживаться'
+    },
+    {
+        language: 'ger',
+        word: 'unverzüglich',
+        forms: ['unverzüglicher', 'am unverzüglichsten'],
+        type: 'adv',
+        variantA: 'немедленно, срочно',
+        variantB: 'грубый, жестокий',
+        variantC: 'отважный, решительный',
+        variantD: 'находчивый, ловкий',
+        correctAnswer: 'немедленно, срочно'
     },
 ]
 
