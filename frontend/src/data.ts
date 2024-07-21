@@ -399,6 +399,160 @@ const GermanWordsTest:TestType[] = [
         variantD: 'перемищаться, передвигаться',
         correctAnswer: 'передавать, перенаправлять'
     },
+    {
+        language: 'ger',
+        word: 'verhandeln MIT',
+        forms: ['leitet weiter', 'leitete weiter', 'hat weitergeleitet'],
+        type: 'verb',
+        variantA: 'договориваться',
+        variantB: 'уступать, теряться преимущество',
+        variantC: 'относиться, иметь отношение',
+        variantD: 'задумывать, выдвигать идею',
+        correctAnswer: 'договориваться'
+    },
+    {
+        language: 'ger',
+        word: 'ab·wechseln SICH',
+        forms: ['wechselt ab', 'wechselte ab', 'hat abgewechselt'],
+        type: 'verb',
+        variantA: 'испытывать, ощущать',
+        variantB: 'переходить, проходить',
+        variantC: 'заманивать, приманивать',
+        variantD: 'заменять кого-то, чередовать',
+        correctAnswer: 'заменять кого-то, чередовать'
+    },
+    {
+        language: 'ger',
+        word: 'erbringen',
+        forms: ['erbringt', 'erbrachte', 'hat erbracht'],
+        type: 'verb',
+        variantA: 'доносить, рассказывать',
+        variantB: 'производить эффект, приносить результат',
+        variantC: 'завести, заводить',
+        variantD: 'пережить, переживать',
+        correctAnswer: 'производить эффект, приносить результат'
+    },
+    {
+        language: 'ger',
+        word: 'erbringen',
+        forms: ['erbringt', 'erbrachte', 'hat erbracht'],
+        type: 'verb',
+        variantA: 'доносить, рассказывать',
+        variantB: 'производить эффект, приносить результат',
+        variantC: 'завести, заводить',
+        variantD: 'пережить, переживать',
+        correctAnswer: 'производить эффект, приносить результат'
+    },
+    {
+        language: 'ger',
+        word: 'der Rundgang',
+        forms: ['die Rundgänge'],
+        type: 'nomen',
+        variantA: 'объект',
+        variantB: 'происшествие',
+        variantC: 'деталь, кольцо',
+        variantD: 'обход, экскурсия',
+        correctAnswer: 'обход'
+    },
+    {
+        language: 'ger',
+        word: 'beantworten',
+        forms: ['beantworten', 'beantwortete', 'hat beantwortet'],
+        type: 'verb',
+        variantA: 'доносить, рассказывать',
+        variantB: 'отвечать, реагировать',
+        variantC: 'заводить разговор, беседовать',
+        variantD: 'перебивать, препинать',
+        correctAnswer: 'отвечать, реагировать'
+    },
+    {
+        language: 'ger',
+        word: 'berücksichtigen',
+        forms: ['berücksichtigt', 'berücksichtigte', 'hat berücksichtigt'],
+        type: 'verb',
+        variantA: 'возвышать',
+        variantB: 'уточнять, пояснять',
+        variantC: 'страховать, перестраховывать',
+        variantD: 'принимать во внимание, учитывать',
+        correctAnswer: 'принимать во внимание, учитывать'
+    },
+    {
+        language: 'ger',
+        word: 'zu gehen AUF',
+        forms: ['geht zu', 'ging zu', 'ist zugegangen'],
+        type: 'verb',
+        variantA: 'идти на встречу, спешить',
+        variantB: 'повышать, возвышать',
+        variantC: 'улучшать, улучшить',
+        variantD: 'присоеденять, добавлять',
+        correctAnswer: 'идти на встречу, спешить'
+    },
+    {
+        language: 'ger',
+        word: 'verfassen',
+        forms: ['verfasst', 'verfasste', 'hat verfasst'],
+        type: 'verb',
+        variantA: 'удаляться, отходить',
+        variantB: 'покидать, оставлять',
+        variantC: 'сочинять, составлять',
+        variantD: 'обходить, обойти',
+        correctAnswer: 'сочинять, составлять'
+    },
+    {
+        language: 'ger',
+        word: 'die Anweisung',
+        forms: ['die Anweisungen'],
+        type: 'nomen',
+        variantA: 'метод, способ',
+        variantB: 'заявление, исполнение',
+        variantC: 'ходотайство',
+        variantD: 'инструкция, распоряжение',
+        correctAnswer: 'инструкция, распоряжение'
+    },
+    {
+        language: 'ger',
+        word: 'eigenhändig',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'сподручный',
+        variantB: 'собственноручный',
+        variantC: 'ручной',
+        variantD: 'забытый',
+        correctAnswer: 'собственноручный'
+    },
+    {
+        language: 'ger',
+        word: 'die Annahme',
+        forms: ['die Annahmen'],
+        type: 'nomen',
+        variantA: 'идея, предложение',
+        variantB: 'заявление, исполнение',
+        variantC: 'предположение, допущение',
+        variantD: 'обман, неправда',
+        correctAnswer: 'предположение, допущение'
+    },
+    {
+        language: 'ger',
+        word: 'die Einrichtung',
+        forms: ['die Einrichtungen'],
+        type: 'nomen',
+        variantA: 'направление',
+        variantB: 'приспособление',
+        variantC: 'предположение, допущение',
+        variantD: 'обустройство, оборудование',
+        correctAnswer: 'обустройство, оборудование'
+    },
+    {
+        language: 'ger',
+        word: 'an·halten SICH AN',
+        forms: ['hält an', 'hielt an', 'hat angehalten'],
+        type: 'verb',
+        variantA: 'останавливать, предписывать',
+        variantB: 'оставлять себе, сберегать',
+        variantC: 'сочинять, составлять',
+        variantD: 'предпринимать, действовать',
+        correctAnswer: 'останавливать, предписывать'
+    },
 ]
 
 export default GermanWordsTest;
