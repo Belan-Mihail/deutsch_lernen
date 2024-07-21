@@ -30,7 +30,12 @@ const TestPageGer: React.FC = (): React.ReactNode => {
         <h3 className="font-semibold text-2xl">How to translate this word</h3>
       </div>
       <div>
-        <p className="font-semibold text-2xl my-4">{currentQuestion?.word}</p>
+        <p className="font-semibold text-2xl my-4 text-center">{currentQuestion?.word}</p>
+        <p>
+          <span className="mx-2 text-2xl text-green-600">{currentQuestion?.forms[0]}</span>
+          <span className="mx-2 text-2xl text-green-600">{currentQuestion?.forms[1]}</span>
+          <span className="mx-2 text-2xl text-green-600">{currentQuestion?.forms[2]}</span>
+        </p>
       </div>
       <div className="grid grid-cols-2 grid-rows-2 gap-16">
         {/* {currentAnswer && currentAnswer == currentQuestion.correctAnswer} */}
