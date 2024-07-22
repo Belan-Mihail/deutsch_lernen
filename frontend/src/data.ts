@@ -292,7 +292,7 @@ const GermanWordsTest:TestType[] = [
     {
         language: 'ger',
         word: 'betrachten',
-        forms: ['bezieht ', 'bezog ', 'hat bezogen'],
+        forms: ['betrachtet ', 'betrachtete ', 'hat betrachtet'],
         type: 'verb',
         variantA: 'склоняться, полагать',
         variantB: 'испугаться, бояться',
@@ -434,17 +434,6 @@ const GermanWordsTest:TestType[] = [
     },
     {
         language: 'ger',
-        word: 'erbringen',
-        forms: ['erbringt', 'erbrachte', 'hat erbracht'],
-        type: 'verb',
-        variantA: 'доносить, рассказывать',
-        variantB: 'производить эффект, приносить результат',
-        variantC: 'завести, заводить',
-        variantD: 'пережить, переживать',
-        correctAnswer: 'производить эффект, приносить результат'
-    },
-    {
-        language: 'ger',
         word: 'der Rundgang',
         forms: ['die Rundgänge'],
         type: 'nomen',
@@ -452,7 +441,7 @@ const GermanWordsTest:TestType[] = [
         variantB: 'происшествие',
         variantC: 'деталь, кольцо',
         variantD: 'обход, экскурсия',
-        correctAnswer: 'обход'
+        correctAnswer: 'обход, экскурсия'
     },
     {
         language: 'ger',

@@ -35,11 +35,6 @@ const TestPageGer: React.FC = (): React.ReactNode => {
         
       </div>
       <div>
-        <h3 className="font-semibold text-center text-wrap text-2xl">
-          How to translate this word
-        </h3>
-      </div>
-      <div>
         <p className="font-semibold text-center text-wrap text-2xl my-2">
           {currentQuestion?.word}
         </p>
@@ -56,11 +51,11 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           className={
             currentAnswer === currentQuestion!.correctAnswer &&
             currentAnswer === currentQuestion!.variantA
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl"
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-4 rounded-xl"
               : currentAnswer !== currentQuestion!.correctAnswer &&
                 currentAnswer === currentQuestion!.variantA
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
-              : " font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white  "
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-4 rounded-xl"
+              : " font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl hover:bg-orange-500 hover:text-white  "
           }
         >
           {currentQuestion!.variantA}
@@ -70,11 +65,11 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           className={
             currentAnswer === currentQuestion!.correctAnswer &&
             currentAnswer === currentQuestion!.variantB
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl"
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-4 rounded-xl"
               : currentAnswer !== currentQuestion!.correctAnswer &&
                 currentAnswer === currentQuestion!.variantB
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
-              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white"
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-4 rounded-xl"
+              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl hover:bg-orange-500 hover:text-white"
           }
         >
           {currentQuestion!.variantB}
@@ -84,11 +79,11 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           className={
             currentAnswer === currentQuestion!.correctAnswer &&
             currentAnswer === currentQuestion!.variantC
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl"
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-4 rounded-xl"
               : currentAnswer !== currentQuestion!.correctAnswer &&
                 currentAnswer === currentQuestion!.variantC
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
-              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white"
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-4 rounded-xl"
+              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl hover:bg-orange-500 hover:text-white"
           }
         >
           {currentQuestion!.variantC}
@@ -98,18 +93,18 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           className={
             currentAnswer === currentQuestion!.correctAnswer &&
             currentAnswer === currentQuestion!.variantD
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-8 rounded-xl"
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-4 rounded-xl"
               : currentAnswer !== currentQuestion!.correctAnswer &&
                 currentAnswer === currentQuestion!.variantD
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-8 rounded-xl"
-              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-8 rounded-xl hover:bg-orange-500 hover:text-white"
+              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-4 rounded-xl"
+              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl hover:bg-orange-500 hover:text-white"
           }
         >
           {currentQuestion!.variantD}
         </div>
       </div>
       <button
-        className=" font-semibold text-2xl border-solid border-2 border-green-500 p-8 rounded-xl hover:bg-green-500 hover:text-white  "
+        className=" font-semibold max-[640px]:text-sm text-2xl border-solid border-2 border-green-500 p-4 rounded-xl hover:bg-green-500 hover:text-white  "
         onClick={nextQuestion}
       >
         Next Question
