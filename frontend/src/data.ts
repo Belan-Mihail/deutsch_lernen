@@ -837,7 +837,7 @@ const GermanWordsTest:TestType[] = [
         variantB: 'преодолевать, справляться',
         variantC: 'сохранять, сберегать',
         variantD: 'охранять, защищать',
-        correctAnswer: 'преодоливать, справляться'
+        correctAnswer: 'преодолевать, справляться'
     },
     {
         language: 'ger',
@@ -899,11 +899,11 @@ const GermanWordsTest:TestType[] = [
         word: 'an geben',
         forms: ['gibt an', 'gab an', 'hat angegeben'],
         type: 'verb',
-        variantA: 'указывать, хвастаться',
+        variantA: 'указывать, заявлять, хвастаться',
         variantB: 'отказываться, отказаться',
-        variantC: 'менять, изменять',
+        variantC: 'менять, изменять, поменять',
         variantD: 'сдаваться',
-        correctAnswer: 'указывать, хвастаться'
+        correctAnswer: 'указывать, заявлять, хвастаться'
     },
     {
         language: 'ger',
@@ -969,18 +969,7 @@ const GermanWordsTest:TestType[] = [
         variantB: 'прекращать, сдаваться',
         variantC: 'признавать, соглашаться',
         variantD: 'вводить, давать',
-        correctAnswer: 'вводить, давать'
-    },
-    {
-        language: 'ger',
-        word: 'begeben SICH',
-        forms: ['begibt', 'begab', 'hat begeben'],
-        type: 'verb',
-        variantA: 'отправляться, направляться',
-        variantB: 'прекращать, сдаваться',
-        variantC: 'признавать, соглашаться',
-        variantD: 'вводить, давать',
-        correctAnswer: 'вводить, давать'
+        correctAnswer: 'отправляться, направляться'
     },
     {
         language: 'ger',
@@ -1101,7 +1090,7 @@ const GermanWordsTest:TestType[] = [
         variantB: 'вести себя',
         variantC: 'принимать, предполагать, предвидеть',
         variantD: 'включать в себя, получать, начинать',
-        correctAnswer: 'включать в себя, получать, начинать'
+        correctAnswer: 'вести себя'
     },
     {
         language: 'ger',
@@ -1114,6 +1103,283 @@ const GermanWordsTest:TestType[] = [
         variantD: 'заявление',
         correctAnswer: 'поведение'
     },
+    {
+        language: 'ger',
+        word: 'zebrechen',
+        forms: ['zebricht', 'zebrach', 'ist zerbrochen'],
+        type: 'verb',
+        variantA: 'столкнуться, спотыкаться',
+        variantB: 'ранить, пораниться',
+        variantC: 'нарушать, несоблюдать',
+        variantD: 'разбивать, ломать',
+        correctAnswer: 'разбивать, ломать'
+    },
+    {
+        language: 'ger',
+        word: 'ähnlich',
+        forms: ['ähnlicher, am ähnlichsten'],
+        type: 'adj',
+        variantA: 'обычный, обыкновенный',
+        variantB: 'безопасный, неопасный',
+        variantC: 'схожий, подобный',
+        variantD: 'скорый, быстрый',
+        correctAnswer: 'схожий, подобный'
+    },
+    {
+        language: 'ger',
+        word: 'verschwinden',
+        forms: ['verschwindet', 'verschwand', 'ist verschwunden'],
+        type: 'verb',
+        variantA: 'обидеться, быть обиженным',
+        variantB: 'исчезать, скрываться',
+        variantC: 'загрязнять, испачкать',
+        variantD: 'обидеть, обижать',
+        correctAnswer: 'исчезать, скрываться'
+    },
+    {
+        language: 'ger',
+        word: 'der Engpass',
+        forms: ['die Engpässe'],
+        type: 'nome',
+        variantA: 'недостача, дефицит',
+        variantB: 'документ, паспорт',
+        variantC: 'вложение, приложение',
+        variantD: 'оболочка, контур',
+        correctAnswer: 'недостача, дефицит'
+    },
+    {
+        language: 'ger',
+        word: 'fällig',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'просроченный',
+        variantB: 'упавший',
+        variantC: 'подлежащий исполнению',
+        variantD: 'потраченный',
+        correctAnswer: 'подлежащий исполнению'
+    },
+    {
+        language: 'ger',
+        word: 'die Feststellung',
+        forms: ['die Feststellungen'],
+        type: 'nome',
+        variantA: 'представление',
+        variantB: 'заключение',
+        variantC: 'напоминание',
+        variantD: 'поручение',
+        correctAnswer: 'заключение'
+    },
+    {
+        language: 'ger',
+        word: 'unverbindlich',
+        forms: ['unverbindlicher, am unverbindlichsten'],
+        type: 'adj',
+        variantA: 'негарантированный, необязательный',
+        variantB: 'спонтанный',
+        variantC: 'целенаправленный',
+        variantD: 'обязательный, необходимый',
+        correctAnswer: 'негарантированный, необязательный'
+    },
+    {
+        language: 'ger',
+        word: 'zurück·treten VON',
+        forms: ['tritt züruck', 'tratt züruck', 'hat zurückgetreten'],
+        type: 'verb',
+        variantA: 'пройти, пересечь',
+        variantB: 'переступить, перешагнуть',
+        variantC: 'нарушать, несоблюдать',
+        variantD: 'уйти в отставку, отказаться от',
+        correctAnswer: 'уйти в отставку, отказаться от'
+    },
+    {
+        language: 'ger',
+        word: 'gezwungen',
+        forms: ['gezwungener, am gezwungensten'],
+        type: 'adj',
+        variantA: 'раздражительный, нервный',
+        variantB: 'принужденный',
+        variantC: 'целенаправленный',
+        variantD: 'обязательный',
+        correctAnswer: 'принужденный'
+    },
+    {
+        language: 'ger',
+        word: 'die Bemühung',
+        forms: ['die Bemühungen'],
+        type: 'nome',
+        variantA: 'забота, внимание',
+        variantB: 'концентрация',
+        variantC: 'исполнительность, ответсвенность',
+        variantD: 'старания, усилия',
+        correctAnswer: 'старания, усилия'
+    },
+    {
+        language: 'ger',
+        word: 'unterbreiten',
+        forms: ['unterbreitet', 'unterbreitete', 'hat unterbreitet'],
+        type: 'verb',
+        variantA: 'пройти, пересечь',
+        variantB: 'вынести на расмотрение, предложить',
+        variantC: 'нарушать, несоблюдать',
+        variantD: 'подготовиться, приготовиться',
+        correctAnswer: 'вынести на расмотрение, предложить'
+    },
+    {
+        language: 'ger',
+        word: 'die Auflösung',
+        forms: ['die Auflösungen'],
+        type: 'nome',
+        variantA: 'разрешение, роспуск',
+        variantB: 'понятие, определение',
+        variantC: 'исполнительность, ответсвенность',
+        variantD: 'старания, усилия',
+        correctAnswer: 'разрешение, роспуск'
+    },
+    {
+        language: 'ger',
+        word: 'definieren',
+        forms: ['definiert', 'definierte', 'hat definiert'],
+        type: 'verb',
+        variantA: 'просить, умолять',
+        variantB: 'вынести на расмотрение, предложить',
+        variantC: 'давать определение, определять',
+        variantD: 'подготовиться, приготовиться',
+        correctAnswer: 'давать определение, определять'
+    },
+    {
+        language: 'ger',
+        word: 'gestehen',
+        forms: ['gesteht', 'gestand', 'hat gestanden'],
+        type: 'verb',
+        variantA: 'просить, умолять',
+        variantB: 'простить, прощать',
+        variantC: 'убедить, убеждать',
+        variantD: 'признаваться, признавать',
+        correctAnswer: 'признаваться, признавать'
+    },
+    {
+        language: 'ger',
+        word: 'flehen UM',
+        forms: ['fleht', 'flehte', 'hat gefleht'],
+        type: 'verb',
+        variantA: 'просить, умолять',
+        variantB: 'простить, прощать',
+        variantC: 'убедить, убеждать',
+        variantD: 'улетать, убывать',
+        correctAnswer: 'просить, умолять'
+    },
+    {
+        language: 'ger',
+        word: 'hinterlassen',
+        forms: ['hinterlässt', 'hinterließ', 'hat hinterlassen'],
+        type: 'verb',
+        variantA: 'оставлять, покидать (место)',
+        variantB: 'простить, прощать',
+        variantC: 'оставлять, покидать (человека)',
+        variantD: 'улетать, убывать',
+        correctAnswer: 'оставлять, покидать (человека)'
+    },
+    {
+        language: 'ger',
+        word: 'verlassen',
+        forms: ['verlässt', 'verließ', 'hat verlassen'],
+        type: 'verb',
+        variantA: 'оставлять, покидать (место)',
+        variantB: 'простить, прощать',
+        variantC: 'оставлять, покидать (человека)',
+        variantD: 'улетать, убывать',
+        correctAnswer: 'оставлять, покидать (место)'
+    },
+    {
+        language: 'ger',
+        word: 'veranlassen',
+        forms: ['veranlasst', 'veranlasste', 'hat veranlasst'],
+        type: 'verb',
+        variantA: 'оставлять, покидать (место)',
+        variantB: 'побуждать, побудить',
+        variantC: 'оставлять, покидать (человека)',
+        variantD: 'забывать, забыть',
+        correctAnswer: 'побуждать, побудить'
+    },
+    {
+        language: 'ger',
+        word: 'bezugnehmend',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'раздражительный, нервный',
+        variantB: 'принужденный, обязанный',
+        variantC: 'ссылающийся, касающийся',
+        variantD: 'превосходный',
+        correctAnswer: 'ссылающийся, касающийся'
+    },
+    {
+        language: 'ger',
+        word: 'anliegend',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'прилагаемый, приложенный',
+        variantB: 'принужденный, обязанный',
+        variantC: 'ссылающийся, касающийся',
+        variantD: 'прилегающий, примыкающий',
+        correctAnswer: 'прилегающий, примыкающий'
+    },
+    {
+        language: 'ger',
+        word: 'beiliegend',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'прилагаемый, приложенный',
+        variantB: 'принужденный, обязанный',
+        variantC: 'ссылающийся, касающийся',
+        variantD: 'прилегающий, примыкающий',
+        correctAnswer: 'прилагаемый, приложенный'
+    },
+    {
+        language: 'ger',
+        word: 'hervorragend',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'впереди идущий, ведущий',
+        variantB: 'принужденный, обязанный',
+        variantC: 'выдающийся, замечательный',
+        variantD: 'близкий, приятный',
+        correctAnswer: 'выдающийся, замечательный'
+    },
+    {
+        language: 'ger',
+        word: 'gesamt',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'весь',
+        variantB: 'вовсе',
+        variantC: 'всем',
+        variantD: 'вместе',
+        correctAnswer: 'весь'
+    },
+    {
+        language: 'ger',
+        word: 'begleichen',
+        forms: ['begleicht', 'beglich', 'hat begleichen'],
+        type: 'verb',
+        variantA: 'сравнивать',
+        variantB: 'оплачивать',
+        variantC: 'уравнивать',
+        variantD: 'убирать',
+        correctAnswer: 'оплачивать'
+    },
+    {
+        language: 'ger',
+        word: 'gelegen',
+        forms: ['gelegener, am gelegensten'],
+        type: 'adj',
+        variantA: 'равный, одинаковый',
+        variantB: 'более удобный, более подходящий',
+        variantC: 'целенаправленный, целеустремленный',
+        variantD: 'воспитанный, образованный',
+        correctAnswer: 'более удобный, более подходящий'
+    },
 ]
 
 export default GermanWordsTest;
+
+

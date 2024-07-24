@@ -24,7 +24,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
   }, []);
 
   return (
-    <div className="m-16 items-center flex flex-col gap-8">
+    <div className="m-16 items-center flex flex-col max-[500px]:gap-4 gap-8">
       <div className="flex justify-around w-full max-[500px]:flex-col max-[500px]:justify-center max-[500px]:gap-4 max-[500px]:items-center">
         <div className="text-start">
           <Link to='/' className="text-sm border-blue-500  border-solid border-2 hover:bg-blue-500 hover:text-white p-2 rounded-xl">Back to HomePage</Link>
@@ -44,7 +44,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           {currentQuestion.forms && currentQuestion.forms[2] && <p className="mx-2 text-2xl text-center text-wrap text-red-600">{currentQuestion.forms[2]}</p>}
         </p>
       </div>
-      <div className="grid max-[640px]:grid-cols-1 max-[640px]:grid-rows-1 grid-cols-2 grid-rows-2 gap-8">
+      <div className="grid max-[640px]:grid-cols-1 max-[640px]:grid-rows-1 grid-cols-2 grid-rows-2 max-[500px]:gap-4 gap-8">
         {/* {currentAnswer && currentAnswer == currentQuestion.correctAnswer} */}
         <div
           onClick={() => setCurrentAnswer(currentQuestion!.variantA)}
