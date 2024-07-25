@@ -1206,7 +1206,7 @@ const GermanWordsTest:TestType[] = [
         language: 'ger',
         word: 'die Bemühung',
         forms: ['die Bemühungen'],
-        type: 'nome',
+        type: 'nomen',
         variantA: 'забота, внимание',
         variantB: 'концентрация',
         variantC: 'исполнительность, ответсвенность',
@@ -1378,8 +1378,257 @@ const GermanWordsTest:TestType[] = [
         variantD: 'воспитанный, образованный',
         correctAnswer: 'более удобный, более подходящий'
     },
+    {
+        language: 'ger',
+        word: 'die Vorlage',
+        forms: ['die Vorlagen'],
+        type: 'nomen',
+        variantA: 'проект, образец, шаблон',
+        variantB: 'убеждение, верования',
+        variantC: 'сомнения, неуверенность',
+        variantD: 'старания, усилия',
+        correctAnswer: 'проект, образец, шаблон'
+    },
+    {
+        language: 'ger',
+        word: 'die Bedingung',
+        forms: ['die Bedingungen'],
+        type: 'nomen',
+        variantA: 'условия',
+        variantB: 'убеждение, верования',
+        variantC: 'сомнения, неуверенность',
+        variantD: 'старания, усилия',
+        correctAnswer: 'условия'
+    },
+    {
+        language: 'ger',
+        word: 'empfangen',
+        forms: ['empfängt', 'empfing', 'hat empfangen'],
+        type: 'verb',
+        variantA: 'воспринимать, размышлять',
+        variantB: 'принимать (человек), встречать',
+        variantC: 'влиять, убеждать',
+        variantD: 'убирать',
+        correctAnswer: 'принимать, встречать'
+    },
+    {
+        language: 'ger',
+        word: 'beabsichtigen',
+        forms: ['beabsichtigt', 'beabsichtigte', 'hat beabsichtigt'],
+        type: 'verb',
+        variantA: 'проверять, перепроверять',
+        variantB: 'принимать (человек), встречать',
+        variantC: 'намереваться, собираться',
+        variantD: 'посещать (человек)',
+        correctAnswer: 'намереваться, собираться'
+    },
+    {
+        language: 'ger',
+        word: 'verhindern',
+        forms: ['verhindert', 'verhinderte', 'hat verhindert'],
+        type: 'verb',
+        variantA: 'проверять, перепроверять',
+        variantB: 'предотвращать, препятствовать, помешать',
+        variantC: 'намереваться, собираться что-то сделать',
+        variantD: 'выполнить, исполнить, осуществить',
+        correctAnswer: 'предотвращать, препятствовать, помешать'
+    },
+    {
+        language: 'ger',
+        word: 'diesbezüglich',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'относительно этого, об этом',
+        variantB: 'потому что',
+        variantC: 'вопреки тому',
+        variantD: 'в понимании',
+        correctAnswer: 'относительно этого, об этом'
+    },
+    {
+        language: 'ger',
+        word: 'die Panne',
+        forms: ['die Pannen'],
+        type: 'nomen',
+        variantA: 'условия, обстоятельство',
+        variantB: 'убеждение, верования',
+        variantC: 'сомнения, неуверенность',
+        variantD: 'авария, поломка, неисправность',
+        correctAnswer: 'авария, поломка, неисправность'
+    },
+    {
+        language: 'ger',
+        word: 'die Pannendienst',
+        forms: ['die Pannendienste'],
+        type: 'nomen',
+        variantA: 'условие, обстоятельство',
+        variantB: 'аварийная служба, техпомощь',
+        variantC: 'сомнения, неуверенность',
+        variantD: 'авария, поломка, неисправность',
+        correctAnswer: 'аварийная служба, техпомощь'
+    },
+    {
+        language: 'ger',
+        word: 'berühren',
+        forms: ['berührt', 'berührte', 'hat berührt'],
+        type: 'verb',
+        variantA: 'прикоснуться к чему-то',
+        variantB: 'предотвращать, препятствовать, помешать',
+        variantC: 'намереваться, собираться что-то сделать',
+        variantD: 'сталкнуться с ситуацией, соприкоснуться',
+        correctAnswer: 'сталкнуться с ситуацией, соприкоснуться'
+    },
+    {
+        language: 'ger',
+        word: 'anfassen',
+        forms: ['fasst an', 'fasste an', 'hat angefasst'],
+        type: 'verb',
+        variantA: 'прикоснуться к чему-то',
+        variantB: 'предотвращать, препятствовать, помешать',
+        variantC: 'намереваться, собираться что-то сделать',
+        variantD: 'сталкнуться с ситуацией, соприкоснуться',
+        correctAnswer: 'прикоснуться к чему-то'
+    },
+    {
+        language: 'ger',
+        word: 'ein·setzen',
+        forms: ['setzt ein', 'setzte ein', 'hat eingesetzt'],
+        type: 'verb',
+        variantA: 'принять, принять к сведенью',
+        variantB: 'казаться, случаться',
+        variantC: 'войти, входить',
+        variantD: 'установить, вставить',
+        correctAnswer: 'установить, вставить'
+    },
+    {
+        language: 'ger',
+        word: 'zurück·setzen',
+        forms: ['setzt zurück', 'setzte zurück', 'hat zurückgesetzt'],
+        type: 'verb',
+        variantA: 'принять, принять к сведенью',
+        variantB: 'вернуться, возвращаться',
+        variantC: 'поставить обратно, ставить обратно',
+        variantD: 'установить, вставить',
+        correctAnswer: 'поставить обратно, ставить обратно'
+    },
+    {
+        language: 'ger',
+        word: 'aus·werfen',
+        forms: ['wirft aus', 'warf aus', 'hat ausgeworfen'],
+        type: 'verb',
+        variantA: 'принимать, исполнять',
+        variantB: 'выбрасывать, выкидывать',
+        variantC: 'осуществлять, реализовать',
+        variantD: 'поменять, сменить',
+        correctAnswer: 'выбрасывать, выкидывать'
+    },
+    {
+        language: 'ger',
+        word: 'auf·werfen',
+        forms: ['wirft auf', 'warf auf', 'hat aufgeworfen'],
+        type: 'verb',
+        variantA: 'принимать, исполнять',
+        variantB: 'выбрасывать, выкидывать',
+        variantC: 'добавлять, увеличивать',
+        variantD: 'поднимать вопрос, копать, насыпать',
+        correctAnswer: 'поднимать вопрос, копать, насыпать'
+    },
+    {
+        language: 'ger',
+        word: 'aus·rüsten MIT',
+        forms: ['rüstet aus', 'rüstete aus', 'hat ausgerüstet'],
+        type: 'verb',
+        variantA: 'снабжать, обеспечивать',
+        variantB: 'окрашивать, красить',
+        variantC: 'откидывать, выкидывать',
+        variantD: 'отказываться от заявления',
+        correctAnswer: 'снабжать, обеспечивать'
+    },
+    {
+        language: 'ger',
+        word: 'versiert',
+        forms: ['versierter, am versiertesten'],
+        type: 'adj',
+        variantA: 'равнодушный, безметяженый',
+        variantB: 'квалифицированный, опытный',
+        variantC: 'целенаправленный, целеустремленный',
+        variantD: 'бесполезный, напрасный',
+        correctAnswer: 'квалифицированный, опытный'
+    },
+    {
+        language: 'ger',
+        word: 'ausführlich',
+        forms: ['ausführlicher, am ausführlichsten'],
+        type: 'adj',
+        variantA: 'подробный, детальный',
+        variantB: 'квалифицированный, опытный',
+        variantC: 'целенаправленный, целеустремленный',
+        variantD: 'бесполезный, напрасный',
+        correctAnswer: 'подробный, детальный'
+    },
+    {
+        language: 'ger',
+        word: 'wieder·geben',
+        forms: ['gibt wieder', 'gab wieder', 'hat wiedergegeben'],
+        type: 'verb',
+        variantA: 'передавать, переносить',
+        variantB: 'излагать, возвращать, воспроизводить',
+        variantC: 'откидывать, выкидывать, откладывать',
+        variantD: 'воспользоваться, организовывать',
+        correctAnswer: 'излагать, возвращать, воспроизводить'
+    },
+    {
+        language: 'ger',
+        word: 'wieder·geben',
+        forms: ['gibt wieder', 'gab wieder', 'hat wiedergegeben'],
+        type: 'verb',
+        variantA: 'передавать, переносить',
+        variantB: 'излагать, возвращать, воспроизводить',
+        variantC: 'откидывать, выкидывать, откладывать',
+        variantD: 'воспользоваться, организовывать',
+        correctAnswer: 'излагать, возвращать, воспроизводить'
+    },
+    
+    
 ]
 
 export default GermanWordsTest;
 
 
+
+
+// auf·fallen 
+// fällt auf · fiel auf · ist aufgefallen 
+
+// Русский бросаться в глаза, привлечь внимание, выделяться
+
+// an·fallen 
+// fällt an · fiel an · ist angefallen 
+
+// Русский охватить, охватывать, овладевать, нападать, 
+
+// ein·fallen 
+// fällt ein · fiel ein · ist eingefallen 
+
+// Русский озарять, осенять, приходить на ум, приходить в голову,
+
+// an·schließen 
+// schließt an · schloss an · hat angeschlossen 
+
+// Русский присоединять, подключать, прилегать, подсоединять,
+
+// der Zufall
+// Zufall(e)s · Zufälle
+
+// Русский случайность, слу́чай, случа́йность, совпаде́ние
+
+// entdecken 
+// entdeckt · entdeckte · hat entdeckt 
+
+// Русский открывать, находить, обнаружить, обнаруживать,
+
+
+
+// bereuen 
+// bereut · bereute · hat bereut 
+
+// Русский сожалеть, жалеть, раскаиваться, пожалеть, раскаяться,

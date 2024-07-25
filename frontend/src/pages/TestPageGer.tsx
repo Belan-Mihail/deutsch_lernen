@@ -15,6 +15,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
     setCurrentQuestion(
       allQuestion[Math.floor(Math.random() * allQuestion.length)]
     );
+    setCurrentAnswer('')
   };
 
   useEffect(() => {
@@ -24,7 +25,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
   }, []);
 
   return (
-    <div className="m-16 items-center flex flex-col max-[500px]:gap-4 gap-8">
+    <div className="m-8 items-center flex flex-col max-[500px]:gap-4 gap-8">
       <div className="flex justify-around w-full max-[500px]:flex-col max-[500px]:justify-center max-[500px]:gap-4 max-[500px]:items-center">
         <div className="text-start">
           <Link to='/' className="text-sm border-blue-500  border-solid border-2 hover:bg-blue-500 hover:text-white p-2 rounded-xl">Back to HomePage</Link>
