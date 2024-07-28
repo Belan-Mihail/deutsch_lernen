@@ -32,7 +32,7 @@ const GermanWordsTest:TestType[] = [
         type: 'adv',
         variantA: 'соответственно, соответствующий',
         variantB: 'текущий, прежний',
-        variantC: 'семейный, домашний',
+        variantC: 'каждый раз, в каждом случае',
         variantD: 'пережитый, прожитый',
         correctAnswer: 'соответственно, соответствующий'
     },
@@ -1578,7 +1578,7 @@ const GermanWordsTest:TestType[] = [
     },
     {
         language: 'ger',
-        word: 'wieder·geben',
+        word: 'wieder geben',
         forms: ['gibt wieder', 'gab wieder', 'hat wiedergegeben'],
         type: 'verb',
         variantA: 'передавать, переносить',
@@ -1587,48 +1587,196 @@ const GermanWordsTest:TestType[] = [
         variantD: 'воспользоваться, организовывать',
         correctAnswer: 'излагать, возвращать, воспроизводить'
     },
-    
-    
+    {
+        language: 'ger',
+        word: 'auf fallen',
+        forms: ['fällt auf', 'fiel auf', 'ist aufgefallen'],
+        type: 'verb',
+        variantA: 'выходить из строя, ломаться',
+        variantB: 'производить впечатление, впечетлять',
+        variantC: 'откидывать, выкидывать, откладывать',
+        variantD: 'броситься в глаза, привлечь внимание',
+        correctAnswer: 'броситься в глаза, привлечь внимание'
+    },
+    {
+        language: 'ger',
+        word: 'an fallen',
+        forms: ['fällt an', 'fiel an', 'ist angefallen'],
+        type: 'verb',
+        variantA: 'выходить из строя, ломаться',
+        variantB: 'производить впечатление, впечетлять',
+        variantC: 'накапливаться, возникать, нападать',
+        variantD: 'броситься в глаза, привлечь внимание',
+        correctAnswer: 'накапливаться, возникать, нападать'
+    },
+    {
+        language: 'ger',
+        word: 'ein fallen',
+        forms: ['fällt ein', 'fiel ein', 'ist eingefallen'],
+        type: 'verb',
+        variantA: 'выходить из строя, ломаться',
+        variantB: 'озарять, осенять, приходить на ум',
+        variantC: 'накапливаться, возникать, нападать',
+        variantD: 'броситься в глаза, привлечь внимание',
+        correctAnswer: 'озарять, осенять, приходить на ум'
+    },
+    {
+        language: 'ger',
+        word: 'an schließen',
+        forms: ['schließt an', 'schloss an', 'hat angeschlossen'],
+        type: 'verb',
+        variantA: 'передавать, передать',
+        variantB: 'закрывать, прикрывать',
+        variantC: 'присоеденять, подключать',
+        variantD: 'отключать, отсоединять',
+        correctAnswer: 'присоеденять, подключать'
+    },
+    {
+        language: 'ger',
+        word: 'entdecken',
+        forms: ['entdeckt', 'entdeckte', 'hat entdeckt'],
+        type: 'verb',
+        variantA: 'обнаруживать, обнаружить',
+        variantB: 'закрывать, прикрывать',
+        variantC: 'накрывать, накрыть',
+        variantD: 'изучать, исследовать',
+        correctAnswer: 'обнаруживать, обнаружить'
+    },
+    {
+        language: 'ger',
+        word: 'bereuen',
+        forms: ['bereut', 'bereute', 'hat bereut'],
+        type: 'verb',
+        variantA: 'печалиться, горевать',
+        variantB: 'сожалеть, жалеть',
+        variantC: 'обнаруживать, открывать',
+        variantD: 'заботиться, беспокоиться',
+        correctAnswer: 'сожалеть, жалеть'
+    },
+    {
+        language: 'ger',
+        word: 'beseitigen',
+        forms: ['beseitigt', 'beseitigt', 'hat beseitigt'],
+        type: 'verb',
+        variantA: 'владеть, овладевать',
+        variantB: 'занимать место, быть занятым',
+        variantC: 'обнаруживать, открывать',
+        variantD: 'устранять, исправлять, удалить',
+        correctAnswer: 'устранять, исправлять, удалить'
+    },
+    {
+        language: 'ger',
+        word: 'bewerten',
+        forms: ['bewertet', 'bewertete', 'hat bewertet'],
+        type: 'verb',
+        variantA: 'рекламировать что-то',
+        variantB: 'занимать место, быть занятым',
+        variantC: 'оценивать, расценивать, исчислять стоимость',
+        variantD: 'жаловаться, обжаловать',
+        correctAnswer: 'оценивать, расценивать, исчислять стоимость'
+    },
+    {
+        language: 'ger',
+        word: 'erwerben',
+        forms: ['erwirbt', 'erwarb', 'hat erworben'],
+        type: 'verb',
+        variantA: 'узнавать, обнаруживать',
+        variantB: 'приобретать, зарабатывать',
+        variantC: 'оценивать, расценивать, исчислять стоимость',
+        variantD: 'жаловаться, обжаловать',
+        correctAnswer: 'приобретать, зарабатывать'
+    },
+    {
+        language: 'ger',
+        word: 'ermitteln',
+        forms: ['ermittelt', 'ermittelte', 'hat ermittelt'],
+        type: 'verb',
+        variantA: 'узнавать, разузнавать, выясняять',
+        variantB: 'приобретать, зарабатывать',
+        variantC: 'сообщать, указывать',
+        variantD: 'происходить, возникать',
+        correctAnswer: 'узнавать, разузнавать, выясняять'
+    },
+    {
+        language: 'ger',
+        word: 'erkennen',
+        forms: ['erkennt', 'erkannte', 'hat erkannt'],
+        type: 'verb',
+        variantA: 'контролировать, обеспечивать',
+        variantB: 'приобретать, зарабатывать',
+        variantC: 'обнаружить, узнавать, распознать',
+        variantD: 'знакомить, знакомиться',
+        correctAnswer: 'обнаружить, узнавать, распознать'
+    },
+    {
+        language: 'ger',
+        word: 'der Zufall',
+        forms: ['die Zufälle'],
+        type: 'nomen',
+        variantA: 'сбережения, накопления',
+        variantB: 'волнение',
+        variantC: 'вознаграждение',
+        variantD: 'случайность',
+        correctAnswer: 'случайность'
+    },
+    {
+        language: 'ger',
+        word: 'der Zufall',
+        forms: ['die Zufälle'],
+        type: 'nomen',
+        variantA: 'сбережения, накопления',
+        variantB: 'волнение',
+        variantC: 'вознаграждение',
+        variantD: 'случайность',
+        correctAnswer: 'случайность'
+    },
+    {
+        language: 'ger',
+        word: 'die Fertigkeit',
+        forms: ['die Fertigkeiten'],
+        type: 'nomen',
+        variantA: 'сбережения, накопления, доходы',
+        variantB: 'навык, умение, способность',
+        variantC: 'волнения, сомнения, переживание',
+        variantD: 'случайность, вымысел',
+        correctAnswer: 'навык, умение, способность'
+    },
+    {
+        language: 'ger',
+        word: 'die Auswirkung',
+        forms: ['die Auswirkungут'],
+        type: 'nomen',
+        variantA: 'сбережения, накопления, доходы',
+        variantB: 'навык, умение, способность',
+        variantC: 'волнения, сомнения, переживание',
+        variantD: 'влияние, воздействие, действие',
+        correctAnswer: 'влияние, воздействие, действие'
+    },
+    {
+        language: 'ger',
+        word: 'ausnahmsweise',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'соответственно, соответствующий',
+        variantB: 'текущий, прежний',
+        variantC: 'каждый раз, в каждом случае',
+        variantD: 'исключительно, по исключению',
+        correctAnswer: 'исключительно, по исключению'
+    },
+    {
+        language: 'ger',
+        word: 'geringfügig',
+        forms: ['geringfügiger', 'am geringfügigsten'],
+        type: 'adv',
+        variantA: 'раздраженный, гневный',
+        variantB: 'мнительный, сомнительный',
+        variantC: 'незначительный, несущественный',
+        variantD: 'завистливый, завидующий',
+        correctAnswer: 'незначительный, несущественный'
+    },
 ]
 
 export default GermanWordsTest;
 
 
 
-
-// auf·fallen 
-// fällt auf · fiel auf · ist aufgefallen 
-
-// Русский бросаться в глаза, привлечь внимание, выделяться
-
-// an·fallen 
-// fällt an · fiel an · ist angefallen 
-
-// Русский охватить, охватывать, овладевать, нападать, 
-
-// ein·fallen 
-// fällt ein · fiel ein · ist eingefallen 
-
-// Русский озарять, осенять, приходить на ум, приходить в голову,
-
-// an·schließen 
-// schließt an · schloss an · hat angeschlossen 
-
-// Русский присоединять, подключать, прилегать, подсоединять,
-
-// der Zufall
-// Zufall(e)s · Zufälle
-
-// Русский случайность, слу́чай, случа́йность, совпаде́ние
-
-// entdecken 
-// entdeckt · entdeckte · hat entdeckt 
-
-// Русский открывать, находить, обнаружить, обнаруживать,
-
-
-
-// bereuen 
-// bereut · bereute · hat bereut 
-
-// Русский сожалеть, жалеть, раскаиваться, пожалеть, раскаяться,

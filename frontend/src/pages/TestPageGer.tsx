@@ -10,6 +10,11 @@ const TestPageGer: React.FC = (): React.ReactNode => {
     {}
   );
   const [currentAnswer, setCurrentAnswer] = useState("");
+  
+  const [trueAnswer, setTrueAnswer] = useState(0)
+  const [falseAnswer, setFalseAnswer] = useState(0)
+
+
 
   const nextQuestion = () => {
     setCurrentQuestion(
@@ -18,11 +23,33 @@ const TestPageGer: React.FC = (): React.ReactNode => {
     setCurrentAnswer('')
   };
 
+  const checkAnswer = (userAnswer: string) => {
+    
+    if (userAnswer !== currentQuestion.correctAnswer ) {
+    setFalseAnswer(falseAnswer + 1)
+  } else {
+    setTrueAnswer(trueAnswer + 1)
+  }
+
+  
+  
+}
+
   useEffect(() => {
     setCurrentQuestion(
       allQuestion[Math.floor(Math.random() * allQuestion.length)]
     );
+
+    
+    
+    
   }, []);
+
+  
+
+  
+
+  
 
   return (
     <div className="m-8 items-center flex flex-col max-[500px]:gap-4 gap-8">
@@ -48,7 +75,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
       <div className="grid max-[640px]:grid-cols-1 max-[640px]:grid-rows-1 grid-cols-2 grid-rows-2 max-[500px]:gap-4 gap-8">
         {/* {currentAnswer && currentAnswer == currentQuestion.correctAnswer} */}
         <div
-          onClick={() => setCurrentAnswer(currentQuestion!.variantA)}
+          onClick={() => {setCurrentAnswer(currentQuestion!.variantA); checkAnswer(currentQuestion!.variantA)}}
           className={
             currentAnswer === currentQuestion!.correctAnswer &&
             currentAnswer === currentQuestion!.variantA
@@ -62,7 +89,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           {currentQuestion!.variantA}
         </div>
         <div
-          onClick={() => setCurrentAnswer(currentQuestion!.variantB)}
+          onClick={() => {setCurrentAnswer(currentQuestion!.variantB); checkAnswer(currentQuestion!.variantB)}}
           className={
             currentAnswer === currentQuestion!.correctAnswer &&
             currentAnswer === currentQuestion!.variantB
@@ -76,7 +103,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           {currentQuestion!.variantB}
         </div>
         <div
-          onClick={() => setCurrentAnswer(currentQuestion!.variantC)}
+          onClick={() => {setCurrentAnswer(currentQuestion!.variantC); checkAnswer(currentQuestion!.variantC)}}
           className={
             currentAnswer === currentQuestion!.correctAnswer &&
             currentAnswer === currentQuestion!.variantC
@@ -90,7 +117,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           {currentQuestion!.variantC}
         </div>
         <div
-          onClick={() => setCurrentAnswer(currentQuestion!.variantD)}
+          onClick={() => {setCurrentAnswer(currentQuestion!.variantD); checkAnswer(currentQuestion!.variantD)}}
           className={
             currentAnswer === currentQuestion!.correctAnswer &&
             currentAnswer === currentQuestion!.variantD
@@ -110,6 +137,10 @@ const TestPageGer: React.FC = (): React.ReactNode => {
       >
         Next Question
       </button>
+      <div className="m-2 flex gap-4 items-center">
+          <p className="text-center">Correct Answer: {trueAnswer}</p>
+          <p className="text-center">Incorrect Answer: {falseAnswer}</p>
+      </div>
     </div>
   );
 };
