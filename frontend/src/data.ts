@@ -1798,7 +1798,7 @@ const GermanWordsTest:TestType[] = [
     },
     {
         language: 'ger',
-        word: 'heraus finden ',
+        word: 'heraus finden',
         forms: ['findet heraus', 'fand heraus', 'hat herausgefunden'],
         type: 'verb',
         variantA: 'искать, ввести поиск',
@@ -1807,6 +1807,129 @@ const GermanWordsTest:TestType[] = [
         variantD: 'замечать, заметить',
         correctAnswer: 'выяснять, разобраться'
     },
+    {
+        language: 'ger',
+        word: 'auf bauen',
+        forms: ['baut auf', 'baute auf', 'hat aufgebaut'],
+        type: 'verb',
+        variantA: 'сооружать, строить, создавать',
+        variantB: 'уведомлять, сообщать',
+        variantC: 'разрушать, ломать, рушить',
+        variantD: 'делиться, угощать',
+        correctAnswer: 'сооружать, строить, создавать'
+    },
+    {
+        language: 'ger',
+        word: 'überreden ZU',
+        forms: ['überredet', 'überredete', 'hat überredet'],
+        type: 'verb',
+        variantA: 'разговаривать, болтать',
+        variantB: 'переубедить, убеждать, переубеждать',
+        variantC: 'переходить черту, заходить за границу',
+        variantD: 'хвалиться, преувеличивать',
+        correctAnswer: 'переубедить, убеждать, переубеждать'
+    },
+    {
+        language: 'ger',
+        word: 'erleichtern',
+        forms: ['erleichtert', 'erleichterte', 'hat erleichtert'],
+        type: 'verb',
+        variantA: 'похудеть, худеть',
+        variantB: 'переубедить, убеждать, переубеждать',
+        variantC: 'волноваться, беспокоиться, тревожиться',
+        variantD: 'облегчить, облегчать, приносить облегчение',
+        correctAnswer: 'облегчить, облегчать, приносить облегчение'
+    },
+    {
+        language: 'ger',
+        word: 'zu lassen',
+        forms: ['lässt zu', 'ließ zu', 'hat zugelassen'],
+        type: 'verb',
+        variantA: 'оставлять, покидать',
+        variantB: 'разрешать, позволять',
+        variantC: 'уходить, убывать',
+        variantD: 'отказываться, отклонять',
+        correctAnswer: 'разрешать, позволять'
+    },
+    {
+        language: 'ger',
+        word: 'überein stimmen MIT',
+        forms: ['stimmt überein', 'stimmte überein', 'hat übereingestimmt'],
+        type: 'verb',
+        variantA: 'соответствовать, совпадать, согласовываться',
+        variantB: 'переубеждать, убеждать, переубедить',
+        variantC: 'договориваться, соглашаться',
+        variantD: 'переложить, перепоручить, передавать',
+        correctAnswer: 'соответствовать, совпадать, согласовываться'
+    },
+    {
+        language: 'ger',
+        word: 'unvollständig',
+        forms: ['unvollständiger', 'am unvollständigsten'],
+        type: 'adv',
+        variantA: 'досрочный',
+        variantB: 'неполный',
+        variantC: 'срочный',
+        variantD: 'сомнительный',
+        correctAnswer: 'неполный'
+    },
+    {
+        language: 'ger',
+        word: 'bedeutend',
+        forms: ['bedeutender', 'am bedeutendsten'],
+        type: 'adv',
+        variantA: 'доволно',
+        variantB: 'неполно',
+        variantC: 'значительно',
+        variantD: 'прозрачно',
+        correctAnswer: 'значительно'
+    },
+    {
+        language: 'ger',
+        word: 'erheblich',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'пустой',
+        variantB: 'пережитый',
+        variantC: 'прошлый',
+        variantD: 'значительный',
+        correctAnswer: 'значительный'
+    },
+    {
+        language: 'ger',
+        word: 'jedoch',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'тем более',
+        variantB: 'также',
+        variantC: 'иначе',
+        variantD: 'тем не менее',
+        correctAnswer: 'тем не менее'
+    },
+    {
+        language: 'ger',
+        word: 'die Haltbarkeit',
+        forms: ['die Haltbarkeiten'],
+        type: 'nomen',
+        variantA: 'старания, умения, навык',
+        variantB: 'годность, пригодность, добротность',
+        variantC: 'черта, характеристика, квалификация',
+        variantD: 'достоинство, превосходство',
+        correctAnswer: 'годность, пригодность, добротность'
+    },
+    {
+        language: 'ger',
+        word: 'die Anweisung',
+        forms: ['die Anweisungen'],
+        type: 'nomen',
+        variantA: 'инструкция, распоряжение',
+        variantB: 'заявка, объявление',
+        variantC: 'рекламная брошура, спецификация',
+        variantD: 'приспособление, устройство',
+        correctAnswer: 'инструкция, распоряжение'
+    },
+    
+
 ]
 
 export default GermanWordsTest;
@@ -1815,59 +1938,14 @@ export default GermanWordsTest;
 
 
 
-// heraus·finden 
-// findet heraus · fand heraus · hat herausgefunden 
-
-// Русский выяснять, разобраться, выяснить,
-
-// auf·bauen 
-// baut auf · baute auf · hat aufgebaut 
-
-// Русский сооружать, строить, создавать,
-
-// überreden ZU
-// überredet · überredete · hat überredet 
-
-// Русский переубедить, убеждать, переубеждать,
-
-// erleichtern 
-// erleichtert · erleichterte · hat erleichtert 
-
-// Русский облегчить, облегчать, приносить облегчение,
-
-// zu lassen 
-// lässt zu · ließ zu · hat zugelassen 
-
-// Русский допустить, разрешить, позволять,
-
-// überein stimmen MIT
-// stimmt überein · stimmte überein · hat übereingestimmt 
-
-// Русский соответствовать, совпадать, согласовываться,
 
 
-// unvollständig
-// unvollständig · unvollständiger · am unvollständigsten
 
-// Русский неполный
 
-// bedeutend
-// bedeutend · bedeutender · am bedeutendsten
 
-// Русский значительно
 
-// erheblich
-// erheblich · - · -
 
-// Русский Значи́тельный
 
-// jedoch
-// Русский тем не менее
-
-// die Haltbarkeit
-// Haltbarkeit · -
-
-// Русский годность, добро́тность
 
 // die Anweisung
 // Anweisung · Anweisungen
