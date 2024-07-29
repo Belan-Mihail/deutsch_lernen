@@ -1774,9 +1774,102 @@ const GermanWordsTest:TestType[] = [
         variantD: 'завистливый, завидующий',
         correctAnswer: 'незначительный, несущественный'
     },
+    {
+        language: 'ger',
+        word: 'auf regen ÜBER',
+        forms: ['regt auf', 'regte auf', 'hat aufgeregt'],
+        type: 'verb',
+        variantA: 'сожалеть, жалеть',
+        variantB: 'волноваться, переживать',
+        variantC: 'жаловаться, негодовать',
+        variantD: 'заимствовать, позычать',
+        correctAnswer: 'волноваться, переживать'
+    },
+    {
+        language: 'ger',
+        word: 'bemerken',
+        forms: ['bemerkt', 'bemerkte', 'hat bemerkt'],
+        type: 'verb',
+        variantA: 'сожалеть, жалеть',
+        variantB: 'волноваться, переживать',
+        variantC: 'жаловаться, негодовать',
+        variantD: 'замечать, заметить',
+        correctAnswer: 'замечать, заметить'
+    },
+    {
+        language: 'ger',
+        word: 'heraus finden ',
+        forms: ['findet heraus', 'fand heraus', 'hat herausgefunden'],
+        type: 'verb',
+        variantA: 'искать, ввести поиск',
+        variantB: 'уведомлять, сообщать',
+        variantC: 'выяснять, разобраться',
+        variantD: 'замечать, заметить',
+        correctAnswer: 'выяснять, разобраться'
+    },
 ]
 
 export default GermanWordsTest;
 
 
 
+
+
+// heraus·finden 
+// findet heraus · fand heraus · hat herausgefunden 
+
+// Русский выяснять, разобраться, выяснить,
+
+// auf·bauen 
+// baut auf · baute auf · hat aufgebaut 
+
+// Русский сооружать, строить, создавать,
+
+// überreden ZU
+// überredet · überredete · hat überredet 
+
+// Русский переубедить, убеждать, переубеждать,
+
+// erleichtern 
+// erleichtert · erleichterte · hat erleichtert 
+
+// Русский облегчить, облегчать, приносить облегчение,
+
+// zu lassen 
+// lässt zu · ließ zu · hat zugelassen 
+
+// Русский допустить, разрешить, позволять,
+
+// überein stimmen MIT
+// stimmt überein · stimmte überein · hat übereingestimmt 
+
+// Русский соответствовать, совпадать, согласовываться,
+
+
+// unvollständig
+// unvollständig · unvollständiger · am unvollständigsten
+
+// Русский неполный
+
+// bedeutend
+// bedeutend · bedeutender · am bedeutendsten
+
+// Русский значительно
+
+// erheblich
+// erheblich · - · -
+
+// Русский Значи́тельный
+
+// jedoch
+// Русский тем не менее
+
+// die Haltbarkeit
+// Haltbarkeit · -
+
+// Русский годность, добро́тность
+
+// die Anweisung
+// Anweisung · Anweisungen
+
+// Русский Инструкция, распоряжение,
