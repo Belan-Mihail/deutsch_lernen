@@ -1409,7 +1409,7 @@ const GermanWordsTest:TestType[] = [
         variantB: 'принимать (человек), встречать',
         variantC: 'влиять, убеждать',
         variantD: 'убирать',
-        correctAnswer: 'принимать, встречать'
+        correctAnswer: 'принимать (человек), встречать'
     },
     {
         language: 'ger',
@@ -1919,15 +1919,159 @@ const GermanWordsTest:TestType[] = [
     },
     {
         language: 'ger',
-        word: 'die Anweisung',
-        forms: ['die Anweisungen'],
+        word: 'die Faustregel',
+        forms: ['die Faustregeln'],
         type: 'nomen',
-        variantA: 'инструкция, распоряжение',
-        variantB: 'заявка, объявление',
-        variantC: 'рекламная брошура, спецификация',
-        variantD: 'приспособление, устройство',
-        correctAnswer: 'инструкция, распоряжение'
+        variantA: 'ненужное правило',
+        variantB: 'прилавок, полка',
+        variantC: 'поклажа, кладь',
+        variantD: 'общее правило',
+        correctAnswer: 'общее правило'
     },
+    {
+        language: 'ger',
+        word: 'das Fazit',
+        forms: ['die Fazits'],
+        type: 'nomen',
+        variantA: 'запрет, табу',
+        variantB: 'прилавок, полка',
+        variantC: 'итог, сумма',
+        variantD: 'отказ, отмена',
+        correctAnswer: 'итог, сумма'
+    },
+    {
+        language: 'ger',
+        word: 'die Flucht',
+        forms: ['die Fluchten'],
+        type: 'nomen',
+        variantA: 'лазейка, ниша',
+        variantB: 'побег, бегство',
+        variantC: 'итог, сумма',
+        variantD: 'ложь, неправда',
+        correctAnswer: 'побег, бегство'
+    },
+    {
+        language: 'ger',
+        word: 'die Forderung',
+        forms: ['die Forderungen'],
+        type: 'nomen',
+        variantA: 'требование, претензия',
+        variantB: 'помощь, услуга',
+        variantC: 'услуга (коммерс), работа',
+        variantD: 'угроза, опасность',
+        correctAnswer: 'требование, претензия'
+    },
+    {
+        language: 'ger',
+        word: 'die Fülle',
+        forms: ['die Füllen'],
+        type: 'nomen',
+        variantA: 'предчувствие, ощущение',
+        variantB: 'чувство, тревога',
+        variantC: 'изобилие, избыток',
+        variantD: 'сомнения, сметения',
+        correctAnswer: 'изобилие, избыток'
+    },
+    {
+        language: 'ger',
+        word: 'der Mut',
+        forms: ['-'],
+        type: 'nomen',
+        variantA: 'предчувствие, ощущение',
+        variantB: 'падение, упадок',
+        variantC: 'мужество, отвага',
+        variantD: 'сомнения, сметения',
+        correctAnswer: 'мужество, отвага'
+    },
+    {
+        language: 'ger',
+        word: 'der Umstand',
+        forms: ['die Umstände'],
+        type: 'nomen',
+        variantA: 'обстоятельство',
+        variantB: 'упадок',
+        variantC: 'происшествие',
+        variantD: 'недоверие',
+        correctAnswer: 'мужество, отвага'
+    },
+    {
+        language: 'ger',
+        word: 'die Rücksicht',
+        forms: ['die Rücksichten'],
+        type: 'nomen',
+        variantA: 'обстоятельство, случаи',
+        variantB: 'возврат, возвращение',
+        variantC: 'бодрость, радость',
+        variantD: 'внимание, уважение',
+        correctAnswer: 'внимание, уважение'
+    },
+    {
+        language: 'ger',
+        word: 'die Unterstützung',
+        forms: ['die Unterstützungen'],
+        type: 'nomen',
+        variantA: 'охрана, сбережние',
+        variantB: 'по́мощь, подде́ржка, посо́бие',
+        variantC: 'бодрость, радость',
+        variantD: 'содействие, взаимная работа',
+        correctAnswer: 'по́мощь, подде́ржка, посо́бие'
+    },
+    {
+        language: 'ger',
+        word: 'adäquat',
+        forms: ['adäquater', 'am adäquatesten'],
+        type: 'adj',
+        variantA: 'непредсказуемый',
+        variantB: 'спонтанный',
+        variantC: 'целенаправленный',
+        variantD: 'адекватный',
+        correctAnswer: 'адекватный'
+    },
+    {
+        language: 'ger',
+        word: 'gering',
+        forms: ['geringer', 'am geringsten'],
+        type: 'adj',
+        variantA: 'непредсказуемый',
+        variantB: 'небольшой, незначительный',
+        variantC: 'огромный, значительный',
+        variantD: 'непредсказуемый',
+        correctAnswer: 'небольшой, незначительный'
+    },
+    {
+        language: 'ger',
+        word: 'zielstrebig',
+        forms: ['zielstrebiger', 'am zielstrebigsten'],
+        type: 'adj',
+        variantA: 'целеустремленный',
+        variantB: 'постижимый, досягаемый',
+        variantC: 'огромный, значительный',
+        variantD: 'недосягаемый, недостижимый',
+        correctAnswer: 'целеустремленный'
+    },
+    {
+        language: 'ger',
+        word: 'verhältnismäßig',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'постепенно, последовательно',
+        variantB: 'ложный, неправдиво',
+        variantC: 'важно, ценно',
+        variantD: 'относительно, сравнительно',
+        correctAnswer: 'относительно, сравнительно'
+    },
+    {
+        language: 'ger',
+        word: 'zielgerichtet',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'целеустремленный, целенаправленный',
+        variantB: 'несправедливый, незаконный',
+        variantC: 'справедливый, законный',
+        variantD: 'относительно, сравнительно',
+        correctAnswer: 'целеустремленный, целенаправленный'
+    },
+    
     
 
 ]
@@ -1942,12 +2086,85 @@ export default GermanWordsTest;
 
 
 
+// zielgerichtet
+// zielgerichtet · - · -
 
+// Русский целеустремленный, целенаправленный
 
+// auf·lösen 
+// löst auf · löste auf · hat aufgelöst 
 
+// Русский разрешат (проблему) распускать 
 
+// ergreifen 
+// ergreift · ergriff · hat ergriffen 
 
-// die Anweisung
-// Anweisung · Anweisungen
+// Русский брать за что-то, воспользоваться, взять, схватить
 
-// Русский Инструкция, распоряжение,
+// an·packen 
+// packt an · packte an · hat angepackt 
+
+// Русский хватать, приступать, приниматься
+
+// aus·bleiben 
+// bleibt aus · blieb aus · ist ausgeblieben 
+
+// Русский не случиться, отсутствовать, не наступить,
+
+// durch·starten 
+// startet durch · startete durch · ist durchgestartet 
+
+// Русский начинать действовать, начать действовать, браться за дело,
+
+// erhoffen 
+// erhofft · erhoffte · hat erhofft 
+
+// Русский ожидать, понадеяться, надеяться
+
+// erleben 
+// erlebt · erlebte · hat erlebt 
+
+// Русский пережить, испытывать, переживать,
+
+// erwähnen 
+// erwähnt · erwähnte · hat erwähnt 
+
+// Русский упоминать, касаться,
+
+// faszinieren 
+// fasziniert · faszinierte · hat fasziniert 
+
+// Русский очаровывать, завораживать, привести в восхищение
+
+// scheiten 
+// scheitet · scheitete · hat gescheitet 
+
+// Русский потерпеть неудачу, обломиться, провалиться
+
+// spüren 
+// spürt · spürte · hat gespürt 
+
+// Русский почувствовать, чувствовать, ощущать
+
+// um·hören IN BEI
+// hört um · hörte um · hat umgehört 
+
+// Русский расспрашивать, расспросить, слушать друг друга
+
+// voran·kommen 
+// kommt/kömmt⁷ voran · kam voran · ist vorangekommen 
+
+// ⁷ Устаревшее
+
+// Русский продвигаться вперёд, продвинуться вперёд,
+
+// zwingen 
+// zwingt · zwang · hat gezwungen 
+
+// Русский вынудить, заставлять, принуждать
+
+// frustrieren 
+// frustriert · frustrierte · hat frustriert 
+
+// Русский расстраиваться, вводить в заблуждение,
+
