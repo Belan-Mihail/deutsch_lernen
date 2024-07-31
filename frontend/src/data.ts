@@ -2071,7 +2071,182 @@ const GermanWordsTest:TestType[] = [
         variantD: 'относительно, сравнительно',
         correctAnswer: 'целеустремленный, целенаправленный'
     },
-    
+    {
+        language: 'ger',
+        word: 'auf lösen',
+        forms: ['löst auf', 'löste auf', 'hat aufgelöst'],
+        type: 'verb',
+        variantA: 'соответствовать, совпадать, согласовываться',
+        variantB: 'видеть, глядеть',
+        variantC: 'находить решение, решать',
+        variantD: 'разрешать (проблему), распускать',
+        correctAnswer: 'разрешать (проблему), распускать'
+    },
+    {
+        language: 'ger',
+        word: 'ergreifen',
+        forms: ['ergreift', 'ergreiff', 'hat ergreifen'],
+        type: 'verb',
+        variantA: 'соответствовать, совпадать, согласовываться',
+        variantB: 'брать за что-то, воспользоваться, взять, схватить',
+        variantC: 'находить решение, решать_ приность решение',
+        variantD: 'разрешать (проблему), распускать',
+        correctAnswer: 'разрешать (проблему), распускать'
+    },
+    {
+        language: 'ger',
+        word: 'an packen ',
+        forms: ['packt an', 'packte an', 'hat angepackt'],
+        type: 'verb',
+        variantA: 'запаковывать, заворачивать',
+        variantB: 'комплектовать, укомплектовывать',
+        variantC: 'хватать, приступать, приниматься',
+        variantD: 'разрешать (проблему), распускать',
+        correctAnswer: 'хватать, приступать, приниматься'
+    },
+    {
+        language: 'ger',
+        word: 'an packen',
+        forms: ['packt an', 'packte an', 'hat angepackt'],
+        type: 'verb',
+        variantA: 'запаковывать, заворачивать',
+        variantB: 'комплектовать, укомплектовывать',
+        variantC: 'хватать, приступать, приниматься',
+        variantD: 'разрешать (проблему), распускать',
+        correctAnswer: 'хватать, приступать, приниматься'
+    },
+    {
+        language: 'ger',
+        word: 'aus bleiben',
+        forms: ['bleibt aus', 'blieb aus', 'ist ausgeblieben'],
+        type: 'verb',
+        variantA: 'устаревать, устареть',
+        variantB: 'выйти наружу, проявиться',
+        variantC: 'оставаться, оставлять, оставить',
+        variantD: 'не случиться, отсутствовать, не наступить',
+        correctAnswer: 'не случиться, отсутствовать, не наступить'
+    },
+    {
+        language: 'ger',
+        word: 'durch starten',
+        forms: ['startet durch', 'startete durch', 'ist durchgestartet'],
+        type: 'verb',
+        variantA: 'начинать действовать, браться за дело',
+        variantB: 'выйти наружу, проявиться',
+        variantC: 'осуществлять, реализировать',
+        variantD: 'случиться, произойти, наступить',
+        correctAnswer: 'начинать действовать, браться за дело'
+    },
+    {
+        language: 'ger',
+        word: 'erhoffen',
+        forms: ['erhofft', 'erhoffte', 'hat erhofft'],
+        type: 'verb',
+        variantA: 'переживать, сомневаться',
+        variantB: 'ожидать, надеяться',
+        variantC: 'осуществлять, реализировать',
+        variantD: 'добиваться успеха, достигать цели',
+        correctAnswer: 'ожидать, надеяться'
+    },
+    {
+        language: 'ger',
+        word: 'erleben',
+        forms: ['erlebt', 'erlebte', 'hat erlebt'],
+        type: 'verb',
+        variantA: 'пережить, испытывать, переживать',
+        variantB: 'ожидать, надеяться',
+        variantC: 'окончить, произойти',
+        variantD: 'добиваться успеха, достигать цели',
+        correctAnswer: 'пережить, испытывать, переживать'
+    },
+    {
+        language: 'ger',
+        word: 'erwähnen',
+        forms: ['erwähnt', 'erwähnte', 'hat erwähnt'],
+        type: 'verb',
+        variantA: 'испытывать, переживать',
+        variantB: 'упоминать, касаться',
+        variantC: 'вспомнить, вспоминать',
+        variantD: 'сохранять, оберегать',
+        correctAnswer: 'упоминать, касаться'
+    },
+    {
+        language: 'ger',
+        word: 'faszinieren',
+        forms: ['fasziniert', 'faszinierte', 'hat fasziniert'],
+        type: 'verb',
+        variantA: 'испытывать, переживать',
+        variantB: 'упоминать, касаться',
+        variantC: 'разачаровываться, разачароваться',
+        variantD: 'очаровывать, завораживать',
+        correctAnswer: 'очаровывать, завораживать'
+    },
+    {
+        language: 'ger',
+        word: 'scheiten',
+        forms: ['scheitet', 'scheitete', 'hat gescheitet'],
+        type: 'verb',
+        variantA: 'казаться, случаться',
+        variantB: 'упоминать, касаться',
+        variantC: 'потерпеть неудачу, обломиться, провалиться',
+        variantD: 'кивать, шатать',
+        correctAnswer: 'потерпеть неудачу, обломиться, провалиться'
+    },
+    {
+        language: 'ger',
+        word: 'spüren',
+        forms: ['spürt', 'spürte', 'hat gespürt'],
+        type: 'verb',
+        variantA: 'сэкономить, сберегать',
+        variantB: 'почувствовать, чувствовать, ощущать',
+        variantC: 'потерпеть неудачу, обломиться, провалиться',
+        variantD: 'мыть, помыть',
+        correctAnswer: 'почувствовать, чувствовать, ощущать'
+    },
+    {
+        language: 'ger',
+        word: 'um hören IN BEI',
+        forms: ['hört um', 'hörte um', 'hat umgehört'],
+        type: 'verb',
+        variantA: 'расспрашивать, расспросить, слушать друг друга',
+        variantB: 'почувствовать, чувствовать, ощущать',
+        variantC: 'завладевать, забирать у кого-то',
+        variantD: 'оканчивать, заканчивать, завершать',
+        correctAnswer: 'расспрашивать, расспросить, слушать друг друга'
+    },
+    {
+        language: 'ger',
+        word: 'voran kommen',
+        forms: ['kommt voran', 'kam voran', 'ist vorangekommen'],
+        type: 'verb',
+        variantA: 'приближаться к, подходить',
+        variantB: 'приезжать, прибывать',
+        variantC: 'усовершетсвовать, улучшать',
+        variantD: 'продвигаться вперёд, продвинуться вперёд',
+        correctAnswer: 'продвигаться вперёд, продвинуться вперёд'
+    },
+    {
+        language: 'ger',
+        word: 'zwingen',
+        forms: ['zwingt', 'zwang', 'hat gezwungen'],
+        type: 'verb',
+        variantA: 'сближаться, приближаться',
+        variantB: 'вынудить, заставлять, принуждать',
+        variantC: 'усовершетсвовать, улучшать',
+        variantD: 'осуждать, корить, ругать',
+        correctAnswer: 'вынудить, заставлять, принуждать'
+    },
+    {
+        language: 'ger',
+        word: 'frustrieren',
+        forms: ['frustriert', 'frustrierte', 'hat frustriert'],
+        type: 'verb',
+        variantA: 'восхищаться, радоваться',
+        variantB: 'вынудить, заставлять, принуждать',
+        variantC: 'расстраиваться, вводить в заблуждение',
+        variantD: 'осуждать, корить, ругать',
+        correctAnswer: 'расстраиваться, вводить в заблуждение'
+    },
     
 
 ]
@@ -2079,92 +2254,4 @@ const GermanWordsTest:TestType[] = [
 export default GermanWordsTest;
 
 
-
-
-
-
-
-
-
-// zielgerichtet
-// zielgerichtet · - · -
-
-// Русский целеустремленный, целенаправленный
-
-// auf·lösen 
-// löst auf · löste auf · hat aufgelöst 
-
-// Русский разрешат (проблему) распускать 
-
-// ergreifen 
-// ergreift · ergriff · hat ergriffen 
-
-// Русский брать за что-то, воспользоваться, взять, схватить
-
-// an·packen 
-// packt an · packte an · hat angepackt 
-
-// Русский хватать, приступать, приниматься
-
-// aus·bleiben 
-// bleibt aus · blieb aus · ist ausgeblieben 
-
-// Русский не случиться, отсутствовать, не наступить,
-
-// durch·starten 
-// startet durch · startete durch · ist durchgestartet 
-
-// Русский начинать действовать, начать действовать, браться за дело,
-
-// erhoffen 
-// erhofft · erhoffte · hat erhofft 
-
-// Русский ожидать, понадеяться, надеяться
-
-// erleben 
-// erlebt · erlebte · hat erlebt 
-
-// Русский пережить, испытывать, переживать,
-
-// erwähnen 
-// erwähnt · erwähnte · hat erwähnt 
-
-// Русский упоминать, касаться,
-
-// faszinieren 
-// fasziniert · faszinierte · hat fasziniert 
-
-// Русский очаровывать, завораживать, привести в восхищение
-
-// scheiten 
-// scheitet · scheitete · hat gescheitet 
-
-// Русский потерпеть неудачу, обломиться, провалиться
-
-// spüren 
-// spürt · spürte · hat gespürt 
-
-// Русский почувствовать, чувствовать, ощущать
-
-// um·hören IN BEI
-// hört um · hörte um · hat umgehört 
-
-// Русский расспрашивать, расспросить, слушать друг друга
-
-// voran·kommen 
-// kommt/kömmt⁷ voran · kam voran · ist vorangekommen 
-
-// ⁷ Устаревшее
-
-// Русский продвигаться вперёд, продвинуться вперёд,
-
-// zwingen 
-// zwingt · zwang · hat gezwungen 
-
-// Русский вынудить, заставлять, принуждать
-
-// frustrieren 
-// frustriert · frustrierte · hat frustriert 
-
-// Русский расстраиваться, вводить в заблуждение,
 
