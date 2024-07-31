@@ -2247,7 +2247,127 @@ const GermanWordsTest:TestType[] = [
         variantD: 'осуждать, корить, ругать',
         correctAnswer: 'расстраиваться, вводить в заблуждение'
     },
-    
+    {
+        language: 'ger',
+        word: 'aus suchen',
+        forms: ['sucht aus', 'suchte aus', 'hat ausgesucht'],
+        type: 'verb',
+        variantA: 'искать',
+        variantB: 'подходить, прибывать',
+        variantC: 'расстраиваться, вводить в заблуждение',
+        variantD: 'выбирать, отбирать, подыскивать',
+        correctAnswer: 'выбирать, отбирать, подыскивать'
+    },
+    {
+        language: 'ger',
+        word: 'handeln UM!',
+        forms: ['handelt', 'handelte', 'hat gehandelt'],
+        type: 'verb',
+        variantA: 'вести́ перегово́ры, догова́риваться',
+        variantB: 'общаться, разговаривать',
+        variantC: 'соблюдать, вести себя',
+        variantD: 'сохранять, сберегать',
+        correctAnswer: 'вести́ перегово́ры, догова́риваться'
+    },
+    {
+        language: 'ger',
+        word: 'nach rechnen',
+        forms: ['rechnet nach', 'rechnete nach', 'hat nachgerechnet'],
+        type: 'verb',
+        variantA: 'учитывать',
+        variantB: 'считать, считаться',
+        variantC: 'пересчитывать',
+        variantD: 'сосчитать',
+        correctAnswer: 'пересчитывать'
+    },
+    {
+        language: 'ger',
+        word: 'weiter kommen',
+        forms: ['kommt weiter', 'kam weiter', 'ist weitergekommen'],
+        type: 'verb',
+        variantA: 'приходить',
+        variantB: 'двигаться вперёд',
+        variantC: 'переходить к',
+        variantD: 'переходить',
+        correctAnswer: 'двигаться вперёд'
+    },
+    {
+        language: 'ger',
+        word: 'ein schränken',
+        forms: ['schränkt ein', 'schränkte ein', ' hat eingeschränkt'],
+        type: 'verb',
+        variantA: 'оценивать, назначать цену',
+        variantB: 'сокрощать, ограничивать',
+        variantC: 'ценить, дорожить',
+        variantD: 'жаловаться, злиться',
+        correctAnswer: 'сокрощать, ограничивать'
+    },
+    {
+        language: 'ger',
+        word: 'unterschätzen',
+        forms: ['unterschätzt', 'unterschätzte', 'hat unterschätzt'],
+        type: 'verb',
+        variantA: 'оценивать, назначать цену',
+        variantB: 'сокрощать, ограничивать',
+        variantC: 'ценить, дорожить',
+        variantD: 'недооценивать, преуменьшать, занижать',
+        correctAnswer: 'недооценивать, преуменьшать, занижать'
+    },
+    {
+        language: 'ger',
+        word: 'ein sparen',
+        forms: ['spart ein', 'sparte ein', 'hat eingespart'],
+        type: 'verb',
+        variantA: 'экономить деньги, копить',
+        variantB: 'сокрощать, ограничивать',
+        variantC: 'сэкономить что-то (не деньги)',
+        variantD: 'недооценивать, преуменьшать, занижать',
+        correctAnswer: 'сэкономить что-то (не деньги)'
+    },
+    {
+        language: 'ger',
+        word: 'an ordnen',
+        forms: ['ordnet an', 'ordnete an ', 'hat angeordnet'],
+        type: 'verb',
+        variantA: 'расставлять, упорядочивать, приказывать',
+        variantB: 'выбирать, делать выбор',
+        variantC: 'вляить, оказывать воздействие, оказывать вляиние',
+        variantD: 'заявлять, сообщать, передавать',
+        correctAnswer: 'расставлять, упорядочивать, приказывать'
+    },
+    {
+        language: 'ger',
+        word: 'an ordnen',
+        forms: ['ordnet an', 'ordnete an', 'hat angeordnet'],
+        type: 'verb',
+        variantA: 'расставлять, упорядочивать, приказывать',
+        variantB: 'выбирать, делать выбор',
+        variantC: 'влиять, оказывать воздействие, оказывать вляиние',
+        variantD: 'заявлять, сообщать, передавать',
+        correctAnswer: 'расставлять, упорядочивать, приказывать'
+    },
+    {
+        language: 'ger',
+        word: 'ein·setzen',
+        forms: ['setzt ein', 'setzte ein', 'hat eingesetzt'],
+        type: 'verb',
+        variantA: 'расставлять, упорядочивать, приказывать',
+        variantB: 'выбирать, делать выбор',
+        variantC: 'назначать, вставлять, применять',
+        variantD: 'заявлять, сообщать, передавать',
+        correctAnswer: 'назначать, вставлять, применять'
+    },
+    {
+        language: 'ger',
+        word: 'vermitteln',
+        forms: ['vermittelt', 'vermittelte', 'hat vermittelt'],
+        type: 'verb',
+        variantA: 'сообщать, ознакамливать, передавать',
+        variantB: 'представлять, защищать',
+        variantC: 'назначать, вставлять, применять',
+        variantD: 'обсуждать, договариваться об',
+        correctAnswer: 'сообщать, ознакамливать, передавать'
+    },
 
 ]
 
@@ -2255,3 +2375,120 @@ export default GermanWordsTest;
 
 
 
+
+
+
+
+// überlasten MIT
+// überlastet · überlastete · hat überlastet 
+
+// Русский заваливать, завалить, перегружать
+
+// bestimmen 
+// bestimmt · bestimmte · hat bestimmt 
+
+// Русский определять, устанавливать, назначать,
+
+
+// die Überlast
+// Überlast · Überlasten
+
+// Русский ли́шний груз, перегру́зка, ли́шний вес,
+
+// die Anspruchshaltung
+// Anspruchshaltung · Anspruchshaltungen
+
+
+// die Einsetzung
+// Einsetzung · Einsetzungen
+
+// Русский вста́вка, назначение на должность, приминение в действие
+
+// der Aufwand
+// Aufwand(e)s · -
+
+// Русский расходы, затраты
+
+// die Bestimmung
+// Bestimmung · Bestimmungen⁰
+
+// Русский предписание, предназначение, положение,
+
+// der Zeitausgleich⁹
+// Zeitausgleich(e)s⁹ · Zeitausgleiche⁴⁹
+
+// Русский компенсация времени, временная компенсация
+
+// der Durchhänger⁵
+// Durchhängers⁵ · Durchhänger⁵
+
+// Русский депресси́вная фа́за, пода́вленное настрое́ние, упа́док сил
+
+// die Versuchung
+// Versuchung · Versuchungen
+
+// Русский искушение, искуше́ние, собла́зн
+
+// die Vermittlung/Vermittelung
+// Vermitt(e)lung · Vermitt(e)lungen
+
+// Русский посре́дничество, соде́йствие
+
+// die Bestimmtheit
+// Bestimmtheit · -
+
+// Русский определённость, реши́тельность, уве́ренность
+
+// der Vermittler
+// Vermittlers · Vermittler
+
+// Русский посредник, посре́дник, аге́нт
+
+// der Ausgleich
+// Ausgleich(e)s · Ausgleiche⁴
+
+// Русский уравнивание, компенсация, возмеще́ние,
+
+// die Einsparung
+// Einsparung · Einsparungen
+
+// Русский сокращение, экономия, эконо́мия
+
+// nächstliegend a
+// 1. ближа́йший, бли́же всего́ располо́женный;
+
+// einsetzbar
+// einsetzbar · - · -
+
+// Русский применимый
+
+// gegenseitig
+// gegenseitig · - · -
+
+// Русский взаимный
+
+// anspruchslos
+// anspruchslos · - · -
+
+// Русский беспритязательный, скромный, неприхотливый
+
+// vermittelbar
+// vermittelbar · - · -
+
+// Русский передаваемый, преподаваемый, посреднический
+
+// hinterher
+// Русский сзади, вслед, позади, после
+
+// vornherein с са́мого нача́ла, сра́зу
+
+
+// ehrgeizig
+// ehrgeizig · ehrgeiziger · am ehrgeizigsten
+
+// Русский честолюбивый, амбициозный,
+
+// bestimmbar
+// bestimmbar · bestimmbarer · am bestimmbarsten
+
+// определимый, окончательный, решительный
