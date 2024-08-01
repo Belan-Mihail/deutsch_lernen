@@ -2368,127 +2368,263 @@ const GermanWordsTest:TestType[] = [
         variantD: 'обсуждать, договариваться об',
         correctAnswer: 'сообщать, ознакамливать, передавать'
     },
+    {
+        language: 'ger',
+        word: 'überlasten MIT',
+        forms: ['überlastet', 'überlastete', 'hat überlastet'],
+        type: 'verb',
+        variantA: 'сообщать, ознакамливать, передавать',
+        variantB: 'перегружать, заваливать',
+        variantC: 'успокоиться, смириться с',
+        variantD: 'переговорить, отговаривать',
+        correctAnswer: 'перегружать, заваливать'
+    },
+    {
+        language: 'ger',
+        word: 'bestimmen',
+        forms: ['bestimmt', 'bestimmte', 'hat bestimmt'],
+        type: 'verb',
+        variantA: 'согласовывать, согласовать',
+        variantB: 'быть довольный, удовлетвориться',
+        variantC: 'состоять, включать в себя',
+        variantD: 'определять, устанавливать, назначать',
+        correctAnswer: 'определять, устанавливать, назначать'
+    },
+    {
+        language: 'ger',
+        word: 'die Überlast',
+        forms: ['die Überlasten'],
+        type: 'nomen',
+        variantA: 'перегруз, балласт',
+        variantB: 'волнение, тревога',
+        variantC: 'вознаграждение, компенсация',
+        variantD: 'вдохновление, стремление',
+        correctAnswer: 'перегруз, балласт'
+    },
+    {
+        language: 'ger',
+        word: 'die Einsetzung',
+        forms: ['die Einsetzungen'],
+        type: 'nomen',
+        variantA: 'ремонт, замена',
+        variantB: 'замещение, подмена',
+        variantC: 'вставка, назначение на должность, приминение в действие',
+        variantD: 'вдохновление, стремление',
+        correctAnswer: 'вставка, назначение на должность, приминение в действие'
+    },
+    {
+        language: 'ger',
+        word: 'der Aufwand',
+        forms: [''],
+        type: 'nomen',
+        variantA: 'ремонт, замена',
+        variantB: 'замещение, подмена',
+        variantC: 'расходы, затраты, издержки',
+        variantD: 'намерение, цель, предназначение',
+        correctAnswer: 'расходы, затраты, издержки'
+    },
+    {
+        language: 'ger',
+        word: 'die Bestimmung',
+        forms: ['die Bestimmungen'],
+        type: 'nomen',
+        variantA: 'предписание, предназначение, положение',
+        variantB: 'согласие, подтверждение',
+        variantC: 'вставка, назначение на должность, приминение в действие',
+        variantD: 'голосование, выборы',
+        correctAnswer: 'предписание, предназначение, положение'
+    },
+    {
+        language: 'ger',
+        word: 'der Zeitausgleich',
+        forms: ['die Zeitausgleiche'],
+        type: 'nomen',
+        variantA: 'своевременность',
+        variantB: 'временное согласие',
+        variantC: 'временные полномочие',
+        variantD: 'компенсация в виде времение (отгул)',
+        correctAnswer: 'компенсация в виде времение (отгул)'
+    },
+    {
+        language: 'ger',
+        word: 'der Durchhänger',
+        forms: ['die Durchhänger'],
+        type: 'nomen',
+        variantA: 'стремление, стимул',
+        variantB: 'подавленное настроение, упадок сил',
+        variantC: 'превосходство',
+        variantD: 'осуществление, выполнение',
+        correctAnswer: 'подавленное настроение, упадок сил'
+    },
+    {
+        language: 'ger',
+        word: 'die Versuchung',
+        forms: ['die Versuchungen'],
+        type: 'nomen',
+        variantA: 'стремление, стимул',
+        variantB: 'искушение, искушение, соблазн',
+        variantC: 'поиск, расследование',
+        variantD: 'попытка, проба',
+        correctAnswer: 'искушение, искушение, соблазн'
+    },
+    {
+        language: 'ger',
+        word: 'die Vermittlung',
+        forms: ['die Vermittlungen'],
+        type: 'nomen',
+        variantA: 'стремление, стимул',
+        variantB: 'посредничество, содействие',
+        variantC: 'поиск, расследование',
+        variantD: 'попытка, проба',
+        correctAnswer: 'посредничество, содействие'
+    },
+    {
+        language: 'ger',
+        word: 'die Bestimmtheit',
+        forms: ['-'],
+        type: 'nomen',
+        variantA: 'стремление, стимул',
+        variantB: 'посредничество, содействие, помощь',
+        variantC: 'согласование, согласие, соласованность',
+        variantD: 'определённость, решительность, уверенность',
+        correctAnswer: 'определённость, решительность, уверенность'
+    },
+    {
+        language: 'ger',
+        word: 'der Vermittler',
+        forms: ['die Vermittler'],
+        type: 'nomen',
+        variantA: 'менеджер, торговый представитель',
+        variantB: 'посредник, агент',
+        variantC: 'обвинитель, прокурор',
+        variantD: 'работник офиса, клерк',
+        correctAnswer: 'посредник, агент'
+    },
+    {
+        language: 'ger',
+        word: 'der Ausgleich',
+        forms: ['die Ausgleiche'],
+        type: 'nomen',
+        variantA: 'полномочия, компетенция',
+        variantB: 'посредничество, услуги',
+        variantC: 'уравнивание, компенсация, возмещение',
+        variantD: 'возвращение, возврат',
+        correctAnswer: 'уравнивание, компенсация, возмещение'
+    },
+    {
+        language: 'ger',
+        word: 'die Einsparung',
+        forms: ['die Einsparungen'],
+        type: 'nomen',
+        variantA: 'замена, подмена',
+        variantB: 'расход, издержки',
+        variantC: 'компенсация, возмещение',
+        variantD: 'сокращение, экономия',
+        correctAnswer: 'сокращение, экономия'
+    },
+    {
+        language: 'ger',
+        word: 'nächstliegend',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'ближайщий, близе всего расположенный',
+        variantB: 'подразумивающийся, обсуждающийся',
+        variantC: 'в следующий раз, следующий',
+        variantD: 'пережитый, прожитый',
+        correctAnswer: 'ближайщий, близе всего расположенный'
+    },
+    {
+        language: 'ger',
+        word: 'einsetzbar',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'мнительный',
+        variantB: 'платежный',
+        variantC: 'применимый',
+        variantD: 'заменимый',
+        correctAnswer: 'применимый'
+    },
+    {
+        language: 'ger',
+        word: 'gegenseitig',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'отвратительный',
+        variantB: 'взаимный',
+        variantC: 'законный',
+        variantD: 'должный',
+        correctAnswer: 'взаимный'
+    },
+    {
+        language: 'ger',
+        word: 'anspruchslos',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'отвратительный, некрасивый, отвратный',
+        variantB: 'взаимный, уважительный, благодарный',
+        variantC: 'весомый, значимый',
+        variantD: 'беспритязательный, скромный, неприхотливый',
+        correctAnswer: 'беспритязательный, скромный, неприхотливый'
+    },
+    {
+        language: 'ger',
+        word: 'vermittelbar',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'передаваемый, посреднический',
+        variantB: 'представительный, внешний',
+        variantC: 'весомый, значимый',
+        variantD: 'беспритязательный, скромный, неприхотливый',
+        correctAnswer: 'передаваемый, посреднический'
+    },
+    {
+        language: 'ger',
+        word: 'hinterher',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'сразу, как только',
+        variantB: 'основополагающийся',
+        variantC: 'позади, после',
+        variantD: 'перед тем как, до того как',
+        correctAnswer: 'позади, после'
+    },
+    {
+        language: 'ger',
+        word: 'vornherein',
+        forms: ['-'],
+        type: 'adv',
+        variantA: 'сразу, с самого начала',
+        variantB: 'лежащий в основе',
+        variantC: 'позади, после',
+        variantD: 'после того как, следом за',
+        correctAnswer: 'сразу, с самого начала'
+    },
+    {
+        language: 'ger',
+        word: 'ehrgeizig',
+        forms: ['ehrgeiziger', 'am ehrgeizigsten'],
+        type: 'adj',
+        variantA: 'честолюбивый, амбициозный',
+        variantB: 'мнительный, сомнительный',
+        variantC: 'гневный, раздраженный',
+        variantD: 'беспритязательный, скромный',
+        correctAnswer: 'честолюбивый, амбициозный'
+    },
+    {
+        language: 'ger',
+        word: 'bestimmbar',
+        forms: ['bestimmbarer', 'am bestimmbarsten'],
+        type: 'adj',
+        variantA: 'неопределенный, неоконченный',
+        variantB: 'определимый, окончательный, решительный',
+        variantC: 'несогласный, противоречащий',
+        variantD: 'переходной, переходящий',
+        correctAnswer: 'определимый, окончательный, решительный'
+    },
+
 
 ]
 
 export default GermanWordsTest;
 
 
-
-
-
-
-
-// überlasten MIT
-// überlastet · überlastete · hat überlastet 
-
-// Русский заваливать, завалить, перегружать
-
-// bestimmen 
-// bestimmt · bestimmte · hat bestimmt 
-
-// Русский определять, устанавливать, назначать,
-
-
-// die Überlast
-// Überlast · Überlasten
-
-// Русский ли́шний груз, перегру́зка, ли́шний вес,
-
-// die Anspruchshaltung
-// Anspruchshaltung · Anspruchshaltungen
-
-
-// die Einsetzung
-// Einsetzung · Einsetzungen
-
-// Русский вста́вка, назначение на должность, приминение в действие
-
-// der Aufwand
-// Aufwand(e)s · -
-
-// Русский расходы, затраты
-
-// die Bestimmung
-// Bestimmung · Bestimmungen⁰
-
-// Русский предписание, предназначение, положение,
-
-// der Zeitausgleich⁹
-// Zeitausgleich(e)s⁹ · Zeitausgleiche⁴⁹
-
-// Русский компенсация времени, временная компенсация
-
-// der Durchhänger⁵
-// Durchhängers⁵ · Durchhänger⁵
-
-// Русский депресси́вная фа́за, пода́вленное настрое́ние, упа́док сил
-
-// die Versuchung
-// Versuchung · Versuchungen
-
-// Русский искушение, искуше́ние, собла́зн
-
-// die Vermittlung/Vermittelung
-// Vermitt(e)lung · Vermitt(e)lungen
-
-// Русский посре́дничество, соде́йствие
-
-// die Bestimmtheit
-// Bestimmtheit · -
-
-// Русский определённость, реши́тельность, уве́ренность
-
-// der Vermittler
-// Vermittlers · Vermittler
-
-// Русский посредник, посре́дник, аге́нт
-
-// der Ausgleich
-// Ausgleich(e)s · Ausgleiche⁴
-
-// Русский уравнивание, компенсация, возмеще́ние,
-
-// die Einsparung
-// Einsparung · Einsparungen
-
-// Русский сокращение, экономия, эконо́мия
-
-// nächstliegend a
-// 1. ближа́йший, бли́же всего́ располо́женный;
-
-// einsetzbar
-// einsetzbar · - · -
-
-// Русский применимый
-
-// gegenseitig
-// gegenseitig · - · -
-
-// Русский взаимный
-
-// anspruchslos
-// anspruchslos · - · -
-
-// Русский беспритязательный, скромный, неприхотливый
-
-// vermittelbar
-// vermittelbar · - · -
-
-// Русский передаваемый, преподаваемый, посреднический
-
-// hinterher
-// Русский сзади, вслед, позади, после
-
-// vornherein с са́мого нача́ла, сра́зу
-
-
-// ehrgeizig
-// ehrgeizig · ehrgeiziger · am ehrgeizigsten
-
-// Русский честолюбивый, амбициозный,
-
-// bestimmbar
-// bestimmbar · bestimmbarer · am bestimmbarsten
-
-// определимый, окончательный, решительный
