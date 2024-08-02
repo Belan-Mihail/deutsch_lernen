@@ -2627,4 +2627,115 @@ const GermanWordsTest:TestType[] = [
 
 export default GermanWordsTest;
 
+// die Einstellung
+// Einstellung · Einstellungen
 
+// Русский отношение к чему-то, установка, настройка
+
+// die Erholung
+// Erholung · -
+
+// Русский отдых, Возврат, о́тдых, переды́шка,
+
+// der Erholungsaufenthalt
+// Erholungsaufenthalt(e)s · Erholungsaufenthalte
+
+// Русский курортный отдых, оздоровительный отдых,
+
+// die Fachkenntnis
+// Fachkenntnis · Fachkenntnisse⁰
+
+// Русский зна́ние предме́та, специа́льные зна́ния
+
+// das Fach
+// Fach(e)s · Fächer
+
+// Русский отрасль, часть, полка, предмет, специальность,
+
+// die Fachkraft
+// Fachkraft · Fachkräfte
+
+// Русский специалист, специали́ст,квалифици́рованный рабо́тник
+
+// der Rechtsanspruch
+// Rechtsanspruch(e)s · Rechtsansprüche
+
+// Русский законное притязание, правово́е притяза́ние
+
+// die Verjährung
+// Verjährung · Verjährungen
+
+// Русский давность, да́вность
+
+// die Verjährungsfrist
+// Verjährungsfrist · Verjährungsfristen
+
+// Русский срок да́вности
+
+// das Auskommen
+// Auskommens · -
+
+// Русский средства к существованию, жить совместно, возникнове́ние, дохо́д, 
+
+
+
+// ein·stellen 
+// stellt ein · stellte ein · hat eingestellt 
+
+// Русский принять на работу, нанимать, настроить, настроиться,
+
+// angewiesen sein AUF
+
+// ist · war · ist gewesen
+
+// Русский быть зависимым от
+
+// verjähren 
+// verjährt · verjährte · ist verjährt 
+
+// Русский терять, срок исковой давности
+
+// aus·kommen 
+// kommt/kömmt⁷ aus · kam aus · ist ausgekommen 
+
+// ⁷ Устаревшее
+
+// Русский обходиться, ладить, находить общий язык
+
+// verjährt устративший силу из-за давности
+
+// einstellig
+// einstellig · - · -
+
+// Русский однозначный, одноразрядный
+
+// einstellbar регулируемый
+
+// konfliktär
+// konfliktär · - · -
+
+// Русский противоречивый, конфликтный
+
+// angewiesen
+// angewiesen · - · -
+
+// Русский зависящий
+
+// konfliktfähig   конфликтный
+
+// konfliktfrei
+// konfliktfrei 
+
+// erholungsbedürftig  нуждающийся в отдыхе
+
+// erholsam
+// erholsam · erholsamer · am erholsamsten
+
+// Русский расслабляющий
+
+// fachkundig
+// fachkundig · fachkundiger · am fachkundigsten
+
+// Русский квалифицированный, профессиональный, компетентный
+
+// 

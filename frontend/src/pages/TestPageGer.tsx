@@ -13,6 +13,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
   
   const [trueAnswer, setTrueAnswer] = useState(0)
   const [falseAnswer, setFalseAnswer] = useState(0)
+  const [showVariants, setShowVariants] = useState(false)
 
 
 
@@ -21,6 +22,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
       allQuestion[Math.floor(Math.random() * allQuestion.length)]
     );
     setCurrentAnswer('')
+    setShowVariants(false)
   };
 
   const checkAnswer = (userAnswer: string) => {
@@ -35,10 +37,18 @@ const TestPageGer: React.FC = (): React.ReactNode => {
   
 }
 
+if (!showVariants) {
+  setTimeout(() => {
+  setShowVariants(true)
+}, 3000);
+}
+
   useEffect(() => {
     setCurrentQuestion(
       allQuestion[Math.floor(Math.random() * allQuestion.length)]
     );
+    
+    
 
     
     
@@ -72,69 +82,73 @@ const TestPageGer: React.FC = (): React.ReactNode => {
           {currentQuestion.forms && currentQuestion.forms[2] && <p className="mx-2 text-2xl text-center text-wrap text-red-600">{currentQuestion.forms[2]}</p>}
         </p>
       </div>
-      <div className="grid max-[640px]:grid-cols-1 max-[640px]:grid-rows-1 grid-cols-2 grid-rows-2 max-[500px]:gap-4 gap-8">
-        {/* {currentAnswer && currentAnswer == currentQuestion.correctAnswer} */}
-        <button
-          onClick={() => {setCurrentAnswer(currentQuestion!.variantA); checkAnswer(currentQuestion!.variantA)}}
-          className={
-            currentAnswer === currentQuestion!.correctAnswer &&
-            currentAnswer === currentQuestion!.variantA || currentAnswer.length > 0 && currentAnswer !== currentQuestion!.correctAnswer &&  currentQuestion!.correctAnswer === currentQuestion!.variantA
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-4 rounded-xl"
-              : currentAnswer !== currentQuestion!.correctAnswer &&
-                currentAnswer === currentQuestion!.variantA
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-4 rounded-xl"
-              : " font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl hover:bg-orange-500 disabled:hover:bg-transparent disabled:hover:text-black hover:text-white  "
-          }
-          disabled={currentAnswer.length > 0}
-        >
-          {currentQuestion!.variantA}
-        </button>
-        <button
-          onClick={() => {setCurrentAnswer(currentQuestion!.variantB); checkAnswer(currentQuestion!.variantB)}}
-          className={
-            currentAnswer === currentQuestion!.correctAnswer &&
-            currentAnswer === currentQuestion!.variantB || currentAnswer.length > 0 && currentAnswer !== currentQuestion!.correctAnswer &&  currentQuestion!.correctAnswer === currentQuestion!.variantB
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500  p-4 rounded-xl"
-              : currentAnswer !== currentQuestion!.correctAnswer &&
-                currentAnswer === currentQuestion!.variantB
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500  p-4 rounded-xl"
-              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl disabled:hover:bg-transparent disabled:hover:text-black   hover:bg-orange-500 hover:text-white"
-          }
-          disabled={currentAnswer.length > 0}
-        >
-          {currentQuestion!.variantB}
-        </button>
-        <button
-          onClick={() => {setCurrentAnswer(currentQuestion!.variantC); checkAnswer(currentQuestion!.variantC)}}
-          className={
-            currentAnswer === currentQuestion!.correctAnswer &&
-            currentAnswer === currentQuestion!.variantC || currentAnswer.length > 0 && currentAnswer !== currentQuestion!.correctAnswer &&  currentQuestion!.correctAnswer === currentQuestion!.variantC 
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-4 rounded-xl"
-              : currentAnswer !== currentQuestion!.correctAnswer &&
-                currentAnswer === currentQuestion!.variantC
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-4 rounded-xl"
-              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl hover:bg-orange-500 disabled:hover:bg-transparent disabled:hover:text-black hover:text-white"
-          }
-          disabled={currentAnswer.length > 0}
-        >
-          {currentQuestion!.variantC}
-        </button>
-        <button
-          onClick={() => {setCurrentAnswer(currentQuestion!.variantD); checkAnswer(currentQuestion!.variantD)}}
-          className={
-            currentAnswer === currentQuestion!.correctAnswer &&
-            currentAnswer === currentQuestion!.variantD || currentAnswer.length > 0 && currentAnswer !== currentQuestion!.correctAnswer &&  currentQuestion!.correctAnswer === currentQuestion!.variantD
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-4 rounded-xl"
-              : currentAnswer !== currentQuestion!.correctAnswer &&
-                currentAnswer === currentQuestion!.variantD
-              ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-4 rounded-xl"
-              : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl hover:bg-orange-500 disabled:hover:bg-transparent disabled:hover:text-black hover:text-white"
-          }
-          disabled={currentAnswer.length > 0}
-        >
-          {currentQuestion!.variantD}
-        </button>
-      </div>
+
+        {showVariants && (
+          <div className="grid max-[640px]:grid-cols-1 max-[640px]:grid-rows-1 grid-cols-2 grid-rows-2 max-[500px]:gap-4 gap-8">
+          {/* {currentAnswer && currentAnswer == currentQuestion.correctAnswer} */}
+          <button
+            onClick={() => {setCurrentAnswer(currentQuestion!.variantA); checkAnswer(currentQuestion!.variantA)}}
+            className={
+              currentAnswer === currentQuestion!.correctAnswer &&
+              currentAnswer === currentQuestion!.variantA || currentAnswer.length > 0 && currentAnswer !== currentQuestion!.correctAnswer &&  currentQuestion!.correctAnswer === currentQuestion!.variantA
+                ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-4 rounded-xl"
+                : currentAnswer !== currentQuestion!.correctAnswer &&
+                  currentAnswer === currentQuestion!.variantA
+                ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-4 rounded-xl"
+                : " font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl hover:bg-orange-500 disabled:hover:bg-transparent disabled:hover:text-black hover:text-white  "
+            }
+            disabled={currentAnswer.length > 0}
+          >
+            {currentQuestion!.variantA}
+          </button>
+          <button
+            onClick={() => {setCurrentAnswer(currentQuestion!.variantB); checkAnswer(currentQuestion!.variantB)}}
+            className={
+              currentAnswer === currentQuestion!.correctAnswer &&
+              currentAnswer === currentQuestion!.variantB || currentAnswer.length > 0 && currentAnswer !== currentQuestion!.correctAnswer &&  currentQuestion!.correctAnswer === currentQuestion!.variantB
+                ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500  p-4 rounded-xl"
+                : currentAnswer !== currentQuestion!.correctAnswer &&
+                  currentAnswer === currentQuestion!.variantB
+                ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500  p-4 rounded-xl"
+                : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl disabled:hover:bg-transparent disabled:hover:text-black   hover:bg-orange-500 hover:text-white"
+            }
+            disabled={currentAnswer.length > 0}
+          >
+            {currentQuestion!.variantB}
+          </button>
+          <button
+            onClick={() => {setCurrentAnswer(currentQuestion!.variantC); checkAnswer(currentQuestion!.variantC)}}
+            className={
+              currentAnswer === currentQuestion!.correctAnswer &&
+              currentAnswer === currentQuestion!.variantC || currentAnswer.length > 0 && currentAnswer !== currentQuestion!.correctAnswer &&  currentQuestion!.correctAnswer === currentQuestion!.variantC 
+                ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-4 rounded-xl"
+                : currentAnswer !== currentQuestion!.correctAnswer &&
+                  currentAnswer === currentQuestion!.variantC
+                ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-4 rounded-xl"
+                : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl hover:bg-orange-500 disabled:hover:bg-transparent disabled:hover:text-black hover:text-white"
+            }
+            disabled={currentAnswer.length > 0}
+          >
+            {currentQuestion!.variantC}
+          </button>
+          <button
+            onClick={() => {setCurrentAnswer(currentQuestion!.variantD); checkAnswer(currentQuestion!.variantD)}}
+            className={
+              currentAnswer === currentQuestion!.correctAnswer &&
+              currentAnswer === currentQuestion!.variantD || currentAnswer.length > 0 && currentAnswer !== currentQuestion!.correctAnswer &&  currentQuestion!.correctAnswer === currentQuestion!.variantD
+                ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-green-500 p-4 rounded-xl"
+                : currentAnswer !== currentQuestion!.correctAnswer &&
+                  currentAnswer === currentQuestion!.variantD
+                ? "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 bg-red-500 p-4 rounded-xl"
+                : "font-semibold text-center text-wrap max-[640px]:text-sm text-2xl border-solid border-2 border-orange-500 p-4 rounded-xl hover:bg-orange-500 disabled:hover:bg-transparent disabled:hover:text-black hover:text-white"
+            }
+            disabled={currentAnswer.length > 0}
+          >
+            {currentQuestion!.variantD}
+          </button>
+        </div>
+        )}
+        
       <button
         className=" font-semibold max-[640px]:text-sm text-2xl border-solid border-2 border-green-500 p-4 rounded-xl hover:bg-green-500 hover:text-white  "
         onClick={nextQuestion}
