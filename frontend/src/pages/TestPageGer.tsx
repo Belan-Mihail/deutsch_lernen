@@ -34,6 +34,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
     setTrueAnswer(trueAnswer + 1)
   }
 }
+console.log(currentQuestion.cognate_words)
 
 if (!showVariants) {
   setTimeout(() => {
@@ -67,13 +68,19 @@ if (!showVariants) {
         </div>
       </div>
       {showHint && (
-        <div>
+        <div className="flex flex-col gap-8">
           <button onClick={()=> setShowHint(false)}>X</button>
-          {currentQuestion.cognate_words && (
-            <div>
-              
-            </div>
-          )}
+          <div>
+            {currentQuestion.cognate_words.map((word:string) => (
+            <p className=" ml-2">{word}</p>
+          ))
+          }
+          </div>
+          <div>
+          {currentQuestion.sentences.map((sentence:string) => (
+            <p className=" ml-2">{sentence}</p>
+          ))}
+          </div>
         </div>
       )}
       <div>
