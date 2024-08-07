@@ -68,7 +68,7 @@ if (!showVariants) {
         </div>
       </div>
       {showHint && (
-        <div className="flex flex-col gap-8">
+        <div className=" absolute h-100% p-8 rounded-xl text-white w-[100%] bg-gray-800 left-0 top-[10%] flex flex-col gap-4">
           <button onClick={()=> setShowHint(false)}>X</button>
           <div>
             {currentQuestion.cognate_words.map((word:string) => (
