@@ -8,7 +8,10 @@ type TestType = {
     variantB: string,
     variantC: string,
     variantD: string,
-    correctAnswer: string
+    correctAnswer: string,
+    cognate_words?: string[],
+    sentences?: string[],
 }
 
 export default TestType
+

@@ -14,6 +14,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
   const [trueAnswer, setTrueAnswer] = useState(0)
   const [falseAnswer, setFalseAnswer] = useState(0)
   const [showVariants, setShowVariants] = useState(false)
+  const [showHint, setShowHint] = useState(false)
 
 
 
@@ -32,9 +33,6 @@ const TestPageGer: React.FC = (): React.ReactNode => {
   } else {
     setTrueAnswer(trueAnswer + 1)
   }
-
-  
-  
 }
 
 if (!showVariants) {
@@ -47,12 +45,6 @@ if (!showVariants) {
     setCurrentQuestion(
       allQuestion[Math.floor(Math.random() * allQuestion.length)]
     );
-    
-    
-
-    
-    
-    
   }, []);
 
   
@@ -67,11 +59,23 @@ if (!showVariants) {
         <div className="text-start">
           <Link to='/' className="text-sm border-blue-500  border-solid border-2 hover:bg-blue-500 hover:text-white p-2 rounded-xl">Back to HomePage</Link>
         </div>
-        <div className="text-end">
+        <div className="text-center">
           <span>total number of questions: {allQuestion.length}</span>
         </div>
-        
+        <div className="text-end">
+            <button onClick={() => setShowHint(true)}>Show Hints</button>
+        </div>
       </div>
+      {showHint && (
+        <div>
+          <button onClick={()=> setShowHint(false)}>X</button>
+          {currentQuestion.cognate_words && (
+            <div>
+              
+            </div>
+          )}
+        </div>
+      )}
       <div>
         <p className="font-semibold text-center text-wrap text-2xl my-2">
           {currentQuestion?.word}
