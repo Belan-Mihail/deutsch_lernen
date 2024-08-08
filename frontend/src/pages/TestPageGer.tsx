@@ -16,7 +16,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
   const [showVariants, setShowVariants] = useState(false)
   const [showHint, setShowHint] = useState(false)
 
-
+  
 
   const nextQuestion = () => {
     setCurrentQuestion(
@@ -24,6 +24,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
     );
     setCurrentAnswer('')
     setShowVariants(false)
+    setShowHint(false)
   };
 
   const checkAnswer = (userAnswer: string) => {
@@ -34,7 +35,8 @@ const TestPageGer: React.FC = (): React.ReactNode => {
     setTrueAnswer(trueAnswer + 1)
   }
 }
-console.log(currentQuestion.cognate_words)
+
+
 
 if (!showVariants) {
   setTimeout(() => {
@@ -64,39 +66,55 @@ if (!showVariants) {
           <span>total number of questions: {allQuestion.length}</span>
         </div>
         <div className="text-end">
-            <button onClick={() => setShowHint(true)}>Show Hints</button>
+            <button className="text-sm border-green-500  border-solid border-2 hover:bg-green-500 hover:text-white p-2 rounded-xl" disabled={showHint} onClick={() => setShowHint(true)}>Show Hints</button>
         </div>
       </div>
-      {showHint && (
-        <div className=" absolute h-100% p-8 rounded-xl text-white w-[100%] bg-gray-800 left-0 top-[10%] flex flex-col gap-4">
-          <button onClick={()=> setShowHint(false)}>X</button>
-          <div>
-            {currentQuestion.cognate_words.map((word:string) => (
-            <p className=" ml-2">{word}</p>
-          ))
-          }
-          </div>
-          <div>
-          {currentQuestion.sentences.map((sentence:string) => (
-            <p className=" ml-2">{sentence}</p>
-          ))}
-          </div>
-        </div>
-      )}
+      
       <div>
         <p className="font-semibold text-center text-wrap text-2xl my-2">
           {currentQuestion?.word}
         </p>
+        
         <p className="text-center text-wrap">
           {currentQuestion.forms && currentQuestion.forms[0] && <p className="mx-2 text-2xl text-center text-wrap text-green-600">{currentQuestion.forms[0]}</p>}
           {currentQuestion.forms && currentQuestion.forms[1] && <p className="mx-2 text-2xl text-center text-wrap text-orange-600">{currentQuestion.forms[1]}</p>}
           {currentQuestion.forms && currentQuestion.forms[2] && <p className="mx-2 text-2xl text-center text-wrap text-red-600">{currentQuestion.forms[2]}</p>}
         </p>
+        {showHint && (
+        <div className="h-full max-w-full mt-8 p-8 rounded-xl text-white text-center bg-gray-900 flex flex-col gap-4">
+                   
+          <div>
+            <h2 className="text-yellow-300">Congate Words:</h2>
+            {currentQuestion.cognate_words.length === 0 ? (<p className="text-red-400">Congated words not found</p>) : (
+              currentQuestion.cognate_words.map((word:string) => (
+            <p className="text-green-400">{word}</p>
+          ))
+            )}
+            
+          </div>
+          <div>
+          <h2 className="text-yellow-300">Sentences:</h2>
+          {currentQuestion.sentences.length === 0 ? (
+            <p className="text-red-400">Sentences with word not found</p>
+          ) : (
+            currentQuestion.sentences.map((sentence:string) => (
+              <>
+                <p className="text-green-400 mt-2">{sentence}</p>
+                <hr />
+              </>
+            ))
+          )}
+          </div>
+          <div  onClick={()=> setShowHint(false)} className="mt-4 py-2 px-8 h-full bg-green-600 rounded-xl cursor-pointer">
+            Close Hint
+          </div>
+        </div>
+      )}
       </div>
 
         {showVariants && (
           <div className="grid max-[640px]:grid-cols-1 max-[640px]:grid-rows-1 grid-cols-2 grid-rows-2 max-[500px]:gap-4 gap-8">
-          {/* {currentAnswer && currentAnswer == currentQuestion.correctAnswer} */}
+          
           <button
             onClick={() => {setCurrentAnswer(currentQuestion!.variantA); checkAnswer(currentQuestion!.variantA)}}
             className={
