@@ -9,7 +9,10 @@ type TestType = {
     variantC: string,
     variantD: string,
     correctAnswer: string,
-    cognate_words?: string[],
+    cognate_words?: {
+        word: string,
+        translate: string
+    }[],
     sentences?: string[],
 }
 

@@ -16,6 +16,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
   const [showVariants, setShowVariants] = useState(false)
   const [showHint, setShowHint] = useState(false)
 
+
   
 
   const nextQuestion = () => {
@@ -66,7 +67,7 @@ if (!showVariants) {
           <span>total number of questions: {allQuestion.length}</span>
         </div>
         <div className="text-end">
-            <button className="text-sm border-green-500  border-solid border-2 hover:bg-green-500 hover:text-white p-2 rounded-xl" disabled={showHint} onClick={() => setShowHint(true)}>Show Hints</button>
+            <button className="text-sm border-green-500  border-solid border-2 hover:bg-green-500 hover:text-white p-2 rounded-xl disabled:bg-slate-500 disabled:hover:bg-slate-500 disabled:border-slate-600 disabled:text-white" disabled={showHint} onClick={() => setShowHint(true)}>Show Hints</button>
         </div>
       </div>
       
@@ -81,13 +82,16 @@ if (!showVariants) {
           {currentQuestion.forms && currentQuestion.forms[2] && <p className="mx-2 text-2xl text-center text-wrap text-red-600">{currentQuestion.forms[2]}</p>}
         </p>
         {showHint && (
-        <div className="h-full max-w-full mt-8 p-8 rounded-xl text-white text-center bg-gray-900 flex flex-col gap-4">
+        <div className="h-full max-w-full mt-8 p-8 rounded-xl text-white text-center bg-gray-900 flex flex-col gap-4 items-center">
                    
           <div>
             <h2 className="text-yellow-300">Congate Words:</h2>
             {currentQuestion.cognate_words.length === 0 ? (<p className="text-red-400">Congated words not found</p>) : (
-              currentQuestion.cognate_words.map((word:string) => (
-            <p className="text-green-400">{word}</p>
+              currentQuestion.cognate_words.map((cognate_word:{word:string, translate:string}, index:number) => (
+            <div key={index} className="flex w-[100%] justify-around gap-2 mt-2 max-[500px]:flex-col  max-[500px]:gap-0">
+              <p className="text-yellow-300 hover:scale-105">{cognate_word.word}</p>
+              <p className='text-green-400 blur-sm hover:blur-0 hover:scale-105'>{cognate_word.translate}</p>
+            </div>
           ))
             )}
             
@@ -99,13 +103,13 @@ if (!showVariants) {
           ) : (
             currentQuestion.sentences.map((sentence:string) => (
               <>
-                <p className="text-green-400 mt-2">{sentence}</p>
+                <p className="text-green-400 mt-2 hover:scale-105">{sentence}</p>
                 <hr />
               </>
             ))
           )}
           </div>
-          <div  onClick={()=> setShowHint(false)} className="mt-4 py-2 px-8 h-full bg-green-600 rounded-xl cursor-pointer">
+          <div  onClick={()=> setShowHint(false)} className="mt-4 py-2 px-8 w-[10rem] bg-green-600 rounded-xl cursor-pointer hover:bg-green-500">
             Close Hint
           </div>
         </div>

@@ -30,7 +30,17 @@ const GermanWordsTest: TestType[] = [
     variantC: "вознаграждение, компенсация",
     variantD: "достоинство",
     correctAnswer: "вознаграждение, компенсация",
-    cognate_words: ["die Arbeitsvergütung", "vergüten"],
+    // cognate_words: ["die Arbeitsvergütung", "vergüten"],
+    cognate_words: [
+      {
+      word: 'die Arbeitsvergütung',
+      translate: 'оплата труда'
+    },
+    {
+      word: 'vergüten',
+      translate: 'возмещать, оплачивать'
+    }
+  ],
     sentences: [
       "Er verlangt umgehende Vergütung",
       "Für diese Arbeit gibt es keine Vergütung",
