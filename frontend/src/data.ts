@@ -30,7 +30,6 @@ const GermanWordsTest: TestType[] = [
     variantC: "вознаграждение, компенсация",
     variantD: "достоинство",
     correctAnswer: "вознаграждение, компенсация",
-    // cognate_words: ["die Arbeitsvergütung", "vergüten"],
     cognate_words: [
       {
       word: 'die Arbeitsvergütung',
@@ -49,61 +48,126 @@ const GermanWordsTest: TestType[] = [
       'Und was jetzt die Vergütung betrifft...'
     ],
   },
-//   {
-//     language: "ger",
-//     word: "jeweilig",
-//     forms: ["-"],
-//     type: "adv",
-//     variantA: "соответственно, соответствующий",
-//     variantB: "текущий, прежний",
-//     variantC: "каждый раз, в каждом случае",
-//     variantD: "пережитый, прожитый",
-//     correctAnswer: "соответственно, соответствующий",
-//   },
-//   {
-//     language: "ger",
-//     word: "mitfühlend",
-//     forms: ["mitfühlender", "am mitfühlendsten"],
-//     type: "adv",
-//     variantA: "раздраженный",
-//     variantB: "мнительный",
-//     variantC: "гневный",
-//     variantD: "сострадающий",
-//     correctAnswer: "сострадающий",
-//   },
-//   {
-//     language: "ger",
-//     word: "ab lenken SICH VON",
-//     forms: ["lenkt ab", "lenkte ab", "hat abgelenkt"],
-//     type: "verb",
-//     variantA: "обходить, объездать",
-//     variantB: "устранять, завершать",
-//     variantC: "отказываться, отказывать",
-//     variantD: "отвлекать, отклонять",
-//     correctAnswer: "отвлекать, отклонять",
-//   },
-//   {
-//     language: "ger",
-//     word: "vor kommen",
-//     forms: ["kommt vor", "kam vor", "ist vorgekommen"],
-//     type: "verb",
-//     variantA: "казаться, случаться",
-//     variantB: "возвращать, возвращаться",
-//     variantC: "выходить, отходить",
-//     variantD: "исходить от, пологаться",
-//     correctAnswer: "казаться, случаться",
-//   },
-//   {
-//     language: "ger",
-//     word: "ab finden SICH MIT",
-//     forms: ["findet ab", "fand ab", "hat abgefunden"],
-//     type: "verb",
-//     variantA: "отвлекаться",
-//     variantB: "обнаруживать",
-//     variantC: "смириться",
-//     variantD: "устраиваться",
-//     correctAnswer: "смириться",
-//   },
+  {
+    language: "ger",
+    word: "jeweilig",
+    forms: ["-"],
+    type: "adv",
+    variantA: "соответственно, соответствующий",
+    variantB: "текущий, прежний",
+    variantC: "каждый раз, в каждом случае",
+    variantD: "пережитый, прожитый",
+    correctAnswer: "соответственно, соответствующий",
+    cognate_words: [],
+    sentences: [
+      "Alles hängt von der jeweiligen Situation ab",
+      "Die Pressesprecher der jeweiligen Behörde gaben eine Pressekonferenz.",
+      "Ein Stimmungswandel vor den Wahlen kann das jeweilige Ergebnis deutlich beeinflussen",
+      'Eine Buchmesse informiert über den jeweiligen Buchmarkt',
+      'Bevor etwas passiert, müssen wir natürlich unsere jeweiligen Regierungen konsultieren.'
+    ],
+  },
+  {
+    language: "ger",
+    word: "mitfühlend",
+    forms: ["mitfühlender", "am mitfühlendsten"],
+    type: "adv",
+    variantA: "раздраженный",
+    variantB: "мнительный",
+    variantC: "гневный",
+    variantD: "сострадающий",
+    correctAnswer: "сострадающий",
+    cognate_words: [
+      {
+      word: 'mit fühlen MIT',
+      translate: 'сопереживать, сострадать'
+    },
+    {
+      word: 'das Mitfühlen',
+      translate: 'сопереживание, сострадание'
+    }
+  ],
+    sentences: [
+      "Ich fühle mit euch mit",
+      "Er fühlte mit ihr mit , als sie sich der Prüfung stellen musste.",
+      "Der Film ist richtig gut gemacht, ein Film, bei dem man mit dem Helden mitfiebern und mitfühlen kann",
+      'Es war, als ob ich alles, was Sie erlebten, mitfühlen konnte.',
+      'Da können Sie nicht mit allen mitfühlen und nichts tun.'
+    ],
+  },
+  {
+    language: "ger",
+    word: "ab lenken SICH VON",
+    forms: ["lenkt ab", "lenkte ab", "hat abgelenkt"],
+    type: "verb",
+    variantA: "обходить, объездать",
+    variantB: "устранять, завершать",
+    variantC: "отказываться, отказывать",
+    variantD: "отвлекать",
+    correctAnswer: "отвлекать",
+    cognate_words: [
+      {
+      word: 'das Ablenkungsmanöver',
+      translate: 'отвлекающий маневр'
+    },
+    {
+      word: 'die Ablenkung',
+      translate: 'отвлечение'
+    }
+  ],
+    sentences: [
+      "Ich war abgelenkt",
+      "Du bist echt leicht abzulenken",
+      "Ich werde versuchen, ihn abzulenken",
+      'Bitte lenkt mich nicht von meiner Arbeit ab',
+      'Vielleicht können wir die anderen auch ablenken.'
+    ],
+  },
+  {
+    language: "ger",
+    word: "vor kommen",
+    forms: ["kommt vor", "kam vor", "ist vorgekommen"],
+    type: "verb",
+    variantA: "случаться, происходить",
+    variantB: "возвращать, возвращаться",
+    variantC: "выходить, отходить",
+    variantD: "исходить от, пологаться",
+    correctAnswer: "случаться, происходить",
+    cognate_words: [
+      {
+      word: 'das Vorkommen',
+      translate: 'месторождение, залежь'
+    },
+  ],
+    sentences: [
+      "Aber ich verspreche dir, das wird nicht mehr vorkommen.",
+      "Rufen Sie mich an, sollte es noch mal vorkommen...",
+      "Es kann vorkommen, dass Feinde gemeinsame Interessen haben",
+      'Was kommt vor ?',
+      'Das kann manchmal vorkommen.',
+      'Das ist schon vorgekommen.'
+    ],
+  },
+  {
+    language: "ger",
+    word: "ab finden SICH MIT",
+    forms: ["findet ab", "fand ab", "hat abgefunden"],
+    type: "verb",
+    variantA: "отвлекаться",
+    variantB: "обнаруживать",
+    variantC: "смириться",
+    variantD: "устраиваться",
+    correctAnswer: "смириться",
+    cognate_words: [
+  ],
+    sentences: [
+      "Mit manchen Entscheidungen kann man sich abfinden bis zum nächsten Tageslicht.",
+      "Romeo liebte Julia mehr, als er sich dessen bewusst war, und er konnte sich nicht mit dem Gedanken abfinden, sie verloren zu haben.",
+      "Aber du konntest dich nicht einfach abfinden.",
+      'Du musst dich einfach damit abfinden',
+      'Ich habe mich schon vor langem damit abgefunden'
+    ],
+  },
 //   {
 //     language: "ger",
 //     word: "entspannen SICH MIT",
