@@ -168,94 +168,194 @@ const GermanWordsTest: TestType[] = [
       'Ich habe mich schon vor langem damit abgefunden'
     ],
   },
-//   {
-//     language: "ger",
-//     word: "entspannen SICH MIT",
-//     forms: ["entspannt", "entspannte", "hat entspannt"],
-//     type: "verb",
-//     variantA: "заботиться, проявлять заботу",
-//     variantB: "улыбаться, радоваться",
-//     variantC: "негодовать, расстраиваться",
-//     variantD: "расслабляться, отдыхать",
-//     correctAnswer: "расслабляться, отдыхать",
-//   },
-//   {
-//     language: "ger",
-//     word: "die Gepflogenheit",
-//     forms: ["die Gepflogenheiten"],
-//     type: "nomen",
-//     variantA: "традиция, обычай",
-//     variantB: "силуэт",
-//     variantC: "смирение, успокоение",
-//     variantD: "усталость, бессоница",
-//     correctAnswer: "традиция, обычай",
-//   },
-//   {
-//     language: "ger",
-//     word: "gewöhnen sich AN",
-//     forms: ["gewöhnt", "gewöhnte", "hat gewöhnt"],
-//     type: "verb",
-//     variantA: "удовлетворять, устраивать",
-//     variantB: "свыкнуться, осваиваться",
-//     variantC: "негодовать, расстраиваться",
-//     variantD: "раздражаться, нервничать",
-//     correctAnswer: "свыкнуться, осваиваться",
-//   },
-//   {
-//     language: "ger",
-//     word: "der Abstand",
-//     forms: ["die Abstände"],
-//     type: "nomen",
-//     variantA: "традиция, обычай",
-//     variantB: "успех, гармония",
-//     variantC: "интервал, дистанция",
-//     variantD: "процесс, действие",
-//     correctAnswer: "интервал, дистанция",
-//   },
-//   {
-//     language: "ger",
-//     word: "ein halten",
-//     forms: ["hält ein", "hielt ein", "hat eingehalten"],
-//     type: "verb",
-//     variantA: "получать, сохранять",
-//     variantB: "включать в себя, содержать",
-//     variantC: "приводить в соответсвиие, упорядочивать",
-//     variantD: "соблюдать, придерживаться",
-//     correctAnswer: "соблюдать, придерживаться",
-//   },
-//   {
-//     language: "ger",
-//     word: "unverzüglich",
-//     forms: ["unverzüglicher", "am unverzüglichsten"],
-//     type: "adv",
-//     variantA: "немедленно, срочно",
-//     variantB: "грубый, жестокий",
-//     variantC: "отважный, решительный",
-//     variantD: "находчивый, ловкий",
-//     correctAnswer: "немедленно, срочно",
-//   },
-//   {
-//     language: "ger",
-//     word: "der Vorrang",
-//     forms: ["die Vorrang"],
-//     type: "nomen",
-//     variantA: "традиция",
-//     variantB: "преимущество",
-//     variantC: "преграда",
-//     variantD: "одобрение",
-//     correctAnswer: "преимущество",
-//   },
-//   {
-//     language: "ger",
-//     word: "erholen SICH",
-//     forms: ["erholt", "erholte", "hat erholt"],
-//     type: "verb",
-//     variantA: "выздоравливать, поправляться",
-//     variantB: "обижаться, обижать",
-//     variantC: "повышать, увеличивать",
-//     variantD: "сдерживаться, останавливаться ",
-//     correctAnswer: "выздоравливать, поправляться",
-//   },
+  {
+    language: "ger",
+    word: "entspannen SICH MIT",
+    forms: ["entspannt", "entspannte", "hat entspannt"],
+    type: "verb",
+    variantA: "заботиться, проявлять заботу",
+    variantB: "улыбаться, радоваться",
+    variantC: "негодовать, расстраиваться",
+    variantD: "расслабляться, отдыхать",
+    correctAnswer: "расслабляться, отдыхать",
+    cognate_words: [
+      {
+        word: 'die Entspannung',
+        translate: 'расслабление, отдых'
+      },
+    ],
+    sentences: [
+      'Ich entspanne mich',
+      'Die Atmosphäre entspannte sich',
+      'Er entspannt sich zu Hause',
+      'Versuchen Sie, sich zu entspannen, konzentrieren Sie sich auf Ihre Atmung',
+      'Wie gesagt, ich möchte nur entspannen'
+    ],
+  },
+  {
+    language: "ger",
+    word: "die Gepflogenheit",
+    forms: ["die Gepflogenheiten"],
+    type: "nomen",
+    variantA: "традиция, обычай",
+    variantB: "силуэт",
+    variantC: "смирение, успокоение",
+    variantD: "усталость, бессоница",
+    correctAnswer: "традиция, обычай",
+    cognate_words: [
+    ],
+      sentences: [
+        "Die sozialen Gepflogenheiten variieren von Land zu Land",
+        "Die gesellschaftlichen Gepflogenheiten formen unser Verhalten",
+        "Ich kenne die örtlichen Gepflogenheiten nicht",
+        'Parties gehören nicht zu meinen Gepflogenheiten',
+        'Das liegt daran, dass wir nach dem Zweiten Weltkrieg unsere landwirtschaftlichen Gepflogenheiten geändert haben.'
+      ],
+  },
+  {
+    language: "ger",
+    word: "gewöhnen sich AN",
+    forms: ["gewöhnt", "gewöhnte", "hat gewöhnt"],
+    type: "verb",
+    variantA: "удовлетворять, устраивать",
+    variantB: "свыкнуться, осваиваться",
+    variantC: "негодовать, расстраиваться",
+    variantD: "раздражаться, нервничать",
+    correctAnswer: "свыкнуться, осваиваться",
+    cognate_words: [
+    ],
+      sentences: [
+        "Man gewöhnt sich daran",
+        "Langsam gewöhne ich mich daran",
+        "An alles Gute auf dieser Welt muss man sich gewöhnen",
+        'Katrina hatte kaum Zeit, sich an unsere Welt zu gewöhnen.',
+        'Du wärst überrascht, woran man sich gewöhnen kann, Caitlin'
+      ],
+  },
+  {
+    language: "ger",
+    word: "der Abstand",
+    forms: ["die Abstände"],
+    type: "nomen",
+    variantA: "традиция, обычай",
+    variantB: "успех, гармония",
+    variantC: "интервал, дистанция",
+    variantD: "процесс, действие",
+    correctAnswer: "интервал, дистанция",
+    cognate_words: [
+      {
+        word: 'ab stehen',
+        translate: 'дистанцироваться, торчать, отказываеться'
+      },
+    ],
+    sentences: [
+      'Er hat von der Politik Abstand genommen',
+      'Alle müssen Abstand zueinander halten',
+      'Ich denke, das ist ein guter Abstand',
+      'Los geht"s, fünf Meter Abstand',
+      'Halte Abstand und melde dich alle 15 Minuten'
+    ],
+  },
+  {
+    language: "ger",
+    word: "ein halten",
+    forms: ["hält ein", "hielt ein", "hat eingehalten"],
+    type: "verb",
+    variantA: "получать, сохранять",
+    variantB: "включать в себя, содержать",
+    variantC: "приводить в соответсвиие, упорядочивать",
+    variantD: "соблюдать, придерживаться",
+    correctAnswer: "соблюдать, придерживаться",
+    cognate_words: [
+      {
+        word: 'die Einhaltung',
+        translate: 'соблюдение'
+      },
+    ],
+    sentences: [
+      'Verträge sind einzuhalten',
+      'Wir sind zuversichtlich, diesem Monat den Zahlungsplan einhalten zu können',
+      'Ja, aber ich muss die Abmachung einhalten',
+      'Ich habe meine Versprechen immer eingehalten',
+      'Ich bin mir nicht sicher, ob ich dieses Versprechen einhalten kann, so, wie Du angezogen bist'
+    ],
+  },
+  {
+    language: "ger",
+    word: "unverzüglich",
+    forms: ["unverzüglicher", "am unverzüglichsten"],
+    type: "adv",
+    variantA: "немедленно, срочно",
+    variantB: "грубый, жестокий",
+    variantC: "отважный, решительный",
+    variantD: "находчивый, ловкий",
+    correctAnswer: "немедленно, срочно",
+    cognate_words: [
+    ],
+      sentences: [
+        "Du musst mich unverzüglich anrufen",
+        "Die Krankmeldung beim Arbeitgeber ist unverzüglich vorzunehmen",
+        "Also entschied er, sich unverzüglich auf die Reise zu begeben",
+        'Wir müssen die Stadt unverzüglich verlassen',
+        'Das Urteil soll unverzüglich vollstreckt werden'
+      ],
+  },
+  {
+    language: "ger",
+    word: "der Vorrang",
+    forms: ["die Vorrang"],
+    type: "nomen",
+    variantA: "традиция",
+    variantB: "преимущество",
+    variantC: "преграда",
+    variantD: "одобрение",
+    correctAnswer: "преимущество",
+    cognate_words: [
+      {
+        word: 'vorrangig',
+        translate: 'первостепенный, приоритетный'
+      },
+      {
+        word: 'die Vorrangigkeit',
+        translate: 'Приоритет'
+      },
+    ],
+    sentences: [
+      'Ich gebe meiner Gesundheit den Vorrang',
+      'Das ist sehr wichtig und hat Vorrang , vor allem anderen',
+      'Wenn das Gesetz nicht gerecht ist, hat die Gerechtigkeit Vorrang vor dem Gesetz.',
+      'Ich dachte er hätte keinen Vorrang für dich',
+      'Entschuldigung, aber das hier hat Vorrang'
+    ],
+  },
+  {
+    language: "ger",
+    word: "erholen SICH",
+    forms: ["erholt", "erholte", "hat erholt"],
+    type: "verb",
+    variantA: "выздоравливать, поправляться",
+    variantB: "обижаться, обижать",
+    variantC: "повышать, увеличивать",
+    variantD: "сдерживаться, останавливаться ",
+    correctAnswer: "выздоравливать, поправляться",
+    cognate_words: [
+      {
+        word: 'die Erholung',
+        translate: 'отдых, передышка'
+      },
+      {
+        word: 'erholsam',
+        translate: 'расслабляющий'
+      },
+    ],
+    sentences: [
+      'Er erholte sich',
+      'Du hast dich gut erholt',
+      'Du musst dich jetzt nur noch erholen',
+      'Ich glaube, sie wird sich vollständig erholen',
+      'Ich wusste, es wird schlimm, aber davon werde ich mich nie erholen.'
+    ],
+  },
 //   {
 //     language: "ger",
 //     word: "der Verband",
