@@ -356,6 +356,213 @@ const GermanWordsTest: TestType[] = [
       'Ich wusste, es wird schlimm, aber davon werde ich mich nie erholen.'
     ],
   },
+  {
+        language: "ger",
+        word: "die Einsparung",
+        forms: ["die Einsparungen"],
+        type: "nomen",
+        variantA: "замена, подмена",
+        variantB: "расход, издержки",
+        variantC: "компенсация, возмещение",
+        variantD: "сокращение, экономия",
+        correctAnswer: "сокращение, экономия",
+        cognate_words: [
+          {
+            word: 'die Einsparungsmaßnahme',
+            translate: 'экономическая мера, мероприятие по сокращению расходов'
+          },
+          {
+            word: 'ein sparen',
+            translate: 'сэкономить, экономить'
+          },
+        ],
+        sentences: [
+          'Ich war Einsparung bis zu einen Hamster kaufen',
+          'Die Menschen in Griechenland können keine weiteren Einsparungen mehr vertragen',
+          'So forciert der Staat durch die Einsparung bei den öffentlichen Bibliotheken eine Indolenz seiner Bürger',
+          'In den meisten deutschen Haushalten ist die Einsparung von viel Energie und somit von viel Geld mit wenig Aufwand möglich',
+          'Angesichts der beabsichtigten Einsparungen regte sich Widerspruch im Betriebsrat'
+        ],
+      },
+      {
+        language: "ger",
+        word: "nächstliegend",
+        forms: ["-"],
+        type: "adv",
+        variantA: "ближайщий, близе всего расположенный",
+        variantB: "подразумивающийся, обсуждающийся",
+        variantC: "в следующий раз, следующий",
+        variantD: "пережитый, прожитый",
+        correctAnswer: "ближайщий, близе всего расположенный",
+        cognate_words: [
+        ],
+          sentences: [
+            "Der Verstand ist das nächstliegende Werkzeug, mit dem der Mensch rechnen kann",
+            "Bitte begeben Sie sich zum nächstliegenden Ausgang.",
+            "Also lass uns ein wenig plaudern, darüber, wo das nächstliegende Rebellencamp ist.",
+            'Er müsste uns auf der nãchstliegenden Etage rauslassen',
+            'Der nächstliegende Ort, an dem wir eben angehalten haben?'
+          ],
+      },
+      {
+        language: "ger",
+        word: "einsetzbar",
+        forms: ["-"],
+        type: "adv",
+        variantA: "мнительный",
+        variantB: "платежный",
+        variantC: "применимый",
+        variantD: "заменимый",
+        correctAnswer: "применимый",
+        cognate_words: [
+          {
+            word: 'die Einsetzung',
+            translate: 'ввод, назначение'
+          },
+          {
+            word: 'ein setzen',
+            translate: 'установить, вставить, применить'
+          },
+        ],
+        sentences: [
+          'Ziel ist der allseits einsetzbare Handwerker',
+          'Ist das für dich einsetzbar',
+          'Es mag auch sein, dass der Trenchcoat ein Klassiker ist, der, wenn man ihn tragen kann, ein überall einsetzbares Kleidungsstück ist',
+          'Wir beginnen mit der Behandlung, sobald sie einsetzbar ist.',
+          'Hättest du das getan, wüsstest du, dass er nur befristet einsetzbar ist'
+        ],
+      },
+      {
+        language: "ger",
+        word: "gegenseitig",
+        forms: ["-"],
+        type: "adv",
+        variantA: "отвратительный",
+        variantB: "взаимный",
+        variantC: "законный",
+        variantD: "должный",
+        correctAnswer: "взаимный",
+        cognate_words: [
+          {
+            word: 'die Gegenseitigkeit',
+            translate: 'взаимность'
+          },
+        ],
+        sentences: [
+          'Freundschaft erfordert gegenseitiges Vertraue',
+          'Wir stellten uns gegenseitig vor',
+          'Gegenseitiges Verständnis hilft, Gegensätze zu überwinden',
+          'Wir sollten versuchen, uns gegenseitig zu verstehen',
+          'Ich denke, wir können uns gegenseitig helfen.'
+        ],
+      },
+      {
+        language: "ger",
+        word: "anspruchslos",
+        forms: ["-"],
+        type: "adv",
+        variantA: "отвратительный, некрасивый, отвратный",
+        variantB: "взаимный, уважительный, благодарный",
+        variantC: "весомый, значимый",
+        variantD: "беспритязательный, скромный, неприхотливый",
+        correctAnswer: "беспритязательный, скромный, неприхотливый",
+        cognate_words: [
+          {
+            word: 'die Anspruchslosigkeit',
+            translate: 'неприхотливость'
+          },
+          {
+            word: 'der Anspruch',
+            translate: 'претензия, требование, притязание'
+          },
+        ],
+        sentences: [
+          'Du bist lieb und ehrlich und offen, und dabei völlig anspruchslos.',
+          'Ich glaube, Sie suchen den Begriff "anspruchslos"',
+          'Weil du zu anspruchslos bist.',
+          'Azaleen sind anspruchslose Zimmerpflanzen',
+          'Tom lebt anspruchslos und bescheiden.'
+        ],
+      },
+      {
+        language: "ger",
+        word: "vermittelbar",
+        forms: ["-"],
+        type: "adv",
+        variantA: "передаваемый, посреднический",
+        variantB: "представительный, внешний",
+        variantC: "весомый, значимый",
+        variantD: "беспритязательный, скромный, неприхотливый",
+        correctAnswer: "передаваемый, посреднический",
+        cognate_words: [
+          {
+            word: 'vermitteln',
+            translate: 'сообщать, ознакамливать, передавать'
+          },
+          {
+            word: 'vermittels',
+            translate: 'посредством, при помощи'
+          },
+          {
+            word: 'die Vermittlung',
+            translate: 'посредничество, содействие'
+          },
+        ],
+        sentences: [
+          'Außerdem bin ich unglaublich gut vermittelbar',
+          'Hoffer geht davon aus, dass die Wirklichkeit nicht durch Sprache vermittelbar ist',
+          'Das macht ihn besser vermittelbar',
+          'So wie die Dinge stehen, wird die Wahl des einen Kandidaten wohl leichter vermittelbar sein als die andere',
+          'Und wenn wie hier die Arbeitslosigkeit insbesondere unter Jugendlichen hoch ist, steigt die Gefahr, dass diese langfristig nicht mehr vermittelbar sind'
+        ],
+      },
+    //   {
+    //     language: "ger",
+    //     word: "hinterher",
+    //     forms: ["-"],
+    //     type: "adv",
+    //     variantA: "сразу, как только",
+    //     variantB: "основополагающийся",
+    //     variantC: "позади, после",
+    //     variantD: "перед тем как, до того как",
+    //     correctAnswer: "позади, после",
+    //   },
+    //   {
+    //     language: "ger",
+    //     word: "vornherein",
+    //     forms: ["-"],
+    //     type: "adv",
+    //     variantA: "сразу, с самого начала",
+    //     variantB: "лежащий в основе",
+    //     variantC: "позади, после",
+    //     variantD: "после того как, следом за",
+    //     correctAnswer: "сразу, с самого начала",
+    //   },
+    //   {
+    //     language: "ger",
+    //     word: "ehrgeizig",
+    //     forms: ["ehrgeiziger", "am ehrgeizigsten"],
+    //     type: "adj",
+    //     variantA: "честолюбивый, амбициозный",
+    //     variantB: "мнительный, сомнительный",
+    //     variantC: "гневный, раздраженный",
+    //     variantD: "беспритязательный, скромный",
+    //     correctAnswer: "честолюбивый, амбициозный",
+    //   },
+    //   {
+    //     language: "ger",
+    //     word: "bestimmbar",
+    //     forms: ["bestimmbarer", "am bestimmbarsten"],
+    //     type: "adj",
+    //     variantA: "неопределенный, неоконченный",
+    //     variantB: "определимый, окончательный, решительный",
+    //     variantC: "несогласный, противоречащий",
+    //     variantD: "переходной, переходящий",
+    //     correctAnswer: "определимый, окончательный, решительный",
+    //   },
+
+
+
 //   {
 //     language: "ger",
 //     word: "der Verband",
@@ -2699,116 +2906,7 @@ const GermanWordsTest: TestType[] = [
 //     variantD: "возвращение, возврат",
 //     correctAnswer: "уравнивание, компенсация, возмещение",
 //   },
-//   {
-//     language: "ger",
-//     word: "die Einsparung",
-//     forms: ["die Einsparungen"],
-//     type: "nomen",
-//     variantA: "замена, подмена",
-//     variantB: "расход, издержки",
-//     variantC: "компенсация, возмещение",
-//     variantD: "сокращение, экономия",
-//     correctAnswer: "сокращение, экономия",
-//   },
-//   {
-//     language: "ger",
-//     word: "nächstliegend",
-//     forms: ["-"],
-//     type: "adv",
-//     variantA: "ближайщий, близе всего расположенный",
-//     variantB: "подразумивающийся, обсуждающийся",
-//     variantC: "в следующий раз, следующий",
-//     variantD: "пережитый, прожитый",
-//     correctAnswer: "ближайщий, близе всего расположенный",
-//   },
-//   {
-//     language: "ger",
-//     word: "einsetzbar",
-//     forms: ["-"],
-//     type: "adv",
-//     variantA: "мнительный",
-//     variantB: "платежный",
-//     variantC: "применимый",
-//     variantD: "заменимый",
-//     correctAnswer: "применимый",
-//   },
-//   {
-//     language: "ger",
-//     word: "gegenseitig",
-//     forms: ["-"],
-//     type: "adv",
-//     variantA: "отвратительный",
-//     variantB: "взаимный",
-//     variantC: "законный",
-//     variantD: "должный",
-//     correctAnswer: "взаимный",
-//   },
-//   {
-//     language: "ger",
-//     word: "anspruchslos",
-//     forms: ["-"],
-//     type: "adv",
-//     variantA: "отвратительный, некрасивый, отвратный",
-//     variantB: "взаимный, уважительный, благодарный",
-//     variantC: "весомый, значимый",
-//     variantD: "беспритязательный, скромный, неприхотливый",
-//     correctAnswer: "беспритязательный, скромный, неприхотливый",
-//   },
-//   {
-//     language: "ger",
-//     word: "vermittelbar",
-//     forms: ["-"],
-//     type: "adv",
-//     variantA: "передаваемый, посреднический",
-//     variantB: "представительный, внешний",
-//     variantC: "весомый, значимый",
-//     variantD: "беспритязательный, скромный, неприхотливый",
-//     correctAnswer: "передаваемый, посреднический",
-//   },
-//   {
-//     language: "ger",
-//     word: "hinterher",
-//     forms: ["-"],
-//     type: "adv",
-//     variantA: "сразу, как только",
-//     variantB: "основополагающийся",
-//     variantC: "позади, после",
-//     variantD: "перед тем как, до того как",
-//     correctAnswer: "позади, после",
-//   },
-//   {
-//     language: "ger",
-//     word: "vornherein",
-//     forms: ["-"],
-//     type: "adv",
-//     variantA: "сразу, с самого начала",
-//     variantB: "лежащий в основе",
-//     variantC: "позади, после",
-//     variantD: "после того как, следом за",
-//     correctAnswer: "сразу, с самого начала",
-//   },
-//   {
-//     language: "ger",
-//     word: "ehrgeizig",
-//     forms: ["ehrgeiziger", "am ehrgeizigsten"],
-//     type: "adj",
-//     variantA: "честолюбивый, амбициозный",
-//     variantB: "мнительный, сомнительный",
-//     variantC: "гневный, раздраженный",
-//     variantD: "беспритязательный, скромный",
-//     correctAnswer: "честолюбивый, амбициозный",
-//   },
-//   {
-//     language: "ger",
-//     word: "bestimmbar",
-//     forms: ["bestimmbarer", "am bestimmbarsten"],
-//     type: "adj",
-//     variantA: "неопределенный, неоконченный",
-//     variantB: "определимый, окончательный, решительный",
-//     variantC: "несогласный, противоречащий",
-//     variantD: "переходной, переходящий",
-//     correctAnswer: "определимый, окончательный, решительный",
-//   },
+//   
 //   {
 //     language: "ger",
 
