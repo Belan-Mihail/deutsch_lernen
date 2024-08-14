@@ -516,51 +516,326 @@ const GermanWordsTest: TestType[] = [
           'Und wenn wie hier die Arbeitslosigkeit insbesondere unter Jugendlichen hoch ist, steigt die Gefahr, dass diese langfristig nicht mehr vermittelbar sind'
         ],
       },
-    //   {
-    //     language: "ger",
-    //     word: "hinterher",
-    //     forms: ["-"],
-    //     type: "adv",
-    //     variantA: "сразу, как только",
-    //     variantB: "основополагающийся",
-    //     variantC: "позади, после",
-    //     variantD: "перед тем как, до того как",
-    //     correctAnswer: "позади, после",
-    //   },
-    //   {
-    //     language: "ger",
-    //     word: "vornherein",
-    //     forms: ["-"],
-    //     type: "adv",
-    //     variantA: "сразу, с самого начала",
-    //     variantB: "лежащий в основе",
-    //     variantC: "позади, после",
-    //     variantD: "после того как, следом за",
-    //     correctAnswer: "сразу, с самого начала",
-    //   },
-    //   {
-    //     language: "ger",
-    //     word: "ehrgeizig",
-    //     forms: ["ehrgeiziger", "am ehrgeizigsten"],
-    //     type: "adj",
-    //     variantA: "честолюбивый, амбициозный",
-    //     variantB: "мнительный, сомнительный",
-    //     variantC: "гневный, раздраженный",
-    //     variantD: "беспритязательный, скромный",
-    //     correctAnswer: "честолюбивый, амбициозный",
-    //   },
-    //   {
-    //     language: "ger",
-    //     word: "bestimmbar",
-    //     forms: ["bestimmbarer", "am bestimmbarsten"],
-    //     type: "adj",
-    //     variantA: "неопределенный, неоконченный",
-    //     variantB: "определимый, окончательный, решительный",
-    //     variantC: "несогласный, противоречащий",
-    //     variantD: "переходной, переходящий",
-    //     correctAnswer: "определимый, окончательный, решительный",
-    //   },
-
+      {
+        language: "ger",
+        word: "hinterher",
+        forms: ["-"],
+        type: "adv",
+        variantA: "сразу, как только",
+        variantB: "основополагающийся",
+        variantC: "позади, после",
+        variantD: "перед тем как, до того как",
+        correctAnswer: "позади, после",
+        cognate_words: [
+          
+        ],
+        sentences: [
+          'Was ist hinterher passiert?',
+          'Der Dieb lief weg und der Polizist hinterher',
+          'Er aß zwei Spiegeleier und hinterher noch ein Müsli',
+          'Das schwierigste ist, hinterher alles aufzuwischen',
+          'Ich war gestern auch da und sah was hinterher passierte.'
+        ],
+      },
+      {
+        language: "ger",
+        word: "vornherein",
+        forms: ["-"],
+        type: "adv",
+        variantA: "сразу, с самого начала",
+        variantB: "лежащий в основе",
+        variantC: "позади, после",
+        variantD: "после того как, следом за",
+        correctAnswer: "сразу, с самого начала",
+        cognate_words: [
+          
+        ],
+        sentences: [
+          'Ich wollte es nur im Vornherein klarstellen.',
+          'Sie müssen die Banken im vornherein ausspionieren',
+        ],
+      },
+      {
+        language: "ger",
+        word: "ehrgeizig",
+        forms: ["ehrgeiziger", "am ehrgeizigsten"],
+        type: "adj",
+        variantA: "честолюбивый, амбициозный",
+        variantB: "мнительный, сомнительный",
+        variantC: "гневный, раздраженный",
+        variantD: "беспритязательный, скромный",
+        correctAnswer: "честолюбивый, амбициозный",
+        cognate_words: [
+          {
+            word: 'der Ehrgeiz',
+            translate: 'тщеславие, честолюбие, самолю́бие'
+          },
+          {
+            word: 'der Ehrgeizling',
+            translate: 'карьерист'
+          },
+        ],
+        sentences: [
+          'Das ist ein ehrgeiziges , aber realistisches Ziel.',
+          'Er ist ehrgeizig',
+          'Tom war nie ehrgeizig',
+          'Wie schlau du bist, wie toll, wie witzig, wie ehrgeizig',
+          'Ich bin genauso ehrgeizig wie Sie.'
+        ],
+      },
+      {
+        language: "ger",
+        word: "bestimmbar",
+        forms: ["bestimmbarer", "am bestimmbarsten"],
+        type: "adj",
+        variantA: "неопределенный, неоконченный",
+        variantB: "определимый, окончательный, решительный",
+        variantC: "несогласный, противоречащий",
+        variantD: "переходной, переходящий",
+        correctAnswer: "определимый, окончательный, решительный",
+        cognate_words: [
+          
+        ],
+        sentences: [
+          'Nicht näher bestimmbarer Fehler in der E-Mail-Adresse',
+          'Es geht tatsächlich um eine zeitlich sehr genau bestimmbare Sache.',
+        ],
+      },
+      {
+            language: "ger",
+            word: "erhoffen",
+            forms: ["erhofft", "erhoffte", "hat erhofft"],
+            type: "verb",
+            variantA: "переживать, сомневаться",
+            variantB: "ожидать, надеяться",
+            variantC: "осуществлять, реализировать",
+            variantD: "добиваться успеха, достигать цели",
+            correctAnswer: "ожидать, надеяться",
+            cognate_words: [
+          
+            ],
+            sentences: [
+              'Sansa Stark ist eine bessere Belohnung als du je erhoffen konntest.',
+              'Einen neuen Planeten aufzunehmen, ist die schönste Aufgabe, die sich ein Admiral erhoffen kann.',
+              'Das Beste, was du dir erhoffen kannst, ist, dass er ein Albtraum ist.',
+              'Tom erhoffte sich einen Kuss',
+              'Was hast du dir zu sehen erhofft',
+            ],
+          },
+          {
+            language: "ger",
+            word: "erleben",
+            forms: ["erlebt", "erlebte", "hat erlebt"],
+            type: "verb",
+            variantA: "пережить, испытывать, увидеть",
+            variantB: "ожидать, надеяться",
+            variantC: "окончить, произойти",
+            variantD: "добиваться успеха, достигать цели",
+            correctAnswer: "пережить, испытывать, увидеть",
+            cognate_words: [
+              {
+                word: 'das Erleben',
+                translate: 'опыт, испытание'
+              },
+              {
+                word: 'der Erlebensfall',
+                translate: 'жизненный случай'
+              },
+            ],
+            sentences: [
+              'Dabei erleben sie Abenteuer',
+              'Ich möchte keine weiteren Überraschungen erleben',
+              'Ich habe schon sehr viel erlebt',
+              'Zu schade, dass Sie das nicht erleben werden.',
+              'Aber selbst wenn die Dämonen gewinnen, du wirst es nicht mehr erleben'
+            ],
+          },
+          {
+            language: "ger",
+            word: "erwähnen",
+            forms: ["erwähnt", "erwähnte", "hat erwähnt"],
+            type: "verb",
+            variantA: "испытывать, переживать",
+            variantB: "упоминать, касаться",
+            variantC: "вспомнить, вспоминать",
+            variantD: "сохранять, оберегать",
+            correctAnswer: "упоминать, касаться",
+            cognate_words: [
+              {
+                word: 'erwähnenswert',
+                translate: 'достойный упоминания, заслуживающий внимание'
+              },
+            ],
+            sentences: [
+              'Ich wusste, dass ich vergessen hatte, etwas zu erwähnen...',
+              'Ich werde nicht erwähnen, dass wir gesprochen haben.',
+              'Ich sollte das mit der Nacht erwähnen...',
+              'Da gibt es etwas, das ich vergessen habe zu erwähnen.',
+              'Gut, dass Sie sie erwähnen.'
+            ],
+          },
+          {
+            language: "ger",
+            word: "faszinieren",
+            forms: ["fasziniert", "faszinierte", "hat fasziniert"],
+            type: "verb",
+            variantA: "испытывать, переживать",
+            variantB: "упоминать, касаться",
+            variantC: "разачаровываться, разачароваться",
+            variantD: "очаровывать, завораживать",
+            correctAnswer: "очаровывать, завораживать",
+            cognate_words: [
+              {
+                word: 'die Faszination',
+                translate: 'обаяние, восхище́ние'
+              },
+              {
+                word: 'das Faszinosum',
+                translate: 'очарование, привлекательность'
+              },
+            ],
+            sentences: [
+              'Mathematik fasziniert mich',
+              'Bücher faszinieren mich',
+              'Ich bin von Katzen fasziniert',
+              'Die Geschichten über das schnellere Leben faszinieren sie.',
+              'Ich gebe zu, Sie faszinieren mich'
+            ],
+          },
+          {
+            language: "ger",
+            word: "scheiten",
+            forms: ["scheitet", "scheitete", "hat gescheitet"],
+            type: "verb",
+            variantA: "казаться, случаться",
+            variantB: "упоминать, касаться",
+            variantC: "потерпеть неудачу, обломиться, провалиться",
+            variantD: "кивать, шатать",
+            correctAnswer: "потерпеть неудачу, обломиться, провалиться",
+            cognate_words: [
+          
+            ],
+            sentences: [
+              'Wir möchten Sie nicht scheitern sehen, Eldritch',
+              'Eine Gruppe ohne Einsatzbereitschaft wird scheitern.',
+              'Diese Übung sollte Sie scheitern lassen.',
+              'Es macht nichts, wenn Sie scheitern.',
+              
+            ],
+          },
+          {
+            language: "ger",
+            word: "spüren",
+            forms: ["spürt", "spürte", "hat gespürt"],
+            type: "verb",
+            variantA: "сэкономить, сберегать",
+            variantB: "почувствовать, чувствовать, ощущать",
+            variantC: "потерпеть неудачу, обломиться, провалиться",
+            variantD: "мыть, помыть",
+            correctAnswer: "почувствовать, чувствовать, ощущать",
+            cognate_words: [
+              {
+                word: 'spürbar',
+                translate: 'заметный, чувствительный'
+              },
+            ],
+            sentences: [
+              'Ich kann einfach spüren, dass Sie etwas bedrückt',
+              'Wir nahmen Drogen, um nichts zu spüren',
+              'Ich kann seine Kraft noch spüren.',
+              'Ich denke, ich beginne etwas zu spüren',
+              'Spürst du es?'
+            ],
+          },
+          {
+            language: "ger",
+            word: "um hören SICH",
+            forms: ["hört um", "hörte um", "hat umgehört"],
+            type: "verb",
+            variantA: "расспрашивать, расспросить, слушать друг друга",
+            variantB: "почувствовать, чувствовать, ощущать",
+            variantC: "завладевать, забирать у кого-то",
+            variantD: "оканчивать, заканчивать, завершать",
+            correctAnswer: "расспрашивать, расспросить, слушать друг друга",
+            cognate_words: [
+            ],
+            sentences: [
+              'Möchtest du, dass ich mich für dich umhöre?',
+              'Ich habe mich nach Tom umgehört',
+              'Ja, ich werde mich mal umhören',
+              'Vielleicht sollt ich doch nach Denver fahren und mich umhören.',
+              'Kann er sich nicht mal umhören?'
+            ],
+          },
+          {
+            language: "ger",
+            word: "voran kommen",
+            forms: ["kommt voran", "kam voran", "ist vorangekommen"],
+            type: "verb",
+            variantA: "приближаться к, подходить",
+            variantB: "приезжать, прибывать",
+            variantC: "усовершетсвовать, улучшать",
+            variantD: "продвигаться вперёд, продвинуться вперёд",
+            correctAnswer: "продвигаться вперёд, продвинуться вперёд",
+            cognate_words: [
+            ],
+            sentences: [
+              'Booth sagt, dass wir vorankommen müssen',
+              'Wir alle müssen vorankommen, Will.',
+              'Und ich dachte, wir würden vorankommen!',
+              'Wir kamen rasch voran',
+              'Nicht alle guten Menschen werden vorankommen'
+            ],
+          },
+          {
+            language: "ger",
+            word: "zwingen ZU",
+            forms: ["zwingt", "zwang", "hat gezwungen"],
+            type: "verb",
+            variantA: "сближаться, приближаться",
+            variantB: "вынудить, заставлять, принуждать",
+            variantC: "усовершетсвовать, улучшать",
+            variantD: "осуждать, корить, ругать",
+            correctAnswer: "вынудить, заставлять, принуждать",
+            cognate_words: [
+              {
+                word: 'die Zwinge',
+                translate: 'тиски'
+              },
+            ],
+            sentences: [
+              'Ich werde dazu gezwungen',
+              'Ich zwinge sie nicht',
+              'Warum zwingst du mich dazu?',
+              'Ihr könnt mich zwingen, zu bleiben...',
+              'Eigentlich wollte ich dich zwingen deinen Bruder zu töten.'
+            ],
+          },
+          {
+            language: "ger",
+            word: "frustrieren",
+            forms: ["frustriert", "frustrierte", "hat frustriert"],
+            type: "verb",
+            variantA: "восхищаться, радоваться",
+            variantB: "вынудить, заставлять, принуждать",
+            variantC: "расстраиваться, вводить в заблуждение",
+            variantD: "осуждать, корить, ругать",
+            correctAnswer: "расстраиваться, вводить в заблуждение",
+            cognate_words: [
+              {
+                word: 'die Frustration',
+                translate: 'раздражение, чувство неудовлетворённости'
+              },
+            ],
+            sentences: [
+              'Sie wurden schön langsam frustriert',
+              'Du bist über deine Arbeit frustriert',
+              'Warum sollte mich das frustrieren?',
+              'Ich weiß, und es tut mir leid, Sie zu frustrieren.',
+              'Ich sah keinen Grund, Sie zu frustrieren...'
+            ],
+          },
+          
 
 
 //   {
@@ -2532,116 +2807,9 @@ const GermanWordsTest: TestType[] = [
 //     variantD: "случиться, произойти, наступить",
 //     correctAnswer: "начинать действовать, браться за дело",
 //   },
-//   {
-//     language: "ger",
-//     word: "erhoffen",
-//     forms: ["erhofft", "erhoffte", "hat erhofft"],
-//     type: "verb",
-//     variantA: "переживать, сомневаться",
-//     variantB: "ожидать, надеяться",
-//     variantC: "осуществлять, реализировать",
-//     variantD: "добиваться успеха, достигать цели",
-//     correctAnswer: "ожидать, надеяться",
-//   },
-//   {
-//     language: "ger",
-//     word: "erleben",
-//     forms: ["erlebt", "erlebte", "hat erlebt"],
-//     type: "verb",
-//     variantA: "пережить, испытывать, переживать",
-//     variantB: "ожидать, надеяться",
-//     variantC: "окончить, произойти",
-//     variantD: "добиваться успеха, достигать цели",
-//     correctAnswer: "пережить, испытывать, переживать",
-//   },
-//   {
-//     language: "ger",
-//     word: "erwähnen",
-//     forms: ["erwähnt", "erwähnte", "hat erwähnt"],
-//     type: "verb",
-//     variantA: "испытывать, переживать",
-//     variantB: "упоминать, касаться",
-//     variantC: "вспомнить, вспоминать",
-//     variantD: "сохранять, оберегать",
-//     correctAnswer: "упоминать, касаться",
-//   },
-//   {
-//     language: "ger",
-//     word: "faszinieren",
-//     forms: ["fasziniert", "faszinierte", "hat fasziniert"],
-//     type: "verb",
-//     variantA: "испытывать, переживать",
-//     variantB: "упоминать, касаться",
-//     variantC: "разачаровываться, разачароваться",
-//     variantD: "очаровывать, завораживать",
-//     correctAnswer: "очаровывать, завораживать",
-//   },
-//   {
-//     language: "ger",
-//     word: "scheiten",
-//     forms: ["scheitet", "scheitete", "hat gescheitet"],
-//     type: "verb",
-//     variantA: "казаться, случаться",
-//     variantB: "упоминать, касаться",
-//     variantC: "потерпеть неудачу, обломиться, провалиться",
-//     variantD: "кивать, шатать",
-//     correctAnswer: "потерпеть неудачу, обломиться, провалиться",
-//   },
-//   {
-//     language: "ger",
-//     word: "spüren",
-//     forms: ["spürt", "spürte", "hat gespürt"],
-//     type: "verb",
-//     variantA: "сэкономить, сберегать",
-//     variantB: "почувствовать, чувствовать, ощущать",
-//     variantC: "потерпеть неудачу, обломиться, провалиться",
-//     variantD: "мыть, помыть",
-//     correctAnswer: "почувствовать, чувствовать, ощущать",
-//   },
-//   {
-//     language: "ger",
-//     word: "um hören IN BEI",
-//     forms: ["hört um", "hörte um", "hat umgehört"],
-//     type: "verb",
-//     variantA: "расспрашивать, расспросить, слушать друг друга",
-//     variantB: "почувствовать, чувствовать, ощущать",
-//     variantC: "завладевать, забирать у кого-то",
-//     variantD: "оканчивать, заканчивать, завершать",
-//     correctAnswer: "расспрашивать, расспросить, слушать друг друга",
-//   },
-//   {
-//     language: "ger",
-//     word: "voran kommen",
-//     forms: ["kommt voran", "kam voran", "ist vorangekommen"],
-//     type: "verb",
-//     variantA: "приближаться к, подходить",
-//     variantB: "приезжать, прибывать",
-//     variantC: "усовершетсвовать, улучшать",
-//     variantD: "продвигаться вперёд, продвинуться вперёд",
-//     correctAnswer: "продвигаться вперёд, продвинуться вперёд",
-//   },
-//   {
-//     language: "ger",
-//     word: "zwingen",
-//     forms: ["zwingt", "zwang", "hat gezwungen"],
-//     type: "verb",
-//     variantA: "сближаться, приближаться",
-//     variantB: "вынудить, заставлять, принуждать",
-//     variantC: "усовершетсвовать, улучшать",
-//     variantD: "осуждать, корить, ругать",
-//     correctAnswer: "вынудить, заставлять, принуждать",
-//   },
-//   {
-//     language: "ger",
-//     word: "frustrieren",
-//     forms: ["frustriert", "frustrierte", "hat frustriert"],
-//     type: "verb",
-//     variantA: "восхищаться, радоваться",
-//     variantB: "вынудить, заставлять, принуждать",
-//     variantC: "расстраиваться, вводить в заблуждение",
-//     variantD: "осуждать, корить, ругать",
-//     correctAnswer: "расстраиваться, вводить в заблуждение",
-//   },
+//   
+
+
 //   {
 //     language: "ger",
 //     word: "aus suchen",
