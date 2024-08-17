@@ -836,7 +836,220 @@ const GermanWordsTest: TestType[] = [
             ],
           },
           
-
+          {
+                language: "ger",
+                word: "die Angelegenheit",
+                forms: ["die Angelegenheiten"],
+                type: "nomen",
+                variantA: "возможность, шанс",
+                variantB: "дело, вопрос",
+                variantC: "случай, происшествие",
+                variantD: "объект, ресурс",
+                correctAnswer: "дело, вопрос",
+                cognate_words: [
+                  {
+                    word: 'angelegentlich',
+                    translate: 'время от времени, по случаю'
+                  },
+                ],
+                sentences: [
+                  'Stecke deine Nase nicht in fremde Angelegenheiten',
+                  'Wir diskutierten die Angelegenheit',
+                  'Das ist eine abgeschlossene Angelegenheit',
+                  'Die Angelegenheit erfordert einen kühlen Kopf.',
+                  'Was Sie damit machen ist Ihre Angelegenheit.'
+                ],
+              },
+              {
+                language: "ger",
+                word: "berechtigt",
+                forms: ["berechtigter", "am berechtigtsten"],
+                type: "adv",
+                variantA: "отрегулированный, настроеный",
+                variantB: "мнительный, робкий",
+                variantC: "обоснованный, справедливый",
+                variantD: "опасный",
+                correctAnswer: "обоснованный, справедливый",
+                cognate_words: [
+                  {
+                    word: 'berechtigen',
+                    translate: 'давать право, давать основание'
+                  },
+                  {
+                    word: 'die Berechtigung',
+                    translate: 'право, обоснованность'
+                  },
+                  {
+                    word: 'berechtigterweise',
+                    translate: 'обоснованно, справедливо'
+                  },
+                ],
+                sentences: [
+                  'Das ist berechtigt',
+                  'Das ist eine berechtigte Frage',
+                  'Ich akzeptiere Kritik, wenn sie berechtigt ist',
+                  'Es gibt keinen berechtigten Grund für dich, so zu denken.',
+                  'Nur Klubmitglieder sind berechtigt, diesen Raum zu nutzen.'
+                ],
+              },
+              
+              {
+                language: "ger",
+                word: "aus werten",
+                forms: ["wertet aus", "wertete aus", "hat ausgewertet"],
+                type: "verb",
+                variantA: "отправляться, направляться",
+                variantB: "прекращать, сдаваться",
+                variantC: "отказываться, избавляться",
+                variantD: "анализировать, оценивать",
+                correctAnswer: "анализировать, оценивать",
+                cognate_words: [
+                  {
+                    word: 'auswertbar',
+                    translate: 'поддающийся анализу'
+                  },
+                  {
+                    word: 'die Auswertbarkeit',
+                    translate: 'анализируемость, оцениваемость'
+                  },
+                  {
+                    word: 'die Auswertung',
+                    translate: 'анализ, оценка'
+                  },
+                ],
+                sentences: [
+                  'Kannst du die Statistik auswerten ?',
+                  'Wir haben die Umfrage ausgewertet',
+                  'Er wertet das Experiment noch aus',
+                  'Bevor wir also noch einen Schritt gehen, lass mich das Angebot auswerten.',
+                  'Als du mir gesagt hast, du hättest zuerst meine Ideen auswerten sollen, da hast du nicht gesagt, dass sie gut seien.'
+                ],
+              },
+              {
+                language: "ger",
+                word: "ernst nehmen",
+                forms: ["nimmt ernst", "nahm ernst", "hat ernst genommen"],
+                type: "verb",
+                variantA: "брать впервые",
+                variantB: "прекращать",
+                variantC: "воспринимать всерьез",
+                variantD: "анализировать",
+                correctAnswer: "воспринимать всерьез",
+                cognate_words: [
+                  
+                ],
+                sentences: [
+                  'Keiner nimmt uns ernst',
+                  'Ich nehme meine Arbeit ernst',
+                  'Tom nimmt sein Studium nicht ernst',
+                  'Ich glaube nicht, dass Sie das wirklich ernstnehmen.',
+                  'Wenn ich ihm gegenüber Ihren Namen erwähne, wird er mich nicht ernstnehmen.'
+                ],
+              },
+              {
+                language: "ger",
+                word: "belegen",
+                forms: ["belegt", "belegte", "hat belegt"],
+                type: "verb",
+                variantA: "переживать",
+                variantB: "прекращать",
+                variantC: "занимать, доказывать",
+                variantD: "откладывать, сомневаться",
+                correctAnswer: "занимать, доказывать",
+                cognate_words: [
+                  {
+                    word: 'der Beleg',
+                    translate: 'свидетельство, доказательство'
+                  },
+                ],
+                sentences: [
+                  'Er belegte leider nur den vierten Platz.',
+                  'Alle Zimmer sind belegt',
+                  'Er hat seinen Anspruch nicht belegt',
+                  'Und deshalb müssen wir jetzt ein paar stichhaltige Beweise finden, um es zu belegen.',
+                  'Also brauchten wir Theorien über diese Ziele, die wir belegen oder widerlegen konnten.'
+                ],
+              },
+              {
+                language: "ger",
+                word: "an nehmen",
+                forms: ["nimmt an", "nahm an", "hat angenommen"],
+                type: "verb",
+                variantA: "соглашаться, одобрять",
+                variantB: "отказывать, отклонять",
+                variantC: "принимать, предполагать",
+                variantD: "откладывать, сомневаться",
+                correctAnswer: "принимать, предполагать",
+                cognate_words: [
+                  {
+                    word: 'annehmbar',
+                    translate: 'приемлимый, допустимый'
+                  },
+                  {
+                    word: 'annehmlich',
+                    translate: 'удобный'
+                  },
+                  {
+                    word: 'die Annehmlichkeit',
+                    translate: 'удобства'
+                  },
+                  {
+                    word: 'die Annahme',
+                    translate: 'предположение, допущение'
+                  },
+                ],
+                sentences: [
+                  'Deine Entschuldigung ist angenommen',
+                  'Wir nehmen kein Trinkgeld an',
+                  'Wir können nur annehmen, dass sie hinter dem Angriff stecken.',
+                  'In Ordnung, lass uns annehmen, dass wir die Handschellen aufbekommen.',
+                  'Ich muss annehmen, dass Sie hier sind, weil Sie wieder zurück wollen.'
+                ],
+              },
+            //   {
+            //     language: "ger",
+            //     word: "auf nehmen",
+            //     forms: ["nimmt auf", "nahm auf", "hat aufgenommen"],
+            //     type: "verb",
+            //     variantA: "соглашаться, одобрять, склоняться",
+            //     variantB: "отказывать, отклонять",
+            //     variantC: "принимать, предполагать, предвидеть",
+            //     variantD: "включать в себя, получать, начинать",
+            //     correctAnswer: "включать в себя, получать, начинать",
+            //   },
+            //   {
+            //     language: "ger",
+            //     word: "benehmen SICH",
+            //     forms: ["benimmt", "benahm", "hat benommen"],
+            //     type: "verb",
+            //     variantA: "соглашаться, одобрять, склоняться",
+            //     variantB: "вести себя",
+            //     variantC: "принимать, предполагать, предвидеть",
+            //     variantD: "включать в себя, получать, начинать",
+            //     correctAnswer: "вести себя",
+            //   },
+            //   {
+            //     language: "ger",
+            //     word: "das Benehmen",
+            //     forms: ["die Benehmen"],
+            //     type: "nome",
+            //     variantA: "одобрение",
+            //     variantB: "согласие",
+            //     variantC: "поведение",
+            //     variantD: "заявление",
+            //     correctAnswer: "поведение",
+            //   },
+            //   {
+            //     language: "ger",
+            //     word: "zebrechen",
+            //     forms: ["zebricht", "zebrach", "ist zerbrochen"],
+            //     type: "verb",
+            //     variantA: "столкнуться, спотыкаться",
+            //     variantB: "ранить, пораниться",
+            //     variantC: "нарушать, несоблюдать",
+            //     variantD: "разбивать, ломать",
+            //     correctAnswer: "разбивать, ломать",
+            //   },
 
 //   {
 //     language: "ger",
@@ -1674,116 +1887,7 @@ const GermanWordsTest: TestType[] = [
 //     variantD: "вскоре, скоро",
 //     correctAnswer: "вскоре, скоро",
 //   },
-//   {
-//     language: "ger",
-//     word: "die Angelegenheit",
-//     forms: ["die Angelegenheiten"],
-//     type: "nomen",
-//     variantA: "возможность, шанс",
-//     variantB: "дело, вопрос",
-//     variantC: "случай, происшествие",
-//     variantD: "объект, ресурс",
-//     correctAnswer: "дело, вопрос",
-//   },
-//   {
-//     language: "ger",
-//     word: "berechtigt",
-//     forms: ["berechtigter", "am berechtigtsten"],
-//     type: "adv",
-//     variantA: "отрегулированный, настроеный",
-//     variantB: "мнительный, робкий",
-//     variantC: "справедливый, законный",
-//     variantD: "опасный",
-//     correctAnswer: "справедливый, законный",
-//   },
-//   {
-//     language: "ger",
-//     word: "aus·werten",
-//     forms: ["wertet aus", "wertete aus", "hat ausgewertet"],
-//     type: "verb",
-//     variantA: "отправляться, направляться",
-//     variantB: "прекращать, сдаваться",
-//     variantC: "отказываться, избавляться",
-//     variantD: "анализировать, оценивать",
-//     correctAnswer: "анализировать, оценивать",
-//   },
-//   {
-//     language: "ger",
-//     word: "ernst nehmen",
-//     forms: ["nimmt ernst", "nahm ernst", "hat ernst genommen"],
-//     type: "verb",
-//     variantA: "брать впервые",
-//     variantB: "прекращать",
-//     variantC: "воспринимать всерьез",
-//     variantD: "анализировать",
-//     correctAnswer: "воспринимать всерьез",
-//   },
-//   {
-//     language: "ger",
-//     word: "belegen",
-//     forms: ["belegt", "belegte", "hat belegt"],
-//     type: "verb",
-//     variantA: "переживать",
-//     variantB: "прекращать",
-//     variantC: "занимать, доказывать",
-//     variantD: "откладывать, сомневаться",
-//     correctAnswer: "занимать, доказывать",
-//   },
-//   {
-//     language: "ger",
-//     word: "an nehmen",
-//     forms: ["nimmt an", "nahm an", "hat angenommen"],
-//     type: "verb",
-//     variantA: "соглашаться, одобрять",
-//     variantB: "отказывать, отклонять",
-//     variantC: "принимать, предполагать",
-//     variantD: "откладывать, сомневаться",
-//     correctAnswer: "принимать, предполагать",
-//   },
-//   {
-//     language: "ger",
-//     word: "auf nehmen",
-//     forms: ["nimmt auf", "nahm auf", "hat aufgenommen"],
-//     type: "verb",
-//     variantA: "соглашаться, одобрять, склоняться",
-//     variantB: "отказывать, отклонять",
-//     variantC: "принимать, предполагать, предвидеть",
-//     variantD: "включать в себя, получать, начинать",
-//     correctAnswer: "включать в себя, получать, начинать",
-//   },
-//   {
-//     language: "ger",
-//     word: "benehmen SICH",
-//     forms: ["benimmt", "benahm", "hat benommen"],
-//     type: "verb",
-//     variantA: "соглашаться, одобрять, склоняться",
-//     variantB: "вести себя",
-//     variantC: "принимать, предполагать, предвидеть",
-//     variantD: "включать в себя, получать, начинать",
-//     correctAnswer: "вести себя",
-//   },
-//   {
-//     language: "ger",
-//     word: "das Benehmen",
-//     forms: ["die Benehmen"],
-//     type: "nome",
-//     variantA: "одобрение",
-//     variantB: "согласие",
-//     variantC: "поведение",
-//     variantD: "заявление",
-//     correctAnswer: "поведение",
-//   },
-//   {
-//     language: "ger",
-//     word: "zebrechen",
-//     forms: ["zebricht", "zebrach", "ist zerbrochen"],
-//     type: "verb",
-//     variantA: "столкнуться, спотыкаться",
-//     variantB: "ранить, пораниться",
-//     variantC: "нарушать, несоблюдать",
-//     variantD: "разбивать, ломать",
-//     correctAnswer: "разбивать, ломать",
-//   },
+//   
 //   {
 //     language: "ger",
 //     word: "ähnlich",
