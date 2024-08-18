@@ -1006,17 +1006,17 @@ const GermanWordsTest: TestType[] = [
                   'Ich muss annehmen, dass Sie hier sind, weil Sie wieder zurück wollen.'
                 ],
               },
-            //   {
-            //     language: "ger",
-            //     word: "auf nehmen",
-            //     forms: ["nimmt auf", "nahm auf", "hat aufgenommen"],
-            //     type: "verb",
-            //     variantA: "соглашаться, одобрять, склоняться",
-            //     variantB: "отказывать, отклонять",
-            //     variantC: "принимать, предполагать, предвидеть",
-            //     variantD: "включать в себя, получать, начинать",
-            //     correctAnswer: "включать в себя, получать, начинать",
-            //   },
+              {
+                language: "ger",
+                word: "auf nehmen",
+                forms: ["nimmt auf", "nahm auf", "hat aufgenommen"],
+                type: "verb",
+                variantA: "соглашаться, одобрять, склоняться",
+                variantB: "отказывать, отклонять",
+                variantC: "принимать, предполагать, предвидеть",
+                variantD: "включать в себя, получать, начинать",
+                correctAnswer: "включать в себя, получать, начинать",
+              },
             //   {
             //     language: "ger",
             //     word: "benehmen SICH",
