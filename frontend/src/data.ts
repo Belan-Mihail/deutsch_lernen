@@ -1014,42 +1014,272 @@ const GermanWordsTest: TestType[] = [
                 variantA: "соглашаться, одобрять, склоняться",
                 variantB: "отказывать, отклонять",
                 variantC: "принимать, предполагать, предвидеть",
-                variantD: "включать в себя, получать, начинать",
-                correctAnswer: "включать в себя, получать, начинать",
+                variantD: "принимать, брать, записывать",
+                correctAnswer: "принимать, брать, записывать",
+                cognate_words: [
+                  
+                ],
+                sentences: [
+                  'Im Notfall kann das Schiff bis zu 500 Personen aufnehmen',
+                  'Antoine hat einen Cousin, der uns aufnehmen würde',
+                  'Der Kellner nimmt die Bestellung auf',
+                  'Der Bus hielt, um Fahrgäste aufzunehmen',
+                  'Ich habe einen Kredit aufgenommen '
+                ],
               },
-            //   {
-            //     language: "ger",
-            //     word: "benehmen SICH",
-            //     forms: ["benimmt", "benahm", "hat benommen"],
-            //     type: "verb",
-            //     variantA: "соглашаться, одобрять, склоняться",
-            //     variantB: "вести себя",
-            //     variantC: "принимать, предполагать, предвидеть",
-            //     variantD: "включать в себя, получать, начинать",
-            //     correctAnswer: "вести себя",
-            //   },
-            //   {
-            //     language: "ger",
-            //     word: "das Benehmen",
-            //     forms: ["die Benehmen"],
-            //     type: "nome",
-            //     variantA: "одобрение",
-            //     variantB: "согласие",
-            //     variantC: "поведение",
-            //     variantD: "заявление",
-            //     correctAnswer: "поведение",
-            //   },
-            //   {
-            //     language: "ger",
-            //     word: "zebrechen",
-            //     forms: ["zebricht", "zebrach", "ist zerbrochen"],
-            //     type: "verb",
-            //     variantA: "столкнуться, спотыкаться",
-            //     variantB: "ранить, пораниться",
-            //     variantC: "нарушать, несоблюдать",
-            //     variantD: "разбивать, ломать",
-            //     correctAnswer: "разбивать, ломать",
-            //   },
+              {
+                language: "ger",
+                word: "benehmen SICH",
+                forms: ["benimmt", "benahm", "hat benommen"],
+                type: "verb",
+                variantA: "соглашаться, одобрять, склоняться",
+                variantB: "вести себя",
+                variantC: "принимать, предполагать, предвидеть",
+                variantD: "включать в себя, получать, начинать",
+                correctAnswer: "вести себя",
+                cognate_words: [
+                  {
+                    word: 'das Benehmen',
+                    translate: 'поведение'
+                  },
+                 
+                ],
+                sentences: [
+                  'Versuchen wir doch, uns wie Erwachsene zu benehmen',
+                  'Ich will mich auch nicht ständig wie ein Pennäler benehmen.',
+                  'Ich muss mich wie immer benehmen',
+                  'Ich frag nur, weil sich die Frauen komisch benehmen',
+                  'Sie benehmen sich nicht wie Männer in einer Führungsposition.'
+                ],
+              },
+              {
+                language: "ger",
+                word: "das Benehmen",
+                forms: ["die Benehmen"],
+                type: "nome",
+                variantA: "одобрение",
+                variantB: "согласие",
+                variantC: "поведение",
+                variantD: "заявление",
+                correctAnswer: "поведение",
+                cognate_words: [
+                  {
+                    word: 'benehmen sich',
+                    translate: 'вести себя'
+                  },
+                 
+                ],
+                sentences: [
+                  'Ich entschuldige mich für mein schlechtes Benehmen vorhin.',
+                  'Es kommt Ihnen wohl komisch vor, aber es ist kein militärisches Benehmen.',
+                  'Fünf Monate, und man kriegt nicht mal Urlaub für gutes Benehmen.',
+                  'Ich missbillige sein Benehmen',
+                  'Dein Benehmen ist unerträglich.'
+                ],
+              },
+              {
+                language: "ger",
+                word: "zebrechen",
+                forms: ["zebricht", "zebrach", "ist zerbrochen"],
+                type: "verb",
+                variantA: "столкнуться, спотыкаться",
+                variantB: "ранить, пораниться",
+                variantC: "нарушать, несоблюдать",
+                variantD: "разбивать, ломать",
+                correctAnswer: "разбивать, ломать",
+                cognate_words: [
+                  {
+                    word: 'zerbrechlich',
+                    translate: 'хрупкий, ломкий'
+                  },
+                 
+                ],
+                sentences: [
+                  'Mein Spielzeug ist zerbrochen',
+                  'Es ist eine Sache eher zerbrochen als gebaut.',
+                  'Keiner von denen wird uns zerbrechen',
+                  'Ich könnte dich ganz leicht zerbrechen.',
+                  'Einige Tasten des Klaviers sind zerbrochen '
+                ],
+              },
+
+
+
+              {
+                    language: "ger",
+                    word: "wieder geben",
+                    forms: ["gibt wieder", "gab wieder", "hat wiedergegeben"],
+                    type: "verb",
+                    variantA: "передавать, переносить",
+                    variantB: "излагать, возвращать, воспроизводить",
+                    variantC: "откидывать, выкидывать, откладывать",
+                    variantD: "воспользоваться, организовывать",
+                    correctAnswer: "излагать, возвращать, воспроизводить",
+                    cognate_words: [
+
+                     
+                    ],
+                    sentences: [
+                      'Ich kann meinen Traum nicht wiedergeben',
+                      'Das neue Radio kann die Musik besser wiedergeben als das alte',
+                      'Unglaublich, dass Sie mir meinen Job wiedergeben.',
+                      'Sie werden mir mein altes Leben nicht wiedergeben.',
+                      'Ich werde ihm die Bücher wiedergeben'
+                    ],
+                  },
+                  {
+                    language: "ger",
+                    word: "auf fallen",
+                    forms: ["fällt auf", "fiel auf", "ist aufgefallen"],
+                    type: "verb",
+                    variantA: "выходить из строя, ломаться",
+                    variantB: "производить впечатление, впечетлять",
+                    variantC: "откидывать, выкидывать, откладывать",
+                    variantD: "броситься в глаза, привлечь внимание",
+                    correctAnswer: "броситься в глаза, привлечь внимание",
+                    cognate_words: [
+                      {
+                        word: 'auffallend',
+                        translate: 'бросающийся в глаза, заметный'
+                      },
+                     
+                    ],
+                    sentences: [
+                      'Es ist allen aufgefallen',
+                      'Das fiel mir auch auf ',
+                      'Wenn du nicht auffallen möchtest, versteh ich das',
+                      'Ich meine, wir werden auffallen.',
+                      'Alles klar? Deiner Frau wird ein kleiner Anruf nicht auffallen. '
+                    ],
+                  },
+                  {
+                    language: "ger",
+                    word: "an fallen",
+                    forms: ["fällt an", "fiel an", "ist angefallen"],
+                    type: "verb",
+                    variantA: "выходить из строя, ломаться",
+                    variantB: "производить впечатление, впечетлять",
+                    variantC: "накапливаться, возникать, нападать",
+                    variantD: "броситься в глаза, привлечь внимание",
+                    correctAnswer: "накапливаться, возникать, нападать",
+                    cognate_words: [
+                      {
+                        word: 'der Anfall',
+                        translate: 'припадок, нападе́ние'
+                      },
+                     
+                    ],
+                    sentences: [
+                      'Komm, ich werde dich schon nicht anfallen, guck es dir einfach an.',
+                      'Fünf Dollar werden nicht mal deine Zinsen bezahlen, die dir anfallen. ',
+                      'Und es wird eine monatliche Hausgebühr anfallen.',
+                      
+                    ],
+                  },
+                  {
+                    language: "ger",
+                    word: "ein fallen",
+                    forms: ["fällt ein", "fiel ein", "ist eingefallen"],
+                    type: "verb",
+                    variantA: "выходить из строя, ломаться",
+                    variantB: "озарять, осенять, приходить на ум",
+                    variantC: "накапливаться, возникать, нападать",
+                    variantD: "броситься в глаза, привлечь внимание",
+                    correctAnswer: "озарять, осенять, приходить на ум",
+                    cognate_words: [
+                      {
+                        word: 'der Einfall',
+                        translate: 'иде́я, внеза́пная мысль'
+                      },
+                      {
+                        word: 'einfallslos',
+                        translate: 'безидейный'
+                      },
+                      {
+                        word: 'die Einfallslosigkeit',
+                        translate: 'безидейность'
+                      },
+                      {
+                        word: 'einfallsreich',
+                        translate: 'находчивый'
+                      },
+                     
+                    ],
+                    sentences: [
+                      'Es wird gleich einfallen',
+                      'Ich denke uns wird da schon etwas einfallen.',
+                      'Da fiel ihnen Tom ein',
+                      'Fällt dir was dazu ein',
+                      'Mir fällt die Geheimzahl nicht ein',
+                      
+                    ],
+                  },
+                //   {
+                //     language: "ger",
+                //     word: "an schließen",
+                //     forms: ["schließt an", "schloss an", "hat angeschlossen"],
+                //     type: "verb",
+                //     variantA: "передавать, передать",
+                //     variantB: "закрывать, прикрывать",
+                //     variantC: "присоеденять, подключать",
+                //     variantD: "отключать, отсоединять",
+                //     correctAnswer: "присоеденять, подключать",
+                //   },
+                //   {
+                //     language: "ger",
+                //     word: "entdecken",
+                //     forms: ["entdeckt", "entdeckte", "hat entdeckt"],
+                //     type: "verb",
+                //     variantA: "обнаруживать, обнаружить",
+                //     variantB: "закрывать, прикрывать",
+                //     variantC: "накрывать, накрыть",
+                //     variantD: "изучать, исследовать",
+                //     correctAnswer: "обнаруживать, обнаружить",
+                //   },
+                //   {
+                //     language: "ger",
+                //     word: "bereuen",
+                //     forms: ["bereut", "bereute", "hat bereut"],
+                //     type: "verb",
+                //     variantA: "печалиться, горевать",
+                //     variantB: "сожалеть, жалеть",
+                //     variantC: "обнаруживать, открывать",
+                //     variantD: "заботиться, беспокоиться",
+                //     correctAnswer: "сожалеть, жалеть",
+                //   },
+                //   {
+                //     language: "ger",
+                //     word: "beseitigen",
+                //     forms: ["beseitigt", "beseitigt", "hat beseitigt"],
+                //     type: "verb",
+                //     variantA: "владеть, овладевать",
+                //     variantB: "занимать место, быть занятым",
+                //     variantC: "обнаруживать, открывать",
+                //     variantD: "устранять, исправлять, удалить",
+                //     correctAnswer: "устранять, исправлять, удалить",
+                //   },
+                //   {
+                //     language: "ger",
+                //     word: "bewerten",
+                //     forms: ["bewertet", "bewertete", "hat bewertet"],
+                //     type: "verb",
+                //     variantA: "рекламировать что-то",
+                //     variantB: "занимать место, быть занятым",
+                //     variantC: "оценивать, расценивать, исчислять стоимость",
+                //     variantD: "жаловаться, обжаловать",
+                //     correctAnswer: "оценивать, расценивать, исчислять стоимость",
+                //   },
+                //   {
+                //     language: "ger",
+                //     word: "erwerben",
+                //     forms: ["erwirbt", "erwarb", "hat erworben"],
+                //     type: "verb",
+                //     variantA: "узнавать, обнаруживать",
+                //     variantB: "приобретать, зарабатывать",
+                //     variantC: "оценивать, расценивать, исчислять стоимость",
+                //     variantD: "жаловаться, обжаловать",
+                //     correctAnswer: "приобретать, зарабатывать",
+                //   },
 
 //   {
 //     language: "ger",
@@ -2350,116 +2580,7 @@ const GermanWordsTest: TestType[] = [
 //     variantD: "воспользоваться, организовывать",
 //     correctAnswer: "излагать, возвращать, воспроизводить",
 //   },
-//   {
-//     language: "ger",
-//     word: "wieder geben",
-//     forms: ["gibt wieder", "gab wieder", "hat wiedergegeben"],
-//     type: "verb",
-//     variantA: "передавать, переносить",
-//     variantB: "излагать, возвращать, воспроизводить",
-//     variantC: "откидывать, выкидывать, откладывать",
-//     variantD: "воспользоваться, организовывать",
-//     correctAnswer: "излагать, возвращать, воспроизводить",
-//   },
-//   {
-//     language: "ger",
-//     word: "auf fallen",
-//     forms: ["fällt auf", "fiel auf", "ist aufgefallen"],
-//     type: "verb",
-//     variantA: "выходить из строя, ломаться",
-//     variantB: "производить впечатление, впечетлять",
-//     variantC: "откидывать, выкидывать, откладывать",
-//     variantD: "броситься в глаза, привлечь внимание",
-//     correctAnswer: "броситься в глаза, привлечь внимание",
-//   },
-//   {
-//     language: "ger",
-//     word: "an fallen",
-//     forms: ["fällt an", "fiel an", "ist angefallen"],
-//     type: "verb",
-//     variantA: "выходить из строя, ломаться",
-//     variantB: "производить впечатление, впечетлять",
-//     variantC: "накапливаться, возникать, нападать",
-//     variantD: "броситься в глаза, привлечь внимание",
-//     correctAnswer: "накапливаться, возникать, нападать",
-//   },
-//   {
-//     language: "ger",
-//     word: "ein fallen",
-//     forms: ["fällt ein", "fiel ein", "ist eingefallen"],
-//     type: "verb",
-//     variantA: "выходить из строя, ломаться",
-//     variantB: "озарять, осенять, приходить на ум",
-//     variantC: "накапливаться, возникать, нападать",
-//     variantD: "броситься в глаза, привлечь внимание",
-//     correctAnswer: "озарять, осенять, приходить на ум",
-//   },
-//   {
-//     language: "ger",
-//     word: "an schließen",
-//     forms: ["schließt an", "schloss an", "hat angeschlossen"],
-//     type: "verb",
-//     variantA: "передавать, передать",
-//     variantB: "закрывать, прикрывать",
-//     variantC: "присоеденять, подключать",
-//     variantD: "отключать, отсоединять",
-//     correctAnswer: "присоеденять, подключать",
-//   },
-//   {
-//     language: "ger",
-//     word: "entdecken",
-//     forms: ["entdeckt", "entdeckte", "hat entdeckt"],
-//     type: "verb",
-//     variantA: "обнаруживать, обнаружить",
-//     variantB: "закрывать, прикрывать",
-//     variantC: "накрывать, накрыть",
-//     variantD: "изучать, исследовать",
-//     correctAnswer: "обнаруживать, обнаружить",
-//   },
-//   {
-//     language: "ger",
-//     word: "bereuen",
-//     forms: ["bereut", "bereute", "hat bereut"],
-//     type: "verb",
-//     variantA: "печалиться, горевать",
-//     variantB: "сожалеть, жалеть",
-//     variantC: "обнаруживать, открывать",
-//     variantD: "заботиться, беспокоиться",
-//     correctAnswer: "сожалеть, жалеть",
-//   },
-//   {
-//     language: "ger",
-//     word: "beseitigen",
-//     forms: ["beseitigt", "beseitigt", "hat beseitigt"],
-//     type: "verb",
-//     variantA: "владеть, овладевать",
-//     variantB: "занимать место, быть занятым",
-//     variantC: "обнаруживать, открывать",
-//     variantD: "устранять, исправлять, удалить",
-//     correctAnswer: "устранять, исправлять, удалить",
-//   },
-//   {
-//     language: "ger",
-//     word: "bewerten",
-//     forms: ["bewertet", "bewertete", "hat bewertet"],
-//     type: "verb",
-//     variantA: "рекламировать что-то",
-//     variantB: "занимать место, быть занятым",
-//     variantC: "оценивать, расценивать, исчислять стоимость",
-//     variantD: "жаловаться, обжаловать",
-//     correctAnswer: "оценивать, расценивать, исчислять стоимость",
-//   },
-//   {
-//     language: "ger",
-//     word: "erwerben",
-//     forms: ["erwirbt", "erwarb", "hat erworben"],
-//     type: "verb",
-//     variantA: "узнавать, обнаруживать",
-//     variantB: "приобретать, зарабатывать",
-//     variantC: "оценивать, расценивать, исчислять стоимость",
-//     variantD: "жаловаться, обжаловать",
-//     correctAnswer: "приобретать, зарабатывать",
-//   },
+//  
 //   {
 //     language: "ger",
 //     word: "ermitteln",
