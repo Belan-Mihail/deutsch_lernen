@@ -2200,153 +2200,279 @@ const GermanWordsTest: TestType[] = [
     "Sie trugen ein Kennzeichen, das ihren Status anzeigt."
   ]
 },
+{
+  language: "ger",
+  word: "der Gegenstand",
+  forms: [],
+  type: "noun",
+  variantA: "предмет, вещь",
+  variantB: "цель, задача",
+  variantC: "контекст, ситуация",
+  variantD: "обсуждение, спор",
+  correctAnswer: "предмет, вещь",
+  cognate_words: [],
+  sentences: [
+    "Der Gegenstand des Gesprächs war sehr wichtig.",
+    "Er sammelte alte Gegenstände aus der Geschichte.",
+    "Der Gegenstand wurde auf dem Tisch liegen gelassen.",
+    "Welcher Gegenstand interessiert dich am meisten?",
+    "Die Bedeutung des Gegenstandes wurde nicht vollständig erklärt."
+  ]
+},
+
+// Для слова "weiter·leiten"
+{
+  language: "ger",
+  word: "weiter·leiten",
+  forms: ["leitete weiter", "hat weitergeleitet"],
+  type: "verb",
+  variantA: "пересылать, передавать дальше",
+  variantB: "задерживать, останавливаться",
+  variantC: "планировать, организовывать",
+  variantD: "изменять, модифицировать",
+  correctAnswer: "пересылать, передавать дальше",
+  cognate_words: [],
+  sentences: [
+    "Ich werde die Anfrage an die zuständige Abteilung weiterleiten.",
+    "Bitte leiten Sie die E-Mail an den Kunden weiter.",
+    "Das Dokument wurde an den nächsten Mitarbeiter weitergeleitet.",
+    "Wir müssen diese Information schnell weiterleiten.",
+    "Er hat die Nachricht weitergeleitet, als er sie erhalten hat."
+  ]
+},
+
+// Для слова "verhandeln MIT"
+{
+  language: "ger",
+  word: "verhandeln MIT",
+  forms: ["verhandelte mit", "hat mit verhandelt"],
+  type: "verb",
+  variantA: "вести переговоры с, обсуждать с",
+  variantB: "запрещать, ограничивать",
+  variantC: "соглашаться, утверждать",
+  variantD: "обсуждать, анализировать",
+  correctAnswer: "вести переговоры с, обсуждать с",
+  cognate_words: [],
+  sentences: [
+    "Wir müssen mit dem Lieferanten verhandeln, um einen besseren Preis zu bekommen.",
+    "Sie verhandeln mit verschiedenen Parteien über den Vertrag.",
+    "Das Unternehmen verhandelt mit den Gewerkschaften über neue Arbeitsbedingungen.",
+    "Er verhandelte mit dem Kunden über die Geschäftsbedingungen.",
+    "Wir haben gestern mit den Partnern erfolgreich verhandelt."
+  ]
+},
+
+// Для слова "ab·wechseln SICH"
+{
+  language: "ger",
+  word: "ab·wechseln SICH",
+  forms: ["wechselte sich ab", "hat sich abgewechselt"],
+  type: "verb",
+  variantA: "меняться, чередоваться",
+  variantB: "обсуждать, изменять",
+  variantC: "работать, трудиться",
+  variantD: "делать перерыв, останавливаться",
+  correctAnswer: "меняться, чередоваться",
+  cognate_words: [],
+  sentences: [
+    "Wir haben uns während der langen Reise abgewechselt.",
+    "Die Kollegen wechseln sich bei der Arbeit im Schichtdienst ab.",
+    "Er wechselt sich mit seiner Freundin beim Kochen ab.",
+    "Sie wechselten sich bei der Pflege der Pflanzen ab.",
+    "Die Teilnehmer wechselten sich während des Spiels ab."
+  ]
+},
+
+// Для слова "erbringen"
+{
+  language: "ger",
+  word: "erbringen",
+  forms: ["erbrachte", "hat erbracht"],
+  type: "verb",
+  variantA: "предоставлять, достигать",
+  variantB: "осуществлять, делать",
+  variantC: "запрещать, ограничивать",
+  variantD: "доставлять, находить",
+  correctAnswer: "предоставлять, достигать",
+  cognate_words: [],
+  sentences: [
+    "Das Unternehmen hat hervorragende Ergebnisse erbracht.",
+    "Er hat in seinem Bericht wertvolle Informationen erbracht.",
+    "Die Forschung hat neue Erkenntnisse erbracht.",
+    "Sie hat großartige Leistungen im Studium erbracht.",
+    "Das Team hat alle Anforderungen erfolgreich erbracht."
+  ]
+},
+
+// Для слова "der Rundgang"
+{
+  language: "ger",
+  word: "der Rundgang",
+  forms: [],
+  type: "noun",
+  variantA: "экскурсия, обход",
+  variantB: "обсуждение, встреча",
+  variantC: "расследование, проверка",
+  variantD: "прогулка, поездка",
+  correctAnswer: "экскурсия, обход",
+  cognate_words: [],
+  sentences: [
+    "Der Rundgang durch das Museum war sehr informativ.",
+    "Am Ende des Rundgangs konnten die Besucher Fragen stellen.",
+    "Wir haben einen Rundgang durch die Stadt gemacht.",
+    "Der Rundgang führte uns durch den historischen Teil der Stadt.",
+    "Die Führung begann mit einem kurzen Rundgang durch das Gebäude."
+  ]
+},
+
+// Для слова "beantworten"
+{
+  language: "ger",
+  word: "beantworten",
+  forms: ["beantwortete", "hat beantwortet"],
+  type: "verb",
+  variantA: "отвечать на",
+  variantB: "пропускать, игнорировать",
+  variantC: "выражать, сообщать",
+  variantD: "проверять, анализировать",
+  correctAnswer: "отвечать на",
+  cognate_words: [],
+  sentences: [
+    "Er hat alle Fragen der Teilnehmer beantwortet.",
+    "Ich muss noch auf die E-Mail antworten.",
+    "Kannst du die Frage bitte beantworten?",
+    "Die Lehrerin beantwortete alle Fragen der Schüler.",
+    "Ich habe meine Anfrage bereits beantwortet."
+  ]
+},
+
+// Для слова "berücksichtigen"
+{
+  language: "ger",
+  word: "berücksichtigen",
+  forms: ["berücksichtigte", "hat berücksichtigt"],
+  type: "verb",
+  variantA: "учитывать, принимать во внимание",
+  variantB: "игнорировать, забывать",
+  variantC: "изучать, анализировать",
+  variantD: "планировать, разрабатывать",
+  correctAnswer: "учитывать, принимать во внимание",
+  cognate_words: [],
+  sentences: [
+    "Wir müssen alle Aspekte des Projekts berücksichtigen.",
+    "Er berücksichtigte alle Vorschläge der Kollegen.",
+    "Die Umweltbedingungen wurden bei der Planung berücksichtigt.",
+    "Kannst du bitte meine Meinung berücksichtigen?",
+    "Ich werde deine Hinweise bei der Entscheidung berücksichtigen."
+  ]
+},
+
+// Для слова "zu gehen AUF"
+{
+  language: "ger",
+  word: "zu gehen AUF",
+  forms: ["ging auf", "ist auf gegangen"],
+  type: "verb",
+  variantA: "обращать внимание на, подходить к",
+  variantB: "отклонять, избегать",
+  variantC: "обсуждать, анализировать",
+  variantD: "игнорировать, пропускать",
+  correctAnswer: "обращать внимание на, подходить к",
+  cognate_words: [],
+  sentences: [
+    "Wir müssen jetzt auf die aktuellen Fragen eingehen.",
+    "Sie ging auf die Vorschläge des Teams ein.",
+    "Er ging auf die Beschwerden der Kunden ein.",
+    "Die Diskussion ging auf wichtige Themen ein.",
+    "Die Lehrerin ging auf die Fragen der Schüler ein."
+  ]
+},
+
+// Для слова "verfassen"
+{
+  language: "ger",
+  word: "verfassen",
+  forms: ["verfasste", "hat verfasst"],
+  type: "verb",
+  variantA: "составлять, писать",
+  variantB: "изменять, редактировать",
+  variantC: "анализировать, проверять",
+  variantD: "публиковать, выпускать",
+  correctAnswer: "составлять, писать",
+  cognate_words: [],
+  sentences: [
+    "Er hat einen Artikel für die Zeitschrift verfasst.",
+    "Die Studentin verfasste eine Dissertation über das Thema.",
+    "Sie verfasste einen Brief an den Chef.",
+    "Der Autor hat einen neuen Roman verfasst.",
+    "Ich habe den Bericht gestern verfasst."
+  ]
+},
+
+// Для слова "die Anweisung"
+{
+  language: "ger",
+  word: "die Anweisung",
+  forms: [],
+  type: "noun",
+  variantA: "инструкция, указание",
+  variantB: "предложение, запрос",
+  variantC: "замечание, комментарий",
+  variantD: "пожелание, пожелание",
+  correctAnswer: "инструкция, указание",
+  cognate_words: [],
+  sentences: [
+    "Die Anweisung wurde klar und deutlich formuliert.",
+    "Bitte befolgen Sie die Anweisung des Lehrers.",
+    "Ich habe die Anweisung zur Durchführung des Tests erhalten.",
+    "Die Anweisung für den neuen Prozess wurde veröffentlicht.",
+    "Er gab uns eine genaue Anweisung, was zu tun ist."
+  ]
+},
+
+// Для слова "eigenhändig"
+{
+  language: "ger",
+  word: "eigenhändig",
+  forms: [],
+  type: "adjective",
+  variantA: "собственноручно",
+  variantB: "механически, автоматически",
+  variantC: "профессионально, экспертно",
+  variantD: "намеренно, преднамеренно",
+  correctAnswer: "собственноручно",
+  cognate_words: [],
+  sentences: [
+    "Er unterschrieb das Dokument eigenhändig.",
+    "Die Arbeit wurde eigenhändig erledigt.",
+    "Sie hat die Formulare eigenhändig ausgefüllt.",
+    "Er hat eigenhändig alle notwendigen Unterschriften gesammelt.",
+    "Der Brief wurde eigenhändig verfasst."
+  ]
+},
+
+// Для слова "die Annahme"
+{
+  language: "ger",
+  word: "die Annahme",
+  forms: [],
+  type: "noun",
+  variantA: "предположение, принятие",
+  variantB: "пожертвование, дар",
+  variantC: "решение, положение",
+  variantD: "совещание, обсуждение",
+  correctAnswer: "предположение, принятие",
+  cognate_words: [],
+  sentences: [
+    "Die Annahme war, dass die Lieferung rechtzeitig ankommt.",
+    "Er stellte die Annahme auf, dass das Projekt pünktlich abgeschlossen wird.",
+    "Die Annahme wurde später widerlegt.",
+    "Es ist eine Annahme, dass der Fehler durch einen technischen Defekt verursacht wurde.",
+    "Die Annahme, dass der Fehler auf menschliches Versagen zurückzuführen ist, war falsch."
+  ]
+},
 
 
-
-  
-  //   {
-  //     language: "ger",
-  //     word: "der Gegenstand",
-  //     forms: ["die Gegenstände"],
-  //     type: "nomen",
-  //     variantA: "объект, предмет",
-  //     variantB: "случай, случайность",
-  //     variantC: "противоположность, противопоставление",
-  //     variantD: "обозначение, метка",
-  //     correctAnswer: "объект, предмет",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "weiter·leiten",
-  //     forms: ["leitet weiter", "leitete weiter", "hat weitergeleitet"],
-  //     type: "verb",
-  //     variantA: "обучать, руководить",
-  //     variantB: "заблуждаться, теряться",
-  //     variantC: "передавать, перенаправлять",
-  //     variantD: "перемищаться, передвигаться",
-  //     correctAnswer: "передавать, перенаправлять",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "verhandeln MIT",
-  //     forms: ["leitet weiter", "leitete weiter", "hat weitergeleitet"],
-  //     type: "verb",
-  //     variantA: "договориваться",
-  //     variantB: "уступать, теряться преимущество",
-  //     variantC: "относиться, иметь отношение",
-  //     variantD: "задумывать, выдвигать идею",
-  //     correctAnswer: "договориваться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "ab·wechseln SICH",
-  //     forms: ["wechselt ab", "wechselte ab", "hat abgewechselt"],
-  //     type: "verb",
-  //     variantA: "испытывать, ощущать",
-  //     variantB: "переходить, проходить",
-  //     variantC: "заманивать, приманивать",
-  //     variantD: "заменять кого-то, чередовать",
-  //     correctAnswer: "заменять кого-то, чередовать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "erbringen",
-  //     forms: ["erbringt", "erbrachte", "hat erbracht"],
-  //     type: "verb",
-  //     variantA: "доносить, рассказывать",
-  //     variantB: "производить эффект, приносить результат",
-  //     variantC: "завести, заводить",
-  //     variantD: "пережить, переживать",
-  //     correctAnswer: "производить эффект, приносить результат",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "der Rundgang",
-  //     forms: ["die Rundgänge"],
-  //     type: "nomen",
-  //     variantA: "объект",
-  //     variantB: "происшествие",
-  //     variantC: "деталь, кольцо",
-  //     variantD: "обход, экскурсия",
-  //     correctAnswer: "обход, экскурсия",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "beantworten",
-  //     forms: ["beantworten", "beantwortete", "hat beantwortet"],
-  //     type: "verb",
-  //     variantA: "доносить, рассказывать",
-  //     variantB: "отвечать, реагировать",
-  //     variantC: "заводить разговор, беседовать",
-  //     variantD: "перебивать, препинать",
-  //     correctAnswer: "отвечать, реагировать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "berücksichtigen",
-  //     forms: ["berücksichtigt", "berücksichtigte", "hat berücksichtigt"],
-  //     type: "verb",
-  //     variantA: "возвышать",
-  //     variantB: "уточнять, пояснять",
-  //     variantC: "страховать, перестраховывать",
-  //     variantD: "принимать во внимание, учитывать",
-  //     correctAnswer: "принимать во внимание, учитывать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "zu gehen AUF",
-  //     forms: ["geht zu", "ging zu", "ist zugegangen"],
-  //     type: "verb",
-  //     variantA: "идти на встречу, спешить",
-  //     variantB: "повышать, возвышать",
-  //     variantC: "улучшать, улучшить",
-  //     variantD: "присоеденять, добавлять",
-  //     correctAnswer: "идти на встречу, спешить",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "verfassen",
-  //     forms: ["verfasst", "verfasste", "hat verfasst"],
-  //     type: "verb",
-  //     variantA: "удаляться, отходить",
-  //     variantB: "покидать, оставлять",
-  //     variantC: "сочинять, составлять",
-  //     variantD: "обходить, обойти",
-  //     correctAnswer: "сочинять, составлять",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Anweisung",
-  //     forms: ["die Anweisungen"],
-  //     type: "nomen",
-  //     variantA: "метод, способ",
-  //     variantB: "заявление, исполнение",
-  //     variantC: "ходотайство",
-  //     variantD: "инструкция, распоряжение",
-  //     correctAnswer: "инструкция, распоряжение",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "eigenhändig",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "сподручный",
-  //     variantB: "собственноручный",
-  //     variantC: "ручной",
-  //     variantD: "забытый",
-  //     correctAnswer: "собственноручный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Annahme",
-  //     forms: ["die Annahmen"],
-  //     type: "nomen",
-  //     variantA: "идея, предложение",
-  //     variantB: "заявление, исполнение",
-  //     variantC: "предположение, допущение",
-  //     variantD: "обман, неправда",
-  //     correctAnswer: "предположение, допущение",
-  //   },
   //   {
   //     language: "ger",
   //     word: "die Einrichtung",
@@ -2402,6 +2528,9 @@ const GermanWordsTest: TestType[] = [
   //     variantD: "выпускать, терять",
   //     correctAnswer: "выходить из строя, отменять",
   //   },
+
+
+
   //   {
   //     language: "ger",
   //     word: "einig",
