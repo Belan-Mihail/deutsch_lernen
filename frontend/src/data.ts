@@ -2471,165 +2471,295 @@ const GermanWordsTest: TestType[] = [
     "Die Annahme, dass der Fehler auf menschliches Versagen zurückzuführen ist, war falsch."
   ]
 },
+// Для слова "die Einrichtung"
+{
+  language: "ger",
+  word: "die Einrichtung",
+  forms: ["die Einrichtungen"],
+  type: "nomen",
+  variantA: "учреждение, организация",
+  variantB: "оборудование, меблировка",
+  variantC: "пожертвование, дар",
+  variantD: "помощь, консультация",
+  correctAnswer: "учреждение, организация",
+  cognate_words: [],
+  sentences: [
+    "Die Einrichtung ist sehr modern und gut ausgestattet.",
+    "Ich habe die Einrichtung der neuen Wohnung geplant.",
+    "Die Einrichtungen des Hauses wurden kürzlich renoviert.",
+    "Er arbeitet in einer sozialen Einrichtung.",
+    "Die Einrichtung des Projekts wurde gut organisiert."
+  ]
+},
+
+// Для слова "an·halten SICH AN"
+{
+  language: "ger",
+  word: "an·halten SICH AN",
+  forms: ["hielt sich an", "hat sich an gehalten"],
+  type: "verb",
+  variantA: "следовать, придерживаться",
+  variantB: "прекращать, завершать",
+  variantC: "планировать, организовывать",
+  variantD: "нарушать, отклоняться",
+  correctAnswer: "следовать, придерживаться",
+  cognate_words: [],
+  sentences: [
+    "Wir müssen uns an die Regeln halten.",
+    "Er hielt sich an den Plan und erreichte sein Ziel.",
+    "Die Schüler müssen sich an die Vorschriften halten.",
+    "Es ist wichtig, sich an die Vereinbarungen zu halten.",
+    "Die Mitarbeiter hielten sich an die festgelegten Arbeitszeiten."
+  ]
+},
+
+// Для слова "auf·füllen"
+{
+  language: "ger",
+  word: "auf·füllen",
+  forms: ["füllte auf", "hat aufgefüllt"],
+  type: "verb",
+  variantA: "заполнять, наполнять",
+  variantB: "проверять, исправлять",
+  variantC: "увеличивать, расширять",
+  variantD: "уменьшать, сжимать",
+  correctAnswer: "заполнять, наполнять",
+  cognate_words: [],
+  sentences: [
+    "Er musste den Tank auffüllen, bevor er weiterfahren konnte.",
+    "Die Kellnerin füllte das Glas mit Wasser auf.",
+    "Bitte fülle das Formular aus.",
+    "Ich muss das Konto auffüllen.",
+    "Das Team füllte das Formular mit den entsprechenden Angaben auf."
+  ]
+},
+// Для слова "der Versuch"
+{
+  language: "ger",
+  word: "der Versuch",
+  forms: ["die Versuche"],
+  type: "nomen",
+  variantA: "попытка, проба",
+  variantB: "мнение, взгляд",
+  variantC: "действие, поступок",
+  variantD: "поход, прогулка",
+  correctAnswer: "попытка, проба",
+  cognate_words: [],
+  sentences: [
+    "Der Versuch, das Problem zu lösen, war erfolglos.",
+    "Wir haben einen weiteren Versuch unternommen.",
+    "Der Versuch, den Fehler zu beheben, ist gescheitert.",
+    "Es war ein riskanter Versuch, aber es hat funktioniert.",
+    "Er machte einen Versuch, den Rekord zu brechen."
+  ]
+},
+
+// Для слова "aus·fallen"
+{
+  language: "ger",
+  word: "aus·fallen",
+  forms: ["fiel aus", "ist ausgefallen"],
+  type: "verb",
+  variantA: "выходить из строя, отменяться",
+  variantB: "участвовать, присоединяться",
+  variantC: "находиться, быть",
+  variantD: "проводить, организовывать",
+  correctAnswer: "выходить из строя, отменяться",
+  cognate_words: [],
+  sentences: [
+    "Die Veranstaltung ist aufgrund des Wetters ausgefallen.",
+    "Der Zug fällt wegen technischer Probleme aus.",
+    "Der Flug ist wegen eines Sturms ausgefallen.",
+    "Der Unterricht fällt heute aus.",
+    "Leider ist das Konzert ausgefallen."
+  ]
+},
+
+{
+  language: "ger",
+  word: "einig",
+  forms: ["einiger"],
+  type: "adjektiv",
+  variantA: "единый, согласованный",
+  variantB: "удивительный, замечательный",
+  variantC: "длинный, продолжительный",
+  variantD: "раздельный, отдельный",
+  correctAnswer: "единый, согласованный",
+  cognate_words: [],
+  sentences: [
+    "Wir sind uns in dieser Frage einig.",
+    "Die Gruppe war sich einig über die Entscheidung.",
+    "Die Meinungen waren nicht einig.",
+    "Wir haben uns einig auf das Datum geeinigt.",
+    "Die Familie war sich einig, dass sie zusammenreisen sollte."
+  ]
+},
+
+{
+  language: "ger",
+  word: "herum·sprechen SICH",
+  forms: ["sprach sich herum", "hat sich herumgesprochen"],
+  type: "verb",
+  variantA: "распространяться, ходить слухи",
+  variantB: "обсуждать, разговаривать",
+  variantC: "принимать участие, участвовать",
+  variantD: "скрываться, прятаться",
+  correctAnswer: "распространяться, ходить слухи",
+  cognate_words: [],
+  sentences: [
+    "Es hat sich schnell herumgesprochen, dass er gewonnen hat.",
+    "Die Neuigkeit sprach sich in der ganzen Stadt herum.",
+    "Gerüchte über die Veranstaltung haben sich überall herumgesprochen.",
+    "Es wird sich bestimmt noch herumsprechen, dass er gegangen ist.",
+    "Die Nachricht hat sich wie ein Lauffeuer herumgesprochen."
+  ]
+},
+{
+  language: "ger",
+  word: "zu·kommen AUF",
+  forms: ["kam zu", "ist zugekommen"],
+  type: "verb",
+  variantA: "зависеть от чего-то",
+  variantB: "приближаться, подходить",
+  variantC: "завоевывать, привлекать",
+  variantD: "поглощать, захватывать",
+  correctAnswer: "зависеть от чего-то",
+  cognate_words: [],
+  sentences: [
+    "Es kommt darauf an, wie du dich vorbereitest.",
+    "Die Entscheidung kommt auf deine Fähigkeiten an.",
+    "Alles kommt darauf an, wie du es angehst.",
+    "Es kommt auf den richtigen Zeitpunkt an.",
+    "Alles kommt auf deine Erfahrung an."
+  ]
+},
+// Для слова "liegen"
+{
+  language: "ger",
+  word: "liegen",
+  forms: ["lag", "hat gelegen"],
+  type: "verb",
+  variantA: "лежать, находиться",
+  variantB: "стоять, быть",
+  variantC: "летать, путешествовать",
+  variantD: "плавать, двигаться",
+  correctAnswer: "лежать, находиться",
+  cognate_words: [],
+  sentences: [
+    "Die Bücher liegen auf dem Tisch.",
+    "Er lag auf dem Sofa und las ein Buch.",
+    "Das Problem liegt in der Lösung des Konflikts.",
+    "Sie liegt im Bett und schläft.",
+    "Der Hund liegt am Fenster."
+  ]
+},
+
+// Для слова "mit·machen BEI"
+{
+  language: "ger",
+  word: "mit·machen BEI",
+  forms: ["machte mit", "hat mitgemacht"],
+  type: "verb",
+  variantA: "участвовать в чем-то",
+  variantB: "помогать в чем-то",
+  variantC: "обсуждать с кем-то",
+  variantD: "избегать чего-то",
+  correctAnswer: "участвовать в чем-то",
+  cognate_words: [],
+  sentences: [
+    "Er hat bei dem Projekt mitgemacht.",
+    "Wir möchten alle bei der Veranstaltung mitmachen.",
+    "Kannst du bei der Besprechung mitmachen?",
+    "Ich werde bei der Umfrage mitmachen.",
+    "Alle Schüler sollten bei der Sportaktivität mitmachen."
+  ]
+},
+
+// Для слова "hauptsächlich"
+{
+  language: "ger",
+  word: "hauptsächlich",
+  forms: [],
+  type: "adjektiv",
+  variantA: "основной, главный",
+  variantB: "неважный, второстепенный",
+  variantC: "редкий, необычный",
+  variantD: "постоянный, стабильный",
+  correctAnswer: "основной, главный",
+  cognate_words: [],
+  sentences: [
+    "Das Thema war hauptsächlich die Umwelt.",
+    "Hauptsächlich arbeiten wir mit internationalen Partnern.",
+    "Der Vortrag behandelt hauptsächlich wirtschaftliche Themen.",
+    "Wir sind hauptsächlich in der Softwareentwicklung tätig.",
+    "Das Problem liegt hauptsächlich in der Kommunikation."
+  ]
+},
+
+// Для слова "indem"
+{
+  language: "ger",
+  word: "indem",
+  forms: [],
+  type: "konjunktion",
+  variantA: "тем самым, что",
+  variantB: "так как",
+  variantC: "поскольку",
+  variantD: "в то время как",
+  correctAnswer: "тем самым, что",
+  cognate_words: [],
+  sentences: [
+    "Er hat es geschafft, indem er hart gearbeitet hat.",
+    "Sie hilft mir, indem sie immer zuhört.",
+    "Er löst das Problem, indem er eine neue Methode anwendet.",
+    "Ich habe den Fehler korrigiert, indem ich die Anweisungen befolgt habe.",
+    "Wir haben uns verbessert, indem wir effizienter gearbeitet haben."
+  ]
+},
+
+// Для слова "anwesend"
+{
+  language: "ger",
+  word: "anwesend",
+  forms: [],
+  type: "adjektiv",
+  variantA: "присутствующий",
+  variantB: "отсутствующий",
+  variantC: "удаленный",
+  variantD: "запрещенный",
+  correctAnswer: "присутствующий",
+  cognate_words: [],
+  sentences: [
+    "Alle Mitarbeiter sind heute anwesend.",
+    "Er war nicht anwesend bei der Besprechung.",
+    "Die wichtigsten Personen waren anwesend.",
+    "Ich werde anwesend sein, wenn es notwendig ist.",
+    "Bist du heute anwesend bei der Veranstaltung?"
+  ]
+},
+
+// Для слова "übrig"
+{
+  language: "ger",
+  word: "übrig",
+  forms: [],
+  type: "adjektiv",
+  variantA: "остальной, оставшийся",
+  variantB: "запрещенный",
+  variantC: "удивительный",
+  variantD: "конфликтный",
+  correctAnswer: "остальной, оставшийся",
+  cognate_words: [],
+  sentences: [
+    "Haben wir noch etwas übrig?",
+    "Es gibt noch übrig gebliebene Plätze im Kurs.",
+    "Der Kuchen war übrig, also haben wir ihn gegessen.",
+    "Es bleibt nichts übrig, nachdem alle genommen haben.",
+    "Die übrig gebliebenen Aufgaben müssen morgen erledigt werden."
+  ]
+},
 
 
-  //   {
-  //     language: "ger",
-  //     word: "die Einrichtung",
-  //     forms: ["die Einrichtungen"],
-  //     type: "nomen",
-  //     variantA: "направление",
-  //     variantB: "приспособление",
-  //     variantC: "предположение, допущение",
-  //     variantD: "обустройство, оборудование",
-  //     correctAnswer: "обустройство, оборудование",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "an·halten SICH AN",
-  //     forms: ["hält an", "hielt an", "hat angehalten"],
-  //     type: "verb",
-  //     variantA: "останавливать, предписывать",
-  //     variantB: "оставлять себе, сберегать",
-  //     variantC: "сочинять, составлять",
-  //     variantD: "предпринимать, действовать",
-  //     correctAnswer: "останавливать, предписывать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "auf·füllen",
-  //     forms: ["füllt auf", "füllte auf", "hat aufgefühllt"],
-  //     type: "verb",
-  //     variantA: "уводить, провожать",
-  //     variantB: "запоминать, помнить",
-  //     variantC: "исключать, выключать",
-  //     variantD: "наполнять, доливать",
-  //     correctAnswer: "наполнять, доливать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "der Versuch",
-  //     forms: ["die Versuche"],
-  //     type: "nomen",
-  //     variantA: "направление",
-  //     variantB: "способ",
-  //     variantC: "попытка",
-  //     variantD: "задача",
-  //     correctAnswer: "попытка",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "aus·fallen",
-  //     forms: ["fällt aus", "fiel aus", "ist ausgefallen"],
-  //     type: "verb",
-  //     variantA: "уходить, уводить",
-  //     variantB: "выходить из строя, отменять",
-  //     variantC: "препятствовать, заграждать",
-  //     variantD: "выпускать, терять",
-  //     correctAnswer: "выходить из строя, отменять",
-  //   },
-
-
-
-  //   {
-  //     language: "ger",
-  //     word: "einig",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "согласный",
-  //     variantB: "единый",
-  //     variantC: "находчивый",
-  //     variantD: "забытый",
-  //     correctAnswer: "согласный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "herum·sprechen SICH",
-  //     forms: ["spricht herum", "sprach herum", "hat herumgesprochen"],
-  //     type: "verb",
-  //     variantA: "обознаться",
-  //     variantB: "осведомляться",
-  //     variantC: "расспускать",
-  //     variantD: "распространяться",
-  //     correctAnswer: "распространяться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "zu·kommen AUF",
-  //     forms: ["kommt zu", "kam zu", "ist zugekommen"],
-  //     type: "verb",
-  //     variantA: "отходить, уходить",
-  //     variantB: "затихать, тушить",
-  //     variantC: "приближаться, подходить",
-  //     variantD: "избавляться, отказаться",
-  //     correctAnswer: "приближаться, подходить",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "liegen",
-  //     forms: ["liegt", "lag", "ist gelegen"],
-  //     type: "verb",
-  //     variantA: "лежать, лежать в основе",
-  //     variantB: "засыпать, ложиться спать",
-  //     variantC: "приближаться, подходить",
-  //     variantD: "отходить, отступать",
-  //     correctAnswer: "лежать, лежать в основе",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "mit·machen BEI",
-  //     forms: ["macht mit", "machte mit", "hat mitgemacht"],
-  //     type: "verb",
-  //     variantA: "делать вместе, делать заодно",
-  //     variantB: "содействовать, помогать",
-  //     variantC: "улыбать, улыбнуться",
-  //     variantD: "участвовать, принимать участие",
-  //     correctAnswer: "участвовать, принимать участие",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "hauptsächlich",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "важный, принципиальный",
-  //     variantB: "единый, неповторимый",
-  //     variantC: "основной, главный",
-  //     variantD: "очередной, следующий",
-  //     correctAnswer: "основной, главный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "indem",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "между тем, тем",
-  //     variantB: "путем, посредством",
-  //     variantC: "по причине, из-за",
-  //     variantD: "вопреки, против",
-  //     correctAnswer: "путем, посредством",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "anwesend",
-  //     forms: ["-"],
-  //     type: "adj",
-  //     variantA: "присутсвующий",
-  //     variantB: "отсылаемый",
-  //     variantC: "отсутсвующий",
-  //     variantD: "высылаемый",
-  //     correctAnswer: "присутсвующий",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "übrig",
-  //     forms: ["-"],
-  //     type: "adj",
-  //     variantA: "привычный",
-  //     variantB: "запасной, запасные",
-  //     variantC: "побочный",
-  //     variantD: "оставшийся, остальной",
-  //     correctAnswer: "оставшийся, остальной",
-  //   },
   //   {
   //     language: "ger",
   //     word: "zeitweise",
