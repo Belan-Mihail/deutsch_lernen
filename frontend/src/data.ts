@@ -4710,6 +4710,272 @@ const GermanWordsTest: TestType[] = [
     "Die neue Technologie hat viele Prozesse erleichtert."
   ]
 },
+{
+  "language": "ger",
+  "word": "durch starten",
+  "forms": ["startet durch", "startete durch", "hat durchgestartet"],
+  "type": "verb",
+  "variantA": "замедляться, сбавить темп",
+  "variantB": "начинать с энтузиазмом",
+  "variantC": "завершать",
+  "variantD": "проводить",
+  "correctAnswer": "начинать с энтузиазмом",
+  "cognate_words": [],
+  "sentences": [
+    "Das Projekt ist erfolgreich durchgestartet.",
+    "Sie hat das Unternehmen erfolgreich durchgestartet.",
+    "Er startete durch, als er die Nachricht hörte.",
+    "Mit diesem Plan werden wir durchstarten.",
+    "Das Team ist bereit, das nächste Level zu erreichen und durchzustarten."
+  ]
+},
+{
+  "language": "ger",
+  "word": "aus bleiben",
+  "forms": ["bleibt aus", "blieb aus", "ist ausgeblieben"],
+  "type": "verb",
+  "variantA": "совпадать, соответствовать",
+  "variantB": "приходить",
+  "variantC": "не происходить, не случаться",
+  "variantD": "уходить",
+  "correctAnswer": "не происходить, не случаться",
+  "cognate_words": [],
+  "sentences": [
+    "Die Antwort blieb aus, obwohl wir lange gewartet haben.",
+    "Die Reaktion blieb aus, was alle enttäuschte.",
+    "Trotz der Ankündigung blieb das Ergebnis aus.",
+    "Das Feedback blieb aus, was ungewöhnlich war.",
+    "Der angekündigte Regen blieb aus."
+  ]
+},
+{
+  "language": "ger",
+  "word": "an packen",
+  "forms": ["packt an", "packte an", "hat angepackt"],
+  "type": "verb",
+  "variantA": "откладывать",
+  "variantB": "браться за что-то",
+  "variantC": "игнорировать",
+  "variantD": "покидать",
+  "correctAnswer": "браться за что-то",
+  "cognate_words": [],
+  "sentences": [
+    "Wir müssen das Problem sofort anpacken.",
+    "Sie packte das Projekt entschlossen an.",
+    "Er packte die Arbeit mit großer Energie an.",
+    "Sie hatte genug Zeit, um die Herausforderung anzugehen und anzupacken.",
+    "Lasst uns das jetzt gemeinsam anpacken."
+  ]
+},
+{
+  "language": "ger",
+  "word": "ergreifen",
+  "forms": ["ergreift", "ergiff", "hat ergriffen"],
+  "type": "verb",
+  "variantA": "игнорировать",
+  "variantB": "освобождать",
+  "variantC": "пускать",
+  "variantD": "хватать, захватывать",
+  "correctAnswer": "хватать, захватывать",
+  "cognate_words": [],
+  "sentences": [
+    "Er griff nach dem Schwert.",
+    "Die Polizei ergriff die Gelegenheit zur Verhaftung.",
+    "Sie ergriff die Chance und begann, an sich zu arbeiten.",
+    "Er griff nach seiner Tasche und verließ das Büro.",
+    "Das Angebot ergriff seine Aufmerksamkeit sofort."
+  ]
+},
+{
+  "language": "ger",
+  "word": "auf lösen",
+  "forms": ["löst auf", "löste auf", "hat aufgelöst"],
+  "type": "verb",
+  "variantA": "запрещать, нежелать",
+  "variantB": "ускорять",
+  "variantC": "разрешать, решать",
+  "variantD": "задерживать",
+  "correctAnswer": "разрешать, решать",
+  "cognate_words": [],
+  "sentences": [
+    "Er musste das Problem auflösen, bevor er fortfahren konnte.",
+    "Die Situation wurde schnell aufgelöst.",
+    "Wir können das Missverständnis jetzt auflösen.",
+    "Das Rätsel konnte schließlich aufgelöst werden.",
+    "Die Situation hat sich mit der Zeit von selbst aufgelöst."
+  ]
+},
+{
+  "language": "ger",
+  "word": "zielgerichtet",
+  "forms": [],
+  "type": "adjective",
+  "variantA": "законный",
+  "variantB": "случайный",
+  "variantC": "целенаправленный",
+  "variantD": "расплывчатый",
+  "correctAnswer": "целенаправленный",
+  "cognate_words": [],
+  "sentences": [
+    "Seine zielgerichtete Herangehensweise hat ihm geholfen, das Ziel zu erreichen.",
+    "Ein zielgerichteter Plan ist der Schlüssel zum Erfolg.",
+    "Sie hat zielgerichtet gearbeitet, um ihre Träume zu verwirklichen.",
+    "Er ist sehr zielgerichtet in seiner Karriere.",
+    "Mit einer zielgerichteten Strategie kannst du deine Ziele schneller erreichen."
+  ]
+},
+{
+  "language": "ger",
+  "word": "verhältnismäßig",
+  "forms": [],
+  "type": "adjective",
+  "variantA": "пропорциональный",
+  "variantB": "непропорциональный",
+  "variantC": "лишний",
+  "variantD": "минимальный",
+  "correctAnswer": "пропорциональный",
+  "cognate_words": [],
+  "sentences": [
+    "Die Kosten sind verhältnismäßig hoch.",
+    "Die Anzahl der Teilnehmer war verhältnismäßig gering.",
+    "Das Gehalt ist verhältnismäßig gut für die Branche.",
+    "Verhältnismäßig gesehen war das eine große Leistung.",
+    "Er erhielt verhältnismäßig wenig Unterstützung."
+  ]
+},
+{
+  "language": "ger",
+  "word": "zielstrebig",
+  "forms": [],
+  "type": "adjective",
+  "variantA": "равнодушный",
+  "variantB": "неопределенный",
+  "variantC": "безцельный",
+  "variantD": "целеустремленный",
+  "correctAnswer": "целеустремленный",
+  "cognate_words": [],
+  "sentences": [
+    "Er verfolgt seine Ziele zielstrebig und lässt sich nicht ablenken.",
+    "Ihre zielstrebige Arbeit hat sie weit gebracht.",
+    "Ein zielstrebiger Mensch wird oft erfolgreich sein.",
+    "Seine zielstrebige Haltung hat ihm viele Türen geöffnet.",
+    "Das Projekt erfordert einen zielstrebigen Ansatz."
+  ]
+},
+{
+  "language": "ger",
+  "word": "die Unterstützung",
+  "forms": [],
+  "type": "noun",
+  "variantA": "отказ",
+  "variantB": "сопротивление",
+  "variantC": "несогласие",
+  "variantD": "поддержка",
+  "correctAnswer": "поддержка",
+  "cognate_words": [],
+  "sentences": [
+    "Wir danken für die Unterstützung während der schwierigen Zeit.",
+    "Ohne die Unterstützung seiner Freunde hätte er es nicht geschafft.",
+    "Er leistete große Unterstützung bei diesem Projekt.",
+    "Die Unterstützung der Gemeinschaft ist entscheidend.",
+    "Ich bin für jede Unterstützung dankbar."
+  ]
+},
+{
+  "language": "ger",
+  "word": "die Rücksicht",
+  "forms": [],
+  "type": "noun",
+  "variantA": "агрессия",
+  "variantB": "внимание, уважение",
+  "variantC": "недовольство",
+  "variantD": "грубость",
+  "correctAnswer": "внимание, уважение",
+  "cognate_words": [],
+  "sentences": [
+    "Wir müssen immer Rücksicht auf andere Menschen nehmen.",
+    "Es ist wichtig, Rücksicht auf die Gefühle der anderen zu nehmen.",
+    "Er zeigte keine Rücksicht auf die Vorschriften.",
+    "Mit Rücksicht auf die Umstände haben wir den Termin verschoben.",
+    "Rücksicht zu nehmen, ist ein Zeichen von Respekt."
+  ]
+},
+{
+  "language": "ger",
+  "word": "der Umstand",
+  "forms": [],
+  "type": "noun",
+  "variantA": "положение",
+  "variantB": "причина",
+  "variantC": "состояние",
+  "variantD": "обстоятельство",
+  "correctAnswer": "обстоятельство",
+  "cognate_words": [],
+  "sentences": [
+    "Unter diesen Umständen müssen wir eine Entscheidung treffen.",
+    "Es gibt viele Umstände, die zu dieser Situation geführt haben.",
+    "Die Umstände haben sich verändert, aber wir bleiben optimistisch.",
+    "Dank der Umstände konnten wir den Vertrag abschließen.",
+    "Solche Umstände sind schwer zu übersehen."
+  ]
+},
+{
+  "language": "ger",
+  "word": "der Mut",
+  "forms": [],
+  "type": "noun",
+  "variantA": "злость",
+  "variantB": "трусость",
+  "variantC": "мужество",
+  "variantD": "страх",
+  "correctAnswer": "мужество",
+  "cognate_words": [],
+  "sentences": [
+    "Er hatte den Mut, seine Meinung zu äußern.",
+    "Es erfordert viel Mut, in einer solchen Situation zu handeln.",
+    "Sie bewies großen Mut in der schwierigen Lage.",
+    "Mut ist der erste Schritt zur Veränderung.",
+    "Trotz aller Ängste fand er den Mut zu kämpfen."
+  ]
+},
+{
+  "language": "ger",
+  "word": "die Forderung",
+  "forms": [],
+  "type": "noun",
+  "variantA": "согласие",
+  "variantB": "предложение",
+  "variantC": "требование",
+  "variantD": "пожелание",
+  "correctAnswer": "требование",
+  "cognate_words": [],
+  "sentences": [
+    "Die Forderung nach mehr Transparenz wird immer lauter.",
+    "Die Forderung des Arbeitnehmers war sehr vernünftig.",
+    "Er erfüllte alle Forderungen des Vertrages.",
+    "Die politischen Forderungen ändern sich ständig.",
+    "Es gab eine klare Forderung nach Veränderung."
+  ]
+},
+{
+  "language": "ger",
+  "word": "die Flucht",
+  "forms": [],
+  "type": "noun",
+  "variantA": "поездка",
+  "variantB": "возвращение",
+  "variantC": "путешествие",
+  "variantD": "побег",
+  "correctAnswer": "побег",
+  "cognate_words": [],
+  "sentences": [
+    "Er konnte in letzter Sekunde die Flucht ergreifen.",
+    "Die Flucht war erfolgreich, aber sie mussten sich verstecken.",
+    "Nach der Flucht lebte er in einem anderen Land.",
+    "Die Polizei nahm den Flüchtigen nach seiner Flucht fest.",
+    "Viele Menschen flohen vor dem Krieg."
+  ]
+},
 
 
 
@@ -4719,175 +4985,18 @@ const GermanWordsTest: TestType[] = [
 
 
 
-  //   {
-  //     language: "ger",
-  //     word: "die Flucht",
-  //     forms: ["die Fluchten"],
-  //     type: "nomen",
-  //     variantA: "лазейка, ниша",
-  //     variantB: "побег, бегство",
-  //     variantC: "итог, сумма",
-  //     variantD: "ложь, неправда",
-  //     correctAnswer: "побег, бегство",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Forderung",
-  //     forms: ["die Forderungen"],
-  //     type: "nomen",
-  //     variantA: "требование, претензия",
-  //     variantB: "помощь, услуга",
-  //     variantC: "услуга (коммерс), работа",
-  //     variantD: "угроза, опасность",
-  //     correctAnswer: "требование, претензия",
-  //   },
-  //
-  //   {
-  //     language: "ger",
-  //     word: "der Mut",
-  //     forms: ["-"],
-  //     type: "nomen",
-  //     variantA: "предчувствие, ощущение",
-  //     variantB: "падение, упадок",
-  //     variantC: "мужество, отвага",
-  //     variantD: "сомнения, сметения",
-  //     correctAnswer: "мужество, отвага",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "der Umstand",
-  //     forms: ["die Umstände"],
-  //     type: "nomen",
-  //     variantA: "обстоятельство",
-  //     variantB: "упадок",
-  //     variantC: "происшествие",
-  //     variantD: "недоверие",
-  //     correctAnswer: "мужество, отвага",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Rücksicht",
-  //     forms: ["die Rücksichten"],
-  //     type: "nomen",
-  //     variantA: "обстоятельство, случаи",
-  //     variantB: "возврат, возвращение",
-  //     variantC: "бодрость, радость",
-  //     variantD: "внимание, уважение",
-  //     correctAnswer: "внимание, уважение",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Unterstützung",
-  //     forms: ["die Unterstützungen"],
-  //     type: "nomen",
-  //     variantA: "охрана, сбережние",
-  //     variantB: "по́мощь, подде́ржка, посо́бие",
-  //     variantC: "бодрость, радость",
-  //     variantD: "содействие, взаимная работа",
-  //     correctAnswer: "по́мощь, подде́ржка, посо́бие",
-  //   },
-  //  
-  //   
-  //   {
-  //     language: "ger",
-  //     word: "zielstrebig",
-  //     forms: ["zielstrebiger", "am zielstrebigsten"],
-  //     type: "adj",
-  //     variantA: "целеустремленный",
-  //     variantB: "постижимый, досягаемый",
-  //     variantC: "огромный, значительный",
-  //     variantD: "недосягаемый, недостижимый",
-  //     correctAnswer: "целеустремленный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "verhältnismäßig",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "постепенно, последовательно",
-  //     variantB: "ложный, неправдиво",
-  //     variantC: "важно, ценно",
-  //     variantD: "относительно, сравнительно",
-  //     correctAnswer: "относительно, сравнительно",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "zielgerichtet",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "целеустремленный, целенаправленный",
-  //     variantB: "несправедливый, незаконный",
-  //     variantC: "справедливый, законный",
-  //     variantD: "относительно, сравнительно",
-  //     correctAnswer: "целеустремленный, целенаправленный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "auf lösen",
-  //     forms: ["löst auf", "löste auf", "hat aufgelöst"],
-  //     type: "verb",
-  //     variantA: "соответствовать, совпадать, согласовываться",
-  //     variantB: "видеть, глядеть",
-  //     variantC: "находить решение, решать",
-  //     variantD: "разрешать (проблему), распускать",
-  //     correctAnswer: "разрешать (проблему), распускать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "ergreifen",
-  //     forms: ["ergreift", "ergreiff", "hat ergreifen"],
-  //     type: "verb",
-  //     variantA: "соответствовать, совпадать, согласовываться",
-  //     variantB: "брать за что-то, воспользоваться, взять, схватить",
-  //     variantC: "находить решение, решать_ приность решение",
-  //     variantD: "разрешать (проблему), распускать",
-  //     correctAnswer: "разрешать (проблему), распускать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "an packen ",
-  //     forms: ["packt an", "packte an", "hat angepackt"],
-  //     type: "verb",
-  //     variantA: "запаковывать, заворачивать",
-  //     variantB: "комплектовать, укомплектовывать",
-  //     variantC: "хватать, приступать, приниматься",
-  //     variantD: "разрешать (проблему), распускать",
-  //     correctAnswer: "хватать, приступать, приниматься",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "an packen",
-  //     forms: ["packt an", "packte an", "hat angepackt"],
-  //     type: "verb",
-  //     variantA: "запаковывать, заворачивать",
-  //     variantB: "комплектовать, укомплектовывать",
-  //     variantC: "хватать, приступать, приниматься",
-  //     variantD: "разрешать (проблему), распускать",
-  //     correctAnswer: "хватать, приступать, приниматься",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "aus bleiben",
-  //     forms: ["bleibt aus", "blieb aus", "ist ausgeblieben"],
-  //     type: "verb",
-  //     variantA: "устаревать, устареть",
-  //     variantB: "выйти наружу, проявиться",
-  //     variantC: "оставаться, оставлять, оставить",
-  //     variantD: "не случиться, отсутствовать, не наступить",
-  //     correctAnswer: "не случиться, отсутствовать, не наступить",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "durch starten",
-  //     forms: ["startet durch", "startete durch", "ist durchgestartet"],
-  //     type: "verb",
-  //     variantA: "начинать действовать, браться за дело",
-  //     variantB: "выйти наружу, проявиться",
-  //     variantC: "осуществлять, реализировать",
-  //     variantD: "случиться, произойти, наступить",
-  //     correctAnswer: "начинать действовать, браться за дело",
-  //   },
-  //
+
+
+
+
+
+
+
+
+
+
+
+
 
   //   {
   //     language: "ger",
