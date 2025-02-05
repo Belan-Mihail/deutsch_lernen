@@ -42,6 +42,7 @@ const TestPageGer: React.FC = (): React.ReactNode => {
 if (!showVariants) {
   setTimeout(() => {
   setShowVariants(true)
+  setShowHint(true)
 }, 3000);
 }
 

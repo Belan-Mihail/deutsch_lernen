@@ -2539,9 +2539,9 @@ const GermanWordsTest: TestType[] = [
   word: "der Versuch",
   forms: ["die Versuche"],
   type: "nomen",
-  variantA: "попытка, проба",
+  variantA: "действие, поступок",
   variantB: "мнение, взгляд",
-  variantC: "действие, поступок",
+  variantC: "попытка, проба",
   variantD: "поход, прогулка",
   correctAnswer: "попытка, проба",
   cognate_words: [],
@@ -2560,8 +2560,8 @@ const GermanWordsTest: TestType[] = [
   word: "aus·fallen",
   forms: ["fiel aus", "ist ausgefallen"],
   type: "verb",
-  variantA: "выходить из строя, отменяться",
-  variantB: "участвовать, присоединяться",
+  variantA: "присоеденяться, участвовать",
+  variantB: "выходить из строя, отменяться",
   variantC: "находиться, быть",
   variantD: "проводить, организовывать",
   correctAnswer: "выходить из строя, отменяться",
@@ -2600,10 +2600,10 @@ const GermanWordsTest: TestType[] = [
   word: "herum·sprechen SICH",
   forms: ["sprach sich herum", "hat sich herumgesprochen"],
   type: "verb",
-  variantA: "распространяться, ходить слухи",
+  variantA: "скрывать, прятаться",
   variantB: "обсуждать, разговаривать",
   variantC: "принимать участие, участвовать",
-  variantD: "скрываться, прятаться",
+  variantD: "распространяться, ходить слухи",
   correctAnswer: "распространяться, ходить слухи",
   cognate_words: [],
   sentences: [
@@ -2702,9 +2702,9 @@ const GermanWordsTest: TestType[] = [
   word: "indem",
   forms: [],
   type: "konjunktion",
-  variantA: "тем самым, что",
+  variantA: "поскольку",
   variantB: "так как",
-  variantC: "поскольку",
+  variantC: "тем самым, что",
   variantD: "в то время как",
   correctAnswer: "тем самым, что",
   cognate_words: [],
@@ -2723,9 +2723,9 @@ const GermanWordsTest: TestType[] = [
   word: "anwesend",
   forms: [],
   type: "adjektiv",
-  variantA: "присутствующий",
+  variantA: "отсраненный",
   variantB: "отсутствующий",
-  variantC: "удаленный",
+  variantC: "присутствующий",
   variantD: "запрещенный",
   correctAnswer: "присутствующий",
   cognate_words: [],
@@ -2758,1055 +2758,1967 @@ const GermanWordsTest: TestType[] = [
     "Die übrig gebliebenen Aufgaben müssen morgen erledigt werden."
   ]
 },
+// Для слова "zeitweise"
+{
+  language: "ger",
+  word: "zeitweise",
+  forms: [],
+  type: "adverb",
+  variantA: "нечасто",
+  variantB: "постоянно",
+  variantC: "несколько раз",
+  variantD: "временно",
+  correctAnswer: "временно",
+  cognate_words: [],
+  sentences: [
+    "Er arbeitet zeitweise von zu Hause.",
+    "Die Lösung ist nur zeitweise verfügbar.",
+    "Es gab zeitweise Probleme mit dem System.",
+    "Wir sind zeitweise im Ausland tätig.",
+    "Der Kurs ist zeitweise geschlossen."
+  ]
+},
+
+// Для слова "jeweils"
+{
+  language: "ger",
+  word: "jeweils",
+  forms: [],
+  type: "adverb",
+  variantA: "каждый раз",
+  variantB: "раз в год",
+  variantC: "по мере надобности",
+  variantD: "непрерывно",
+  correctAnswer: "каждый раз",
+  cognate_words: [],
+  sentences: [
+    "Die Preise ändern sich jeweils am ersten des Monats.",
+    "Jeweils nach dem Essen gibt es eine Pause.",
+    "Die Mitarbeiter erhalten jeweils eine Aufgabe.",
+    "Jeweils im Januar wird das neue Programm eingeführt.",
+    "Wir haben jeweils einen Tag frei."
+  ]
+},
+
+// Для слова "die Zusammenfassung"
+{
+  language: "ger",
+  word: "die Zusammenfassung",
+  forms: ["die Zusammenfassungen"],
+  type: "nomen",
+  variantA: "объяснение, разъяснение",
+  variantB: "сводка, резюме",
+  variantC: "рекомендация",
+  variantD: "решение",
+  correctAnswer: "сводка, резюме",
+  cognate_words: [
+    {
+      word: "zusammenfassen",
+      translate: "собирать, суммировать"
+    }
+  ],
+  sentences: [
+    "Am Ende des Berichts gibt es eine Zusammenfassung.",
+    "Bitte gib mir eine kurze Zusammenfassung des Textes.",
+    "Die Zusammenfassung der Ergebnisse ist sehr wichtig.",
+    "In der Zusammenfassung werden die wichtigsten Punkte wiederholt.",
+    "Die Zusammenfassung des Buches war sehr hilfreich."
+  ]
+},
+
+// Для слова "fordern"
+{
+  language: "ger",
+  word: "fordern",
+  forms: ["forderte", "hat gefordert"],
+  type: "verb",
+  variantA: "предупреждать, склонять",
+  variantB: "позволять, одобрять",
+  variantC: "требовать, просить",
+  variantD: "отвечать",
+  correctAnswer: "требовать, просить",
+  cognate_words: [],
+  sentences: [
+    "Der Lehrer fordert von den Schülern eine schnelle Antwort.",
+    "Die Regierung fordert Änderungen im Gesetz.",
+    "Er fordert mehr Zeit für die Aufgabe.",
+    "Sie fordert eine Entschuldigung von ihm.",
+    "Wir sollten die Unterstützung aller fordern."
+  ]
+},
+
+// Для слова "durch·führen"
+{
+  language: "ger",
+  word: "durch·führen",
+  forms: ["führte durch", "hat durchgeführt"],
+  type: "verb",
+  variantA: "проводить, осуществлять",
+  variantB: "считать, полагать",
+  variantC: "создавать",
+  variantD: "отказаться",
+  correctAnswer: "проводить, осуществлять",
+  cognate_words: [],
+  sentences: [
+    "Wir müssen das Projekt schnell durchführen.",
+    "Das Team führt die Umfrage durch.",
+    "Er hat die Forschung erfolgreich durchgeführt.",
+    "Die Polizei führt eine Untersuchung durch.",
+    "Das Unternehmen führt Schulungen durch."
+  ]
+},
+
+// Для слова "aus·üben"
+{
+  language: "ger",
+  word: "aus·üben",
+  forms: ["übte aus", "hat ausgeübt"],
+  type: "verb",
+  variantA: "осуществлять, выполнять",
+  variantB: "сдавать, отпустить",
+  variantC: "отрицать",
+  variantD: "тренироваться",
+  correctAnswer: "осуществлять, выполнять",
+  cognate_words: [],
+  sentences: [
+    "Er übt eine schwierige Tätigkeit aus.",
+    "Sie übt ihre Rechte als Bürgerin aus.",
+    "Ich habe eine neue Rolle in der Firma ausgeübt.",
+    "Er übt die Tätigkeit des Lehrers aus.",
+    "Die Politikerin übt einen wichtigen Einfluss aus."
+  ]
+},
+
+// Для слова "erfüllen"
+{
+  language: "ger",
+  word: "erfüllen",
+  forms: ["erfüllte", "hat erfüllt"],
+  type: "verb",
+  variantA: "заполнить, наполнять",
+  variantB: "отклонять",
+  variantC: "подавать",
+  variantD: "выполнять, исполнять",
+  correctAnswer: "выполнять, исполнять",
+  cognate_words: [],
+  sentences: [
+    "Er hat alle Anforderungen erfüllt.",
+    "Sie erfüllt ihre Aufgaben immer zuverlässig.",
+    "Die Anforderungen wurden von allen erfüllt.",
+    "Ich habe meinen Traum endlich erfüllt.",
+    "Erfüllt deinen Teil der Vereinbarung."
+  ]
+},
+// Для слова "verärgern"
+{
+  language: "ger",
+  word: "verärgern",
+  forms: ["verärgerte", "hat verärgert"],
+  type: "verb",
+  variantA: "успокаивать",
+  variantB: "раздражать, злить",
+  variantC: "вдохновлять",
+  variantD: "поощрять",
+  correctAnswer: "раздражать, злить",
+  cognate_words: [],
+  sentences: [
+    "Das ständige Warten verärgert mich.",
+    "Seine ständigen Fragen verärgern die anderen.",
+    "Sie hat ihn mit ihrer Antwort verärgert.",
+    "Es verärgert mich, wenn man mich unterbricht.",
+    "Der Kommentar verärgerte alle im Raum."
+  ]
+},
+
+// Для слова "aus·kennen"
+{
+  language: "ger",
+  word: "aus·kennen",
+  forms: ["kannte aus", "hat ausgekannt"],
+  type: "verb",
+  variantA: "догадываться, подозревать",
+  variantB: "игнорировать",
+  variantC: "знать, разбираться в чем-то",
+  variantD: "переводить",
+  correctAnswer: "знать, разбираться в чем-то",
+  cognate_words: [],
+  sentences: [
+    "Er kennt sich sehr gut in diesem Bereich aus.",
+    "Sie kennt sich mit der Technik hervorragend aus.",
+    "Ich kenne mich mit diesen Themen nicht aus.",
+    "Er kennt sich gut mit Computern aus.",
+    "Bist du sicher, dass du dich hier auskennst?"
+  ]
+},
+
+// Для слова "ein·lenken"
+{
+  language: "ger",
+  word: "ein·lenken",
+  forms: ["lenkte ein", "hat eingelenkt"],
+  type: "verb",
+  variantA: "настаивать",
+  variantB: "поменять мнение, уступать",
+  variantC: "поддерживать",
+  variantD: "отвергать",
+  correctAnswer: "поменять мнение, уступать",
+  cognate_words: [],
+  sentences: [
+    "Er lenkte ein und stimmte zu.",
+    "Nach langem Überlegen lenkte er ein.",
+    "Sie musste einlenken und ihre Meinung ändern.",
+    "Er wollte nicht einlenken, aber sie überzeugte ihn.",
+    "Ich hoffe, sie wird einlenken und den Vorschlag akzeptieren."
+  ]
+},
+
+// Для слова "ein·wenden"
+{
+  language: "ger",
+  word: "ein·wenden",
+  forms: ["wendete ein", "hat eingewendet"],
+  type: "verb",
+  variantA: "отклонять",
+  variantB: "соглашаться",
+  variantC: "обсуждать",
+  variantD: "возражать",
+  correctAnswer: "возражать",
+  cognate_words: [],
+  sentences: [
+    "Er wendete ein, dass der Plan nicht durchführbar ist.",
+    "Sie wollte einwenden, aber er ließ sie nicht ausreden.",
+    "Ich habe nichts dagegen, aber es gibt ein paar Einwände.",
+    "Er hat einige Einwände gegen die Idee.",
+    "Wenn du Einwände hast, solltest du sie jetzt äußern."
+  ]
+},
+
+// Для слова "meistern"
+{
+  language: "ger",
+  word: "meistern",
+  forms: ["meisterte", "hat gemeistert"],
+  type: "verb",
+  variantA: "поправлять, настраивать",
+  variantB: "уходить",
+  variantC: "покорять, справляться",
+  variantD: "отклонять",
+  correctAnswer: "покорять, справляться",
+  cognate_words: [],
+  sentences: [
+    "Er hat die schwierige Prüfung erfolgreich gemeistert.",
+    "Sie meisterte alle Herausforderungen mit Bravour.",
+    "Er hat das Problem schnell gemeistert.",
+    "Sie hat ihre Ängste endlich gemeistert.",
+    "Wir müssen lernen, schwierige Situationen zu meistern."
+  ]
+},
+
+// Для слова "bewahren"
+{
+  language: "ger",
+  word: "bewahren",
+  forms: ["bewahrte", "hat bewahrt"],
+  type: "verb",
+  variantA: "терять, утрачать",
+  variantB: "сохранять, беречь",
+  variantC: "удалять",
+  variantD: "восстанавливать",
+  correctAnswer: "сохранять, беречь",
+  cognate_words: [],
+  sentences: [
+    "Er bewahrte das Geheimnis für sich.",
+    "Wir müssen die Umwelt bewahren.",
+    "Sie bewahrte ihre Ruhe in der schwierigen Situation.",
+    "Es ist wichtig, historische Gebäude zu bewahren.",
+    "Er hat das Buch gut bewahrt."
+  ]
+},
+
+// Для слова "nach·haken"
+{
+  language: "ger",
+  word: "nach·haken",
+  forms: ["hakte nach", "hat nachgehakt"],
+  type: "verb",
+  variantA: "выяснять, задавать вопросы",
+  variantB: "закрывать",
+  variantC: "откладывать",
+  variantD: "согласовывать",
+  correctAnswer: "выяснять, задавать вопросы",
+  cognate_words: [],
+  sentences: [
+    "Er hakte nach, um mehr Informationen zu erhalten.",
+    "Sie hakte bei ihm nach, aber er gab keine Antwort.",
+    "Ich werde nachhaken, ob der Termin bestätigt wurde.",
+    "Er hat bei den Kollegen nachgehakt.",
+    "Wir müssen nachhaken, um die Details zu klären."
+  ]
+},
+// Для слова "bewältigen"
+{
+  language: "ger",
+  word: "bewältigen",
+  forms: ["bewältigte", "hat bewältigt"],
+  type: "verb",
+  variantA: "управляться, справляться с чем-то",
+  variantB: "уступать",
+  variantC: "создавать",
+  variantD: "отклонять",
+  correctAnswer: "управляться, справляться с чем-то",
+  cognate_words: [],
+  sentences: [
+    "Er hat die Herausforderung erfolgreich bewältigt.",
+    "Wir müssen dieses Problem schnell bewältigen.",
+    "Sie hat die schwierige Aufgabe bewältigt.",
+    "Es fällt mir schwer, diese Aufgabe zu bewältigen.",
+    "Nach vielen Versuchen hat er das Problem endlich bewältigt."
+  ]
+},
+
+// Для слова "an·wenden SICH"
+{
+  language: "ger",
+  word: "an·wenden SICH",
+  forms: ["wandte an", "hat angewandt"],
+  type: "verb",
+  variantA: "создавать",
+  variantB: "обращаться, применять что-то",
+  variantC: "отвергать",
+  variantD: "закрывать",
+  correctAnswer: "обращаться, применять что-то",
+  cognate_words: [],
+  sentences: [
+    "Er hat sich an den Professor gewandt, um Hilfe zu erhalten.",
+    "Wir sollten uns an den Plan halten.",
+    "Kannst du dich an die Regeln wenden?",
+    "Sie wendete sich an das Team für eine Lösung.",
+    "Er wandte sich an den Kundendienst."
+  ]
+},
+
+// Для слова "ansonsten"
+{
+  language: "ger",
+  word: "ansonsten",
+  forms: [],
+  type: "adverb",
+  variantA: "поэтому",
+  variantB: "в противном случае",
+  variantC: "более того",
+  variantD: "например",
+  correctAnswer: "в противном случае",
+  cognate_words: [],
+  sentences: [
+    "Wir müssen uns beeilen, ansonsten verpassen wir den Zug.",
+    "Es regnet, ansonsten könnten wir draußen spielen.",
+    "Du kannst gehen, ansonsten bleibst du hier.",
+    "Er ist sehr beschäftigt, ansonsten ist er freundlich.",
+    "Ich habe keine Zeit, ansonsten würde ich helfen."
+  ]
+},
+
+// Для слова "übrigens"
+{
+  language: "ger",
+  word: "übrigens",
+  forms: [],
+  type: "adverb",
+  variantA: "например",
+  variantB: "кстати, между прочим",
+  variantC: "поэтому",
+  variantD: "однако",
+  correctAnswer: "кстати, между прочим",
+  cognate_words: [],
+  sentences: [
+    "Übrigens, ich habe das Buch gefunden.",
+    "Übrigens, hast du das Meeting verschoben?",
+    "Er hat übrigens eine sehr gute Idee.",
+    "Übrigens, sie kommen morgen zur Party.",
+    "Ich wollte dir übrigens noch danken."
+  ]
+},
+
+// Для слова "erweisen"
+{
+  language: "ger",
+  word: "erweisen",
+  forms: ["erwies", "hat erwiesen"],
+  type: "verb",
+  variantA: "создавать",
+  variantB: "терять",
+  variantC: "доказывать, оказывать",
+  variantD: "отклонять",
+  correctAnswer: "доказывать, оказывать",
+  cognate_words: [],
+  sentences: [
+    "Er hat sich als sehr zuverlässig erwiesen.",
+    "Diese Strategie hat sich als sehr erfolgreich erwiesen.",
+    "Er wies seine Unschuld nach.",
+    "Das hat sich als eine gute Entscheidung erwiesen.",
+    "Seine Fähigkeiten haben sich schnell erwiesen."
+  ]
+},
+
+// Для слова "wirken"
+{
+  language: "ger",
+  word: "wirken",
+  forms: ["wirkte", "hat gewirkt"],
+  type: "verb",
+  variantA: "выглядеть",
+  variantB: "помогать",
+  variantC: "действовать, оказывать влияние",
+  variantD: "восстанавливать",
+  correctAnswer: "действовать, оказывать влияние",
+  cognate_words: [],
+  sentences: [
+    "Das Medikament hat schnell gewirkt.",
+    "Seine Worte haben einen großen Einfluss auf mich gewirkt.",
+    "Wie wirkt sich die Änderung auf das Ergebnis aus?",
+    "Der Film hat einen starken Eindruck auf mich gewirkt.",
+    "Es hat so gewirkt, als ob sie traurig war."
+  ]
+},
+
+// Для фразы "an geben"
+{
+  language: "ger",
+  word: "an geben",
+  forms: ["gab an", "hat angegeben"],
+  type: "verb",
+  variantA: "забирать",
+  variantB: "проверять",
+  variantC: "собирать",
+  variantD: "указывать, сообщать",
+  correctAnswer: "указывать, сообщать",
+  cognate_words: [],
+  sentences: [
+    "Er gab an, dass er morgen verfügbar ist.",
+    "Kannst du mir deine Adresse angeben?",
+    "Sie gab die Anzahl der Teilnehmer an.",
+    "Er hat seine Kontaktdaten angegeben.",
+    "Bitte geben Sie Ihren Namen an."
+  ]
+},
+
+// Для фразы "aus geben"
+{
+  language: "ger",
+  word: "aus geben",
+  forms: ["gab aus", "hat ausgegeben"],
+  type: "verb",
+  variantA: "покупать",
+  variantB: "копить",
+  variantC: "экономить",
+  variantD: "тратить деньги, расходовать",
+  correctAnswer: "тратить деньги, расходовать",
+  cognate_words: [],
+  sentences: [
+    "Er gab viel Geld für das Auto aus.",
+    "Ich habe das Geld für den Urlaub ausgegeben.",
+    "Sie gibt ihr ganzes Geld für Kleidung aus.",
+    "Wir haben zu viel für den Abend ausgegeben.",
+    "Er gab alles aus, was er hatte."
+  ]
+},
+
+// Для фразы "auf geben"
+{
+  language: "ger",
+  word: "auf geben",
+  forms: ["gab auf", "hat aufgegeben"],
+  type: "verb",
+  variantA: "сдаваться, прекращать",
+  variantB: "начинать",
+  variantC: "достига́ть",
+  variantD: "продолжать",
+  correctAnswer: "сдаваться, прекращать",
+  cognate_words: [],
+  sentences: [
+    "Er gab auf, als es zu schwierig wurde.",
+    "Sie hat ihre Träume aufgegeben.",
+    "Wir dürfen nicht aufgeben, auch wenn es schwer ist.",
+    "Er gab nach und hörte auf zu kämpfen.",
+    "Es было schwer, aber er gab nie auf."
+  ]
+},
+
+// Для фразы "zu geben"
+{
+  language: "ger",
+  word: "zu geben",
+  forms: ["gab zu", "hat zugegeben"],
+  type: "verb",
+  variantA: "критиковать",
+  variantB: "избегать",
+  variantC: "предсказывать",
+  variantD: "признавать, допускать",
+  correctAnswer: "признавать, допускать",
+  cognate_words: [],
+  sentences: [
+    "Er gab zu, dass er einen Fehler gemacht hatte.",
+    "Ich gebe zu, dass ich manchmal ungeduldig bin.",
+    "Sie gab zu, dass sie den Brief verloren hatte.",
+    "Du solltest zu deinen Fehlern stehen und sie zugeben.",
+    "Er gab zu, dass er die Aufgabe nicht erledigt hatte."
+  ]
+},
+
+// Для фразы "ein geben"
+{
+  language: "ger",
+  word: "ein geben",
+  forms: ["gab ein", "hat eingegeben"],
+  type: "verb",
+  variantA: "принимать",
+  variantB: "объявлять",
+  variantC: "запрещать",
+  variantD: "вводить, подавать",
+  correctAnswer: "вводить, подавать",
+  cognate_words: [],
+  sentences: [
+    "Er gab den Code in das System ein.",
+    "Ich habe die Daten falsch eingegeben.",
+    "Sie gab ihre Antwort ein.",
+    "Bitte geben Sie die erforderlichen Informationen ein.",
+    "Er gab das Passwort ein und meldete sich an."
+  ]
+},
+
+// Для слова "übergeben"
+{
+  language: "ger",
+  word: "übergeben",
+  forms: ["übergab", "hat übergeben"],
+  type: "verb",
+  variantA: "брать",
+  variantB: "создавать",
+  variantC: "передавать, вручать",
+  variantD: "забывать",
+  correctAnswer: "передавать, вручать",
+  cognate_words: [],
+  sentences: [
+    "Er übergab das Paket dem Kurier.",
+    "Sie übergab ihm das Dokument.",
+    "Er hat die Verantwortung an seine Kollegen übergeben.",
+    "Ich werde dir die Schlüssel später übergeben.",
+    "Wir müssen dir diese Aufgabe übergeben."
+  ]
+},
+
+// Для слова "begeben"
+{
+  language: "ger",
+  word: "begeben",
+  forms: ["begab sich", "hat sich begeben"],
+  type: "verb",
+  variantA: "принимать участие, направляться",
+  variantB: "принимать",
+  variantC: "заботиться",
+  variantD: "откладывать",
+  correctAnswer: "принимать участие, направляться",
+  cognate_words: [],
+  sentences: [
+    "Er begab sich in den Park.",
+    "Wir begaben uns auf eine Reise.",
+    "Sie begaben sich zur Besprechung.",
+    "Ich werde mich bald zu dir begeben.",
+    "Er begab sich zum Ausgang."
+  ]
+},
+
+// Для слова "vergeben"
+{
+  language: "ger",
+  word: "vergeben",
+  forms: ["vergab", "hat vergeben"],
+  type: "verb",
+  variantA: "поддерживать",
+  variantB: "прощать, давать",
+  variantC: "забирать",
+  variantD: "отказывать",
+  correctAnswer: "прощать, давать",
+  cognate_words: [],
+  sentences: [
+    "Er vergab ihr seinen Fehler.",
+    "Sie vergab ihm seinen Fehler.",
+    "Ich werde dir den Platz vergeben.",
+    "Er hat mir vergeben und wir sind wieder Freunde.",
+    "Es ist schwer, zu vergeben, aber ich versuche es."
+  ]
+},
+// Для слова "vorrätig"
+{
+  language: "ger",
+  word: "vorrätig",
+  forms: [],
+  type: "adjective",
+  variantA: "отсутствующий на складе",
+  variantB: "в наличии",
+  variantC: "недоступный",
+  variantD: "временно недоступный",
+  correctAnswer: "в наличии",
+  cognate_words: [],
+  sentences: [
+    "Das Produkt ist momentan nicht vorrätig.",
+    "Wir haben keine vorrätigen Artikel in dieser Farbe.",
+    "Das Produkt ist vorrätig und kann sofort geliefert werden.",
+    "Ist dieses Buch noch vorrätig?",
+    "Bitte prüfen Sie, ob das Produkt vorrätig ist."
+  ]
+},
+
+// Для слова "demnächst"
+{
+  language: "ger",
+  word: "demnächst",
+  forms: [],
+  type: "adverb",
+  variantA: "скоро",
+  variantB: "всегда",
+  variantC: "редко",
+  variantD: "временно",
+  correctAnswer: "скоро",
+  cognate_words: [],
+  sentences: [
+    "Die Lieferung erfolgt demnächst.",
+    "Demnächst gibt es ein Treffen.",
+    "Das Konzert findet demnächst statt.",
+    "Wir werden demnächst mit den Renovierungsarbeiten beginnen.",
+    "Demnächst werden neue Produkte verfügbar sein."
+  ]
+},
+
+// Для слова "ähnlich"
+{
+  language: "ger",
+  word: "ähnlich",
+  forms: [],
+  type: "adjective",
+  variantA: "разный",
+  variantB: "похожий",
+  variantC: "уникальный",
+  variantD: "одинаковый",
+  correctAnswer: "похожий",
+  cognate_words: [],
+  sentences: [
+    "Sie trägt heute ein ähnliches Kleid wie gestern.",
+    "Die beiden Filme sind sich sehr ähnlich.",
+    "Er sieht seiner Schwester ziemlich ähnlich.",
+    "Wir haben ähnliche Vorlieben.",
+    "Der Stil dieses Gemäldes ist sehr ähnlich dem von Picasso."
+  ]
+},
+
+// Для слова "verschwinden"
+{
+  language: "ger",
+  word: "verschwinden",
+  forms: ["verschwand", "ist verschwunden"],
+  type: "verb",
+  variantA: "появляться",
+  variantB: "исчезать",
+  variantC: "находить",
+  variantD: "возвращаться",
+  correctAnswer: "исчезать",
+  cognate_words: [],
+  sentences: [
+    "Er verschwand nach der Besprechung.",
+    "Die Wolken verschwanden langsam.",
+    "Das Geld ist plötzlich verschwunden.",
+    "Sie sind alle verschwunden, ohne ein Wort zu sagen.",
+    "Der Zug ist kurz vor der Abfahrt verschwunden."
+  ]
+},
+
+// Для слова "der Engpass"
+{
+  language: "ger",
+  word: "der Engpass",
+  forms: ["die Engpässe"],
+  type: "noun",
+  variantA: "проблема, трудность",
+  variantB: "переменная, выбор",
+  variantC: "узкое место, дефицит",
+  variantD: "переизбыток",
+  correctAnswer: "узкое место, дефицит",
+  cognate_words: [],
+  sentences: [
+    "Der Engpass betrifft die Lieferungen.",
+    "Wir haben einen Engpass in der Produktion festgestellt.",
+    "Der Engpass im System muss schnell behoben werden.",
+    "Während des Engpasses gab es Verzögerungen.",
+    "Wir müssen den Engpass überwinden, um effizient zu arbeiten."
+  ]
+},
+
+// Для слова "fällig"
+{
+  language: "ger",
+  word: "fällig",
+  forms: [],
+  type: "adjective",
+  variantA: "запланированный",
+  variantB: "необходимый",
+  variantC: "поздний",
+  variantD: "срок наступил, нужно выполнить",
+  correctAnswer: "срок наступил, нужно выполнить",
+  cognate_words: [],
+  sentences: [
+    "Die Zahlung ist heute fällig.",
+    "Ihre Steuerrückzahlung ist fällig.",
+    "Der Bericht ist fällig bis Ende des Monats.",
+    "Die Rechnung ist fällig und muss bezahlt werden.",
+    "Der Beitrag ist fällig, also zahl bitte."
+  ]
+},
+
+// Для слова "die Feststellung"
+{
+  language: "ger",
+  word: "die Feststellung",
+  forms: ["die Feststellungen"],
+  type: "noun",
+  variantA: "проверка, исследование",
+  variantB: "констатация, утверждение",
+  variantC: "успех, победа",
+  variantD: "предсказание",
+  correctAnswer: "констатация, утверждение",
+  cognate_words: [],
+  sentences: [
+    "Die Feststellung des Problems dauert noch an.",
+    "Er hat die Feststellung gemacht, dass die Daten unvollständig sind.",
+    "Die Feststellung der Ursache des Fehlers ist wichtig.",
+    "Mit dieser Feststellung sind wir einen Schritt weiter.",
+    "Die Feststellung wurde nach der Untersuchung gemacht."
+  ]
+},
+
+// Для слова "unverbindlich"
+{
+  language: "ger",
+  word: "unverbindlich",
+  forms: [],
+  type: "adjective",
+  variantA: "необязательный",
+  variantB: "формальный",
+  variantC: "срочный",
+  variantD: "важный",
+  correctAnswer: "необязательный",
+  cognate_words: [],
+  sentences: [
+    "Das Angebot ist unverbindlich.",
+    "Wir bieten unverbindliche Beratung an.",
+    "Die Einladung ist unverbindlich und kann jederzeit geändert werden.",
+    "Er gab eine unverbindliche Zusage.",
+    "Es war ein unverbindliches Treffen, ohne feste Vereinbarungen."
+  ]
+},
+
+// Для фразы "zurück·treten VON"
+{
+  language: "ger",
+  word: "zurück·treten VON",
+  forms: ["trat zurück", "ist zurückgetreten"],
+  type: "verb",
+  variantA: "отказываться, отменять",
+  variantB: "поглощать, захватывать",
+  variantC: "принимать участие",
+  variantD: "не согласиться, отказаться от чего-то",
+  correctAnswer: "не согласиться, отказаться от чего-то",
+  cognate_words: [],
+  sentences: [
+    "Er trat von seinem Amt zurück.",
+    "Sie trat von der Position zurück.",
+    "Er hat seine Entscheidung zurückgenommen.",
+    "Wir müssen von diesem Angebot zurücktreten.",
+    "Er hat das Angebot zurückgewiesen."
+  ]
+},
+
+// Для слова "gezwungen"
+{
+  language: "ger",
+  word: "gezwungen",
+  forms: [],
+  type: "adjective",
+  variantA: "спокойный",
+  variantB: "принудительный",
+  variantC: "веселый",
+  variantD: "сильный",
+  correctAnswer: "принудительный",
+  cognate_words: [],
+  sentences: [
+    "Er fühlte sich gezwungen, eine Entscheidung zu treffen.",
+    "Ich war gezwungen, das Angebot anzunehmen.",
+    "Sie wurde gezwungen, ihre Meinung zu ändern.",
+    "Er fühlte sich gezwungen, zu arbeiten.",
+    "Wir haben ihn gezwungen, zurückzukommen."
+  ]
+},
+// Для слова "die Bemühung"
+{
+  language: "ger",
+  word: "die Bemühung",
+  forms: ["die Bemühungen"],
+  type: "noun",
+  variantA: "проблема, трудность",
+  variantB: "неудача",
+  variantC: "пожертвование",
+  variantD: "усилия, старания",
+  correctAnswer: "усилия, старания",
+  cognate_words: [],
+  sentences: [
+    "Seine Bemühungen wurden nicht belohnt.",
+    "Sie zeigte große Bemühungen, das Problem zu lösen.",
+    "Die Bemühungen des Teams führten zum Erfolg.",
+    "Ich schätze deine Bemühungen, das zu erklären.",
+    "Er zeigte keine Bemühungen, sich zu verbessern."
+  ]
+},
+
+// Для слова "unterbreiten"
+{
+  language: "ger",
+  word: "unterbreiten",
+  forms: ["unterbrach", "hat unterbrochen"],
+  type: "verb",
+  variantA: "объяснять",
+  variantB: "предлагать, представлять",
+  variantC: "вспоминать",
+  variantD: "принимать участие",
+  correctAnswer: "предлагать, представлять",
+  cognate_words: [],
+  sentences: [
+    "Er unterbreitete ein interessantes Angebot.",
+    "Wir möchten Ihnen ein neues Konzept unterbreiten.",
+    "Die Firma unterbrach das Gespräch, um ein Angebot zu unterbreiten.",
+    "Er unterbrach die Sitzung, um einen Vorschlag zu unterbreiten.",
+    "Ich werde Ihnen ein detailliertes Angebot unterbreiten."
+  ]
+},
+
+// Для слова "die Auflösung"
+{
+  language: "ger",
+  word: "die Auflösung",
+  forms: ["die Auflösungen"],
+  type: "noun",
+  variantA: "решение, выбор",
+  variantB: "объяснение",
+  variantC: "развитие",
+  variantD: "прекращение, растворение",
+  correctAnswer: "прекращение, растворение",
+  cognate_words: [],
+  sentences: [
+    "Die Auflösung der Firma war unvermeidlich.",
+    "Die Auflösung des Rätsels dauerte nicht lange.",
+    "Die Auflösung des Projekts wurde beschlossen.",
+    "Die Auflösung des Konflikts wurde schnell erreicht.",
+    "Wir müssen eine Auflösung für das Problem finden."
+  ]
+},
+
+// Для слова "definieren"
+{
+  language: "ger",
+  word: "definieren",
+  forms: ["definierte", "hat definiert"],
+  type: "verb",
+  variantA: "объяснять",
+  variantB: "устанавливать границы",
+  variantC: "определять, устанавливать",
+  variantD: "рассматривать",
+  correctAnswer: "определять, устанавливать",
+  cognate_words: [],
+  sentences: [
+    "Kannst du diesen Begriff bitte definieren?",
+    "Wir müssen klare Ziele definieren.",
+    "Er definierte seine Haltung zu diesem Thema.",
+    "Das Ziel ist es, den Begriff präzise zu definieren.",
+    "Wie definieren wir den Erfolg in diesem Fall?"
+  ]
+},
+
+// Для слова "gestehen"
+{
+  language: "ger",
+  word: "gestehen",
+  forms: ["gestand", "hat gestanden"],
+  type: "verb",
+  variantA: "заслужить",
+  variantB: "признавать",
+  variantC: "пытаться",
+  variantD: "отказываться",
+  correctAnswer: "признавать",
+  cognate_words: [],
+  sentences: [
+    "Er gestand seine Fehler.",
+    "Sie gestand, dass sie die Wahrheit wusste.",
+    "Er hat seine Tat gestanden.",
+    "Ich gestehe, dass ich es nicht erwartet hatte.",
+    "Er wollte nicht gestehen, dass er schuld war."
+  ]
+},
+
+// Для фразы "flehen UM"
+{
+  language: "ger",
+  word: "flehen UM",
+  forms: ["flehte", "hat gefleht"],
+  type: "verb",
+  variantA: "спорить",
+  variantB: "приглашать",
+  variantC: "пожертвовать",
+  variantD: "молить, просить",
+  correctAnswer: "молить, просить",
+  cognate_words: [],
+  sentences: [
+    "Er flehte um Hilfe.",
+    "Sie flehte um Vergebung.",
+    "Ich flehte ihn, zu bleiben.",
+    "Sie flehte um eine zweite Chance.",
+    "Er flehte um Gnade."
+  ]
+},
+
+// Для слова "hinterlassen"
+{
+  language: "ger",
+  word: "hinterlassen",
+  forms: ["hinterließ", "hat hinterlassen"],
+  type: "verb",
+  variantA: "цепляться, держаться",
+  variantB: "следовать",
+  variantC: "оставлять, оставлять после себя",
+  variantD: "находить",
+  correctAnswer: "оставлять, оставлять после себя",
+  cognate_words: [],
+  sentences: [
+    "Er hat ein großes Erbe hinterlassen.",
+    "Sie hinterließ eine Nachricht für mich.",
+    "Die Wissenschaftler haben wertvolle Erkenntnisse hinterlassen.",
+    "Was hast du mir hinterlassen?",
+    "Er hinterließ den Raum in Unordnung."
+  ]
+},
+
+// Для слова "verlassen"
+{
+  language: "ger",
+  word: "verlassen",
+  forms: ["verließ", "hat verlassen"],
+  type: "verb",
+  variantA: "убавлять, уменьшать",
+  variantB: "приходить",
+  variantC: "доставать",
+  variantD: "покидать, оставлять",
+  correctAnswer: "покидать, оставлять",
+  cognate_words: [],
+  sentences: [
+    "Er verließ das Büro früh.",
+    "Sie hat ihre Familie verlassen.",
+    "Der Zug hat den Bahnhof verlassen.",
+    "Ich musste das Hotel verlassen.",
+    "Er verließ die Stadt nach der Besprechung."
+  ]
+},
+{
+  language: "ger",
+  word: "veranlassen",
+  forms: ["veranlasste", "hat veranlasst"],
+  type: "verb",
+  variantA: "устанавливать",
+  variantB: "погашать",
+  variantC: "замечать",
+  variantD: "поручать, вызывать",
+  correctAnswer: "поручать, вызывать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Der Direktor hat eine Untersuchung veranlasst.",
+    "Er veranlasste die Änderungen sofort.",
+    "Ich werde alles veranlassen, damit das funktioniert.",
+    "Die Regierung hat Maßnahmen veranlasst.",
+    "Er veranlasste eine Besprechung."
+  ]
+},
+
+// Для слова "bezugnehmend"
+{
+  language: "ger",
+  word: "bezugnehmend",
+  forms: [],
+  type: "adjective",
+  variantA: "в связи с",
+  variantB: "передаваемый",
+  variantC: "интересующий",
+  variantD: "применяющийся",
+  correctAnswer: "в связи с", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Bezugnehmend auf Ihre Anfrage, hier die Antwort.",
+    "Bezugnehmend auf die Besprechung, müssen wir что-то делать.",
+    "Bezugnehmend на den Artikel, möchte ich свою мнение выразить.",
+    "Bezugnehmend auf die E-Mail, die Sie gesendet haben, hier die Details.",
+    "Bezugnehmend auf das Gespräch gestern, hier mein Vorschlag."
+  ]
+},
+
+// Для слова "anliegend"
+{
+  language: "ger",
+  word: "anliegend",
+  forms: [],
+  type: "adjective",
+  variantA: "неприкасаемый",
+  variantB: "прикладываемый",
+  variantC: "непреложный",
+  variantD: "выполняющийся",
+  correctAnswer: "прикладываемый", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Anliegend sende ich Ihnen den Vertrag.",
+    "Die anliegende Vorschrift ist sehr wichtig.",
+    "Ich sende Ihnen die anliegende Datei.",
+    "Die anliegende Anfrage muss noch bearbeitet werden.",
+    "Der Bericht ist anliegend beigefügt."
+  ]
+},
+
+// Для слова "beiliegend"
+{
+  language: "ger",
+  word: "beiliegend",
+  forms: [],
+  type: "adjective",
+  variantA: "информативный",
+  variantB: "относящийся",
+  variantC: "прилагаемый",
+  variantD: "заключающийся",
+  correctAnswer: "прилагаемый", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Beiliegend finden Sie alle notwendigen Dokumente.",
+    "Die beiliegende Broschüre enthält weitere Informationen.",
+    "Beiliegend sende ich Ihnen den Vertrag.",
+    "Bitte beachten Sie die beiliegenden Unterlagen.",
+    "Die beiliegende Datei muss überprüft werden."
+  ]
+},
+
+// Для слова "hervorragend"
+{
+  language: "ger",
+  word: "hervorragend",
+  forms: [],
+  type: "adjective",
+  variantA: "неприметный",
+  variantB: "обычный",
+  variantC: "незначительный",
+  variantD: "выдающийся, превосходный",
+  correctAnswer: "выдающийся, превосходный", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Das war eine hervorragende Präsentation!",
+    "Sie hat eine hervorragende Leistung erbracht.",
+    "Die Qualität dieses Produkts ist hervorragend.",
+    "Er hat hervorragende Arbeit geleistet.",
+    "Wir haben einen hervorragenden Service erhalten."
+  ]
+},
+
+// Для слова "gesamt"
+{
+  language: "ger",
+  word: "gesamt",
+  forms: [],
+  type: "adjective",
+  variantA: "частичный",
+  variantB: "отдельный",
+  variantC: "всего, общий",
+  variantD: "неполный",
+  correctAnswer: "всего, общий", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Die gesamten Kosten werden später berechnet.",
+    "Die Gesamtzahl der Teilnehmer ist hoch.",
+    "Wir haben die gesamt gesammelten Daten ausgewertet.",
+    "Der gesamt Umfang des Projekts ist noch nicht festgelegt.",
+    "Die Gesamtbewertung der Veranstaltung war positiv."
+  ]
+},
+
+// Для слова "begleichen"
+{
+  language: "ger",
+  word: "begleichen",
+  forms: ["beglich", "hat beglichen"],
+  type: "verb",
+  variantA: "откладывать",
+  variantB: "забывать",
+  variantC: "погашать, урегулировать",
+  variantD: "понижать",
+  correctAnswer: "погашать, урегулировать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Er beglich seine Schulden pünktlich.",
+    "Ich habe die Rechnung bereits beglichen.",
+    "Es bleibt noch einiges zu begleichen.",
+    "Er beglich alle offenen Fragen.",
+    "Ich möchte die Kosten beglichen wissen."
+  ]
+},
+
+// Для слова "gelegen"
+{
+  language: "ger",
+  word: "gelegen",
+  forms: [],
+  type: "adjective",
+  variantA: "закрытый",
+  variantB: "поразительный",
+  variantC: "расположенный",
+  variantD: "приобретенный",
+  correctAnswer: "расположенный", 
+  cognate_words: [],
+  sentences: [
+    "Das Hotel ist sehr günstig gelegen.",
+    "Die Stadt ist landschaftlich sehr schön gelegen.",
+    "Unsere Wohnung ist sehr zentral gelegen.",
+    "Der Laden ist neben dem Bahnhof gelegen.",
+    "Das Restaurant ist am See gelegen."
+  ]
+},
+{
+  language: "ger",
+  word: "die Vorlage",
+  forms: ["die Vorlagen"],
+  type: "nomen",
+  variantA: "структура, план",
+  variantB: "предложение",
+  variantC: "рекомендация",
+  variantD: "шаблон, образец",
+  correctAnswer: "шаблон, образец", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Bitte beachten Sie die Vorlage für den Bericht.",
+    "Die Vorlage für die Präsentation ist sehr nützlich.",
+    "Er hat seine Arbeit nach einer Vorlage erstellt.",
+    "Sie haben mir eine Vorlage zur Verfügung gestellt.",
+    "Die Vorlage für das Formular muss noch bearbeitet werden."
+  ]
+},
+
+// Для слова "die Bedingung"
+{
+  language: "ger",
+  word: "die Bedingung",
+  forms: ["die Bedingungen"],
+  type: "nomen",
+  variantA: "требование",
+  variantB: "конкурс",
+  variantC: "условие",
+  variantD: "соглашение",
+  correctAnswer: "условие", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Die Bedingung für den Vertrag ist akzeptabel.",
+    "Wir müssen die Bedingung dieser Vereinbarung erfüllen.",
+    "Er hat die Bedingungen des Angebots akzeptiert.",
+    "Eine der Bedingungen war die pünktliche Lieferung.",
+    "Die Bedingungen sind klar und verständlich."
+  ]
+},
+
+// Для слова "empfangen"
+{
+  language: "ger",
+  word: "empfangen",
+  forms: ["empfing", "hat empfangen"],
+  type: "verb",
+  variantA: "ловить, хватать",
+  variantB: "отправлять",
+  variantC: "получать, принимать",
+  variantD: "забывать",
+  correctAnswer: "получать, принимать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Ich habe Ihre Nachricht empfangen.",
+    "Er empfing uns am Flughafen.",
+    "Wir haben das Paket gestern empfangen.",
+    "Sie haben das Geschenk mit Freude empfangen.",
+    "Der Chef empfing die Gäste herzlich."
+  ]
+},
+
+// Для слова "beabsichtigen"
+{
+  language: "ger",
+  word: "beabsichtigen",
+  forms: ["beabsichtigte", "hat beabsichtigt"],
+  type: "verb",
+  variantA: "оступаться, теряться",
+  variantB: "избегать",
+  variantC: "намереваться, планировать",
+  variantD: "обсуждать",
+  correctAnswer: "намереваться, планировать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Er beabsichtigt, nächsten Monat zu reisen.",
+    "Wir beabsichtigen, die Arbeit bald abzuschließen.",
+    "Sie beabsichtigte, den Vertrag zu unterschreiben.",
+    "Ich habe beabsichtigt, dieses Projekt zu leiten.",
+    "Die Firma beabsichtigt, neue Produkte zu lancieren."
+  ]
+},
+
+// Для слова "verhindern"
+{
+  language: "ger",
+  word: "verhindern",
+  forms: ["verhinderte", "hat verhindert"],
+  type: "verb",
+  variantA: "обсуждать",
+  variantB: "определять",
+  variantC: "предотвращать",
+  variantD: "согласовывать",
+  correctAnswer: "предотвращать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Wir müssen alles tun, um die Krise zu verhindern.",
+    "Er hat das Experiment verhindert.",
+    "Die Maßnahmen werden dazu beitragen, den Schaden zu verhindern.",
+    "Wir haben versucht, die Verzögerung zu verhindern.",
+    "Das neue Gesetz soll Umweltschäden verhindern."
+  ]
+},
+
+// Для слова "diesbezüglich"
+{
+  language: "ger",
+  word: "diesbezüglich",
+  forms: [],
+  type: "adjective",
+  variantA: "постоянный",
+  variantB: "важный",
+  variantC: "по этому поводу",
+  variantD: "мнимый",
+  correctAnswer: "по этому поводу", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Diesbezüglich gibt es keine weiteren Informationen.",
+    "Wir haben diesbezüglich noch keine Entscheidung getroffen.",
+    "Er hat diesbezüglich seine Meinung geäußert.",
+    "Es gibt diesbezüglich keine Veränderungen.",
+    "Ich werde diesbezüglich noch mit ihm sprechen."
+  ]
+},
+
+// Для слова "die Panne"
+{
+  language: "ger",
+  word: "die Panne",
+  forms: ["die Pannen"],
+  type: "nomen",
+  variantA: "кастрюля, сковорода",
+  variantB: "дорога",
+  variantC: "неполадка, сбой",
+  variantD: "решение",
+  correctAnswer: "неполадка, сбой", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Wir hatten eine Panne auf dem Weg nach Hause.",
+    "Die Panne wurde schnell behoben.",
+    "Das Auto hat eine Panne.",
+    "Es gab eine Panne im System.",
+    "Der Techniker konnte die Panne rechtzeitig reparieren."
+  ]
+},
+
+// Для слова "die Pannendienst"
+{
+  language: "ger",
+  word: "die Pannendienst",
+  forms: ["die Pannendienste"],
+  type: "nomen",
+  variantA: "жилищный отдел",
+  variantB: "интернет-услуга",
+  variantC: "государственная служба",
+  variantD: "служба по устранению неисправностей",
+  correctAnswer: "служба по устранению неисправностей", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Der Pannendienst kam schnell, um uns zu helfen.",
+    "Wir riefen den Pannendienst an, als das Auto stehen blieb.",
+    "Die Pannendienst-Nummer war auf dem Ausweis.",
+    "Der Pannendienst hilft bei Autopannen auf der Straße.",
+    "Ich habe den Pannendienst kontaktiert, um das Problem zu beheben."
+  ]
+},
+
+// Для слова "berühren"
+{
+  language: "ger",
+  word: "berühren",
+  forms: ["berührte", "hat berührt"],
+  type: "verb",
+  variantA: "касаться, трогать",
+  variantB: "увеличивать",
+  variantC: "поглощать",
+  variantD: "удалять",
+  correctAnswer: "касаться, трогать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Er hat meine Hand berührt.",
+    "Sie hat das Thema sehr sensibel berührt.",
+    "Ich möchte dieses Thema nicht weiter berühren.",
+    "Das Bild berührte ihn tief.",
+    "Er hat das Gesicht vorsichtig berührt."
+  ]
+},
+
+// Для слова "anfassen"
+{
+  language: "ger",
+  word: "anfassen",
+  forms: ["fasste an", "hat angefasst"],
+  type: "verb",
+  variantA: "удалять",
+  variantB: "прикасаться, трогать",
+  variantC: "рассматривать",
+  variantD: "обсуждать",
+  correctAnswer: "прикасаться, трогать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Sie hat das Buch angefasst.",
+    "Er hat sie am Arm angefasst.",
+    "Bitte fass das nicht an.",
+    "Er hat das Problem sofort angefasst.",
+    "Ich möchte diese Angelegenheit näher anfassen."
+  ]
+},
+{
+  language: "ger",
+  word: "ein·setzen",
+  forms: ["setzte ein", "hat eingesetzt"],
+  type: "verb",
+  variantA: "вставлять, устанавливать",
+  variantB: "отменять",
+  variantC: "спрашивать",
+  variantD: "применять",
+  correctAnswer: "применять", // Верный вариант D
+  cognate_words: [],
+  sentences: [
+    "Er hat die Strategie erfolgreich eingesetzt.",
+    "Wir setzen neue Technologien ein, um die Effizienz zu verbessern.",
+    "Sie hat ihre Erfahrung im Projekt eingesetzt.",
+    "Der Trainer setzte den Spieler in der letzten Minute ein.",
+    "Es ist wichtig, moderne Methoden einzusetzen."
+  ]
+},
+
+// Для слова "zurück·setzen"
+{
+  language: "ger",
+  word: "zurück·setzen",
+  forms: ["setzte zurück", "hat zurückgesetzt"],
+  type: "verb",
+  variantA: "передвигать, переустанавливать",
+  variantB: "возвращать, сбрасывать",
+  variantC: "пересматривать",
+  variantD: "выставлять",
+  correctAnswer: "возвращать, сбрасывать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Sie hat das System zurückgesetzt, um Fehler zu beheben.",
+    "Ich musste die Einstellungen zurücksetzen, um das Problem zu lösen.",
+    "Der Fehler trat nach dem Zurücksetzen des Programms auf.",
+    "Kannst du den Wert bitte zurücksetzen?",
+    "Das Zurücksetzen des Passworts dauerte nur wenige Minuten."
+  ]
+},
+
+// Для слова "aus·werfen"
+{
+  language: "ger",
+  word: "aus·werfen",
+  forms: ["warf aus", "hat ausgeworfen"],
+  type: "verb",
+  variantA: "передавать, перенаправлять",
+  variantB: "вводить",
+  variantC: "выбрасывать, вытаскивать",
+  variantD: "запускать",
+  correctAnswer: "выбрасывать, вытаскивать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Das System hat einen Fehler ausgeworfen.",
+    "Er hat den Ball weit aus dem Spielfeld geworfen.",
+    "Der Computer hat eine Fehlermeldung ausgeworfen.",
+    "Sie musste den defekten Artikel auswerfen.",
+    "Er hat das ungenutzte Gerät aus dem Raum geworfen."
+  ]
+},
+
+// Для слова "auf·werfen"
+{
+  language: "ger",
+  word: "auf·werfen",
+  forms: ["warf auf", "hat aufgeworfen"],
+  type: "verb",
+  variantA: "поглащать, цеплять",
+  variantB: "поднимать, ставить (вопрос)",
+  variantC: "закрывать",
+  variantD: "менять",
+  correctAnswer: "поднимать, ставить (вопрос)", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Er hat eine interessante Frage aufgeworfen.",
+    "Das Thema wurde während des Meetings aufgeworfen.",
+    "Die Diskussion hat mehrere Probleme aufgeworfen.",
+    "Dieser Punkt sollte noch einmal aufgeworfen werden.",
+    "Die aufgeworfene Frage ist von großer Bedeutung."
+  ]
+},
+
+// Для слова "aus·rüsten MIT"
+{
+  language: "ger",
+  word: "aus·rüsten MIT",
+  forms: ["rüstete aus", "hat ausgerüstet"],
+  type: "verb",
+  variantA: "вводить",
+  variantB: "покупать",
+  variantC: "ремонтировать",
+  variantD: "оснащать чем-либо",
+  correctAnswer: "оснащать чем-либо", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Die Expedition wurde mit den neuesten Geräten ausgerüstet.",
+    "Das Team wurde mit Schutzkleidung ausgerüstet.",
+    "Sie haben uns mit allem ausgestattet, was wir brauchen.",
+    "Der Club wurde mit neuen Computern ausgerüstet.",
+    "Die Firma rüstet ihre Mitarbeiter mit modernen Werkzeugen aus."
+  ]
+},
+
+// Для слова "versiert"
+{
+  language: "ger",
+  word: "versiert",
+  forms: [],
+  type: "adjective",
+  variantA: "новый, неопытный",
+  variantB: "молодой",
+  variantC: "опытный, квалифицированный",
+  variantD: "мудрый",
+  correctAnswer: "опытный, квалифицированный", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Er ist in diesem Bereich sehr versiert.",
+    "Sie ist eine versierte Fachkraft.",
+    "Er ist ein versierter Ingenieur.",
+    "Ich vertraue einem versierten Arzt.",
+    "Ihre versierte Arbeit wird immer geschätzt."
+  ]
+},
+
+// Для слова "ausführlich"
+{
+  language: "ger",
+  word: "ausführlich",
+  forms: [],
+  type: "adjective",
+  variantA: "неконкретный",
+  variantB: "трудный",
+  variantC: "быстрый",
+  variantD: "подробный",
+  correctAnswer: "подробный", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Er gab eine ausführliche Erklärung.",
+    "Das Bericht war sehr ausführlich und informativ.",
+    "Wir haben eine ausführliche Besprechung geführt.",
+    "Die Anweisungen waren ausführlich und klar.",
+    "Der Bericht wurde ausführlich besprochen."
+  ]
+},
+
+// Для слова "wieder·geben"
+{
+  language: "ger",
+  word: "wieder·geben",
+  forms: ["gab wieder", "hat wiedergegeben"],
+  type: "verb",
+  variantA: "отказывать, отменять",
+  variantB: "покупать",
+  variantC: "рассматривать",
+  variantD: "пересказывать, воспроизводить",
+  correctAnswer: "пересказывать, воспроизводить", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Er konnte die Geschichte sehr gut wiedergeben.",
+    "Das Bild gibt die Szene sehr gut wieder.",
+    "Er hat das gesprochene Wort genau wiedergegeben.",
+    "Kannst du das bitte wiedergeben?",
+    "Das Buch gibt die Ereignisse detailliert wieder."
+  ]
+},
+
+// Для слова "ermitteln"
+{
+  language: "ger",
+  word: "ermitteln",
+  forms: ["ermittelte", "hat ermittelt"],
+  type: "verb",
+  variantA: "доказывать",
+  variantB: "заключать",
+  variantC: "выяснять, расследовать",
+  variantD: "разрешать",
+  correctAnswer: "выяснять, расследовать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Die Polizei ermittelt in diesem Fall.",
+    "Er hat die Ursache des Problems ermittelt.",
+    "Wir müssen noch einige Details ermitteln.",
+    "Die Ermittlungen dauern noch an.",
+    "Die Ursache des Unfalls konnte ermittelt werden."
+  ]
+},
+
+{
+  language: "ger",
+  word: "erkennen",
+  forms: ["erkannte", "hat erkannt"],
+  type: "verb",
+  variantA: "понимать, осознавать",
+  variantB: "видеть, замечать",
+  variantC: "спорить",
+  variantD: "игнорировать",
+  correctAnswer: "понимать, осознавать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Er erkannte sofort, dass etwas nicht stimmte.",
+    "Ich konnte den Fehler schnell erkennen.",
+    "Sie hat ihn nach Jahren wieder erkannt.",
+    "Es ist wichtig, Probleme rechtzeitig zu erkennen.",
+    "Er kann gute Möglichkeiten erkennen."
+  ]
+},
+
+// Для слова "der Zufall"
+{
+  language: "ger",
+  word: "der Zufall",
+  forms: ["die Zufälle"],
+  type: "noun",
+  variantA: "ошибка, провал",
+  variantB: "результат",
+  variantC: "награда",
+  variantD: "лучайность, совпадение",
+  correctAnswer: "случайность, совпадение", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Es war ein reiner Zufall, dass wir uns getroffen haben.",
+    "Durch Zufall habe ich das alte Buch gefunden.",
+    "Der Zufall hat uns zusammengebracht.",
+    "Manchmal sind die besten Dinge im Leben Zufall.",
+    "Es war kein Zufall, dass sie den Wettbewerb gewonnen hat."
+  ]
+},
+
+// Для слова "die Fertigkeit"
+{
+  language: "ger",
+  word: "die Fertigkeit",
+  forms: ["die Fertigkeiten"],
+  type: "noun",
+  variantA: "черта, характер",
+  variantB: "недостаток",
+  variantC: "умение, навык",
+  variantD: "вмешательство",
+  correctAnswer: "умение, навык", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Mit dieser Fertigkeit kannst du viele Probleme lösen.",
+    "Sie hat ihre Fertigkeiten im Bereich Technologie verbessert.",
+    "Er hat die Fertigkeit, gut zu kommunizieren.",
+    "Er besitzt ausgezeichnete Fertigkeiten in der Mathematik.",
+    "Fertigkeiten kann man durch Übung verbessern."
+  ]
+},
+
+// Для слова "die Auswirkung"
+{
+  language: "ger",
+  word: "die Auswirkung",
+  forms: ["die Auswirkungen"],
+  type: "noun",
+  variantA: "реакция, эффект",
+  variantB: "предсказание",
+  variantC: "воздействие, влияние",
+  variantD: "затруднение",
+  correctAnswer: "воздействие, влияние", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Die Auswirkungen des neuen Gesetzes waren spürbar.",
+    "Die Auswirkung des Klimawandels ist weltweit zu spüren.",
+    "Das hatte gravierende Auswirkungen auf die Wirtschaft.",
+    "Die langfristigen Auswirkungen müssen noch untersucht werden.",
+    "Das Projekt hatte positive Auswirkungen auf die Region."
+  ]
+},
+
+// Для слова "ausnahmsweise"
+{
+  language: "ger",
+  word: "ausnahmsweise",
+  forms: [],
+  type: "adverb",
+  variantA: "планово",
+  variantB: "постоянно",
+  variantC: "неожиданно",
+  variantD: "исключительно",
+  correctAnswer: "исключительно", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Ausnahmsweise können wir heute länger arbeiten.",
+    "Er hat ausnahmsweise zugestimmt, weil es wichtig war.",
+    "Wir können ausnahmsweise eine Pause machen.",
+    "Ausnahmsweise habe ich mir Zeit genommen, um zu helfen.",
+    "Das war ausnahmsweise der Fall."
+  ]
+},
+
+// Для слова "geringfügig"
+{
+  language: "ger",
+  word: "geringfügig",
+  forms: [],
+  type: "adjective",
+  variantA: "большой",
+  variantB: "важный",
+  variantC: "незначительный",
+  variantD: "трудный",
+  correctAnswer: "незначительный", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Der Unterschied ist nur geringfügig.",
+    "Es gab nur eine geringfügige Änderung.",
+    "Die Unterschiede sind geringfügig und nicht relevant.",
+    "Der Preisunterschied ist geringfügig.",
+    "Der Aufwand war nur geringfügig."
+  ]
+},
+
+// Для фразы "auf regen ÜBER"
+{
+  language: "ger",
+  word: "auf·regen ÜBER",
+  forms: ["regte auf", "hat aufgeregt"],
+  type: "verb",
+  variantA: "успокаивать, сбавлять",
+  variantB: "волновать, раздражать",
+  variantC: "развлекать",
+  variantD: "показывать",
+  correctAnswer: "волновать, раздражать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Das Thema hat ihn sehr aufgeregt.",
+    "Er regte sich über die Nachricht sehr auf.",
+    "Solche Dinge können jemanden leicht aufregen.",
+    "Das Wetter regte ihn jedes Mal auf.",
+    "Lass dich nicht so leicht aufregen!"
+  ]
+},
+
+// Для слова "bemerken"
+{
+  language: "ger",
+  word: "bemerken",
+  forms: ["bemerkte", "hat bemerkt"],
+  type: "verb",
+  variantA: "удивляться",
+  variantB: "замечать",
+  variantC: "предположить",
+  variantD: "решать",
+  correctAnswer: "замечать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Ich habe nicht bemerkt, dass du schon gegangen bist.",
+    "Er bemerkte das kleine Detail sofort.",
+    "Sie bemerkte die Veränderung in seiner Stimme.",
+    "Hast du etwas Ungewöhnliches bemerkt?",
+    "Ich habe den Fehler erst nach einer Weile bemerkt."
+  ]
+},
+
+// Для слова "heraus finden"
+{
+  language: "ger",
+  word: "heraus·finden",
+  forms: ["fand heraus", "hat herausgefunden"],
+  type: "verb",
+  variantA: "разызскивать, искать",
+  variantB: "обсуждать",
+  variantC: "спрашивать",
+  variantD: "выяснять, находить",
+  correctAnswer: "выяснять, находить", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Ich habe es endlich herausgefunden.",
+    "Er fand heraus, dass sie gelogen hatte.",
+    "Sie musste herausfinden, wie es funktioniert.",
+    "Ich versuche, die Ursache des Problems herauszufinden.",
+    "Wir müssen herausfinden, was genau passiert ist."
+  ]
+},
+
+// Для слова "auf bauen"
+{
+  language: "ger",
+  word: "auf·bauen",
+  forms: ["baute auf", "hat aufgebaut"],
+  type: "verb",
+  variantA: "покрывать, накрывать",
+  variantB: "строить, развивать",
+  variantC: "анализировать",
+  variantD: "проверять",
+  correctAnswer: "строить, развивать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Wir bauen das Geschäft langsam auf.",
+    "Er hat ein starkes Team aufgebaut.",
+    "Sie müssen Vertrauen aufbauen, um eine gute Beziehung zu haben.",
+    "Ich baue meine Karriere weiter auf.",
+    "Er hat viele neue Ideen aufgebaut."
+  ]
+},
+
+// Для слова "überreden ZU"
+{
+  language: "ger",
+  word: "über·reden ZU",
+  forms: ["überredete", "hat überredet"],
+  type: "verb",
+  variantA: "просить",
+  variantB: "уговаривать",
+  variantC: "наставлять",
+  variantD: "отговаривать",
+  correctAnswer: "уговаривать", // Верный вариант A
+  cognate_words: [],
+  sentences: [
+    "Er hat sie überredet, mit ihm zu kommen.",
+    "Sie überredete ihn, die Entscheidung zu ändern.",
+    "Kannst du ihn vielleicht überreden, das zu tun?",
+    "Sie konnte ihn nicht überreden, das Angebot anzunehmen.",
+    "Er hat mich überredet, mehr Zeit zu investieren."
+  ]
+},
+{
+  "language": "ger",
+  "word": "das Fazit",
+  "forms": [],
+  "type": "noun",
+  "variantA": "резюме",
+  "variantB": "пункт",
+  "variantC": "вывод",
+  "variantD": "перерыв",
+  "correctAnswer": "вывод",
+  "cognate_words": [],
+  "sentences": [
+    "Das Fazit der Untersuchung ist eindeutig.",
+    "Am Ende des Projekts haben wir ein positives Fazit gezogen.",
+    "Das Fazit des Gesprächs war, dass wir zusammenarbeiten sollten.",
+    "Das Fazit dieser Analyse zeigt, dass mehr Investitionen nötig sind.",
+    "Ich stimme dem Fazit des Berichts zu."
+  ]
+},
+{
+  "language": "ger",
+  "word": "die Faustregel",
+  "forms": [],
+  "type": "noun",
+  "variantA": "основное правило",
+  "variantB": "сложное правило",
+  "variantC": "указание",
+  "variantD": "исключение",
+  "correctAnswer": "основное правило",
+  "cognate_words": [],
+  "sentences": [
+    "Eine Faustregel besagt, dass man täglich mindestens acht Stunden schlafen sollte.",
+    "Die Faustregel ist einfach: je mehr man übt, desto besser wird man.",
+    "Es gibt eine Faustregel, dass man keine Entscheidungen unter Druck treffen sollte.",
+    "Die Faustregel bei der Arbeit lautet: 'Qualität vor Quantität.'",
+    "Er befolgte immer die Faustregel, weniger zu essen und mehr zu bewegen."
+  ]
+},
+{
+  "language": "ger",
+  "word": "die Haltbarkeit",
+  "forms": [],
+  "type": "noun",
+  "variantA": "долговечность",
+  "variantB": "непрочность",
+  "variantC": "срок годности",
+  "variantD": "порча",
+  "correctAnswer": "срок годности",
+  "cognate_words": [],
+  "sentences": [
+    "Die Haltbarkeit des Produkts ist auf der Verpackung angegeben.",
+    "Längerer Kontakt kann die Haltbarkeit beeinträchtigen.",
+    "Wir sollten die Haltbarkeit des Lebensmittels überprüfen.",
+    "Die Haltbarkeit des Materials ist außergewöhnlich hoch.",
+    "Die Haltbarkeit von frischen Produkten ist begrenzt."
+  ]
+},
+{
+  "language": "ger",
+  "word": "jedoch",
+  "forms": [],
+  "type": "conjunction",
+  "variantA": "тем не менее",
+  "variantB": "поскольку",
+  "variantC": "если",
+  "variantD": "потому что",
+  "correctAnswer": "тем не менее",
+  "cognate_words": [],
+  "sentences": [
+    "Er wollte gehen, jedoch war es zu spät.",
+    "Es regnete, jedoch ging er spazieren.",
+    "Sie hat es nicht geschafft, jedoch versuchte sie es erneut.",
+    "Ich habe Hunger, jedoch keine Lust zu essen.",
+    "Er ist ein guter Arzt, jedoch fehlt ihm Erfahrung."
+  ]
+},
+{
+  "language": "ger",
+  "word": "erheblich",
+  "forms": [],
+  "type": "adjective",
+  "variantA": "незначительный",
+  "variantB": "существенный",
+  "variantC": "малый",
+  "variantD": "незначительный",
+  "correctAnswer": "существенный",
+  "cognate_words": [],
+  "sentences": [
+    "Die Kosten sind erheblich gestiegen.",
+    "Es gab erhebliche Verzögerungen im Projekt.",
+    "Er hat erheblich zur Verbesserung beigetragen.",
+    "Die Unterschiede sind nicht erheblich.",
+    "Er hat erhebliche Fortschritte gemacht."
+  ]
+},
+{
+  "language": "ger",
+  "word": "bedeutend",
+  "forms": [],
+  "type": "adjective",
+  "variantA": "значимый",
+  "variantB": "незначительный",
+  "variantC": "неважный",
+  "variantD": "малозначимый",
+  "correctAnswer": "значимый",
+  "cognate_words": [],
+  "sentences": [
+    "Er ist eine bedeutende Persönlichkeit in der Wissenschaft.",
+    "Das war eine bedeutende Entdeckung.",
+    "Dieses Ereignis hat eine bedeutende Auswirkung auf die Gesellschaft.",
+    "Die Bedeutung dieses Gesetzes ist sehr bedeutend.",
+    "Bedeutende Veränderungen stehen bevor."
+  ]
+},
+{
+  "language": "ger",
+  "word": "unvollständig",
+  "forms": [],
+  "type": "adjective",
+  "variantA": "неполный",
+  "variantB": "полный",
+  "variantC": "точный",
+  "variantD": "ясный",
+  "correctAnswer": "неполный",
+  "cognate_words": [],
+  "sentences": [
+    "Der Bericht ist noch unvollständig.",
+    "Ich habe nur unvollständige Informationen erhalten.",
+    "Der Antrag war unvollständig ausgefüllt.",
+    "Das Formular war unvollständig und wurde abgelehnt.",
+    "Unvollständige Daten können zu Fehlern führen."
+  ]
+},
+{
+  "language": "ger",
+  "word": "übereinstimmen MIT",
+  "forms": ["stimmt überein", "stimmte überein", "hat übereingestimmt"],
+  "type": "verb",
+  "variantA": "согласовывать",
+  "variantB": "не совпадать",
+  "variantC": "совпадать",
+  "variantD": "мешать",
+  "correctAnswer": "совпадать",
+  "cognate_words": [],
+  "sentences": [
+    "Unsere Meinungen stimmen überein.",
+    "Die Daten stimmen mit den Ergebnissen überein.",
+    "Das Ergebnis stimmt nicht mit meinen Erwartungen überein.",
+    "Ihre Ansichten stimmen mit den aktuellen Trends überein.",
+    "Die Aussagen stimmen größtenteils überein."
+  ]
+},
+{
+  "language": "ger",
+  "word": "zu lassen",
+  "forms": ["lässt zu", "ließ zu", "hat zugelassen"],
+  "type": "verb",
+  "variantA": "предоставлять",
+  "variantB": "отпускать",
+  "variantC": "позволять",
+  "variantD": "запрещать",
+  "correctAnswer": "позволять",
+  "cognate_words": [],
+  "sentences": [
+    "Er lässt das nicht zu.",
+    "Ich lasse dich entscheiden.",
+    "Sie hat es nicht zugelassen, dass wir sie stören.",
+    "Lass es zu, wenn du dich wohlfühlst.",
+    "Es lässt sich nicht vermeiden."
+  ]
+},
+{
+  "language": "ger",
+  "word": "erleichtern",
+  "forms": ["erleichtert", "erleichterte", "hat erleichtert"],
+  "type": "verb",
+  "variantA": "усложнять",
+  "variantB": "облегчать",
+  "variantC": "путать",
+  "variantD": "ускорять",
+  "correctAnswer": "облегчать",
+  "cognate_words": [
+    {
+      "word": "die Erleichterung",
+      "translate": "облегчение"
+    }
+  ],
+  "sentences": [
+    "Diese Maßnahme wird den Prozess erleichtern.",
+    "Er hat das Leben der Menschen durch seine Arbeit erleichtert.",
+    "Das neue System soll den Arbeitsaufwand erleichtern.",
+    "Es erleichtert mir, wenn du mir hilfst.",
+    "Die neue Technologie hat viele Prozesse erleichtert."
+  ]
+},
 
 
-  //   {
-  //     language: "ger",
-  //     word: "zeitweise",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "измеримый",
-  //     variantB: "временно",
-  //     variantC: "недостаточный",
-  //     variantD: "постоянно",
-  //     correctAnswer: "временно",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "jeweils",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "соответсвующий",
-  //     variantB: "постепенно, последовательно",
-  //     variantC: "в каждом случае",
-  //     variantD: "постоянно, всегда",
-  //     correctAnswer: "в каждом случае",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Zusammenfassung",
-  //     forms: ["die Zusammenfassungen"],
-  //     type: "nomen",
-  //     variantA: "совместная работа",
-  //     variantB: "вывод, краткое содержание",
-  //     variantC: "инструктаж, инструкция",
-  //     variantD: "совместная продукция",
-  //     correctAnswer: "вывод, краткое содержание",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "fordern",
-  //     forms: ["fordert", "forderte", "hat gefordert"],
-  //     type: "verb",
-  //     variantA: "заниматься",
-  //     variantB: "следовать",
-  //     variantC: "требовать",
-  //     variantD: "пытаться",
-  //     correctAnswer: "требовать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "durch·führen",
-  //     forms: ["führt durch", "führte durch", "hat durchgeführt"],
-  //     type: "verb",
-  //     variantA: "осуществлять, проводить в жизнь",
-  //     variantB: "следовать, идти через",
-  //     variantC: "возмущаться, противиться",
-  //     variantD: "ехать, ехать через",
-  //     correctAnswer: "осуществлять, проводить в жизнь",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "aus·üben",
-  //     forms: ["übt aus", "übte aus", "hat ausgeübt"],
-  //     type: "verb",
-  //     variantA: "упражняться, учиться",
-  //     variantB: "тренироваться, проводить тренировку",
-  //     variantC: "совершать, заниматься",
-  //     variantD: "обучаться, учиться",
-  //     correctAnswer: "совершать, заниматься",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "erfüllen",
-  //     forms: ["erfüllt", "erfullte", "hat erfüllt"],
-  //     type: "verb",
-  //     variantA: "чувствовать, почувствовать",
-  //     variantB: "тренироваться, проводить тренировку",
-  //     variantC: "совершать, заниматься",
-  //     variantD: "исполнять, выполнять",
-  //     correctAnswer: "исполнять, выполнять",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "verärgern",
-  //     forms: ["verärgert", "verärgerte", "hat verärgert"],
-  //     type: "verb",
-  //     variantA: "побеспокоить",
-  //     variantB: "разозлить",
-  //     variantC: "успокаивать",
-  //     variantD: "жаловаться",
-  //     correctAnswer: "разозлить",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "aus·kennen",
-  //     forms: ["kennt aus", "kannte aus", "hat ausgekannt"],
-  //     type: "verb",
-  //     variantA: "разбираться в чем-либо",
-  //     variantB: "узнавать кого-то",
-  //     variantC: "преграждать кому-то путь",
-  //     variantD: "неузнавать кого-то",
-  //     correctAnswer: "разбираться в чем-либо",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "ein·lenken ",
-  //     forms: ["lenkt ein", "lenkte ein", "ist eingelenkt"],
-  //     type: "verb",
-  //     variantA: "забирать",
-  //     variantB: "узнавать кого-то",
-  //     variantC: "преграждать кому-то путь",
-  //     variantD: "уступать",
-  //     correctAnswer: "уступать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "ein·wenden",
-  //     forms: ["wendet ein", "wandte ein", "hat eingewandt"],
-  //     type: "verb",
-  //     variantA: "нуждаться",
-  //     variantB: "присутвовать",
-  //     variantC: "возражать",
-  //     variantD: "уступать",
-  //     correctAnswer: "возражать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "meistern",
-  //     forms: ["meistert", "meisterte", "hat gemeistert"],
-  //     type: "verb",
-  //     variantA: "присуждать, присудить",
-  //     variantB: "мастерить",
-  //     variantC: "главенствовать",
-  //     variantD: "осваивать, овладевать",
-  //     correctAnswer: "осваивать, овладевать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "bewahren",
-  //     forms: ["bewahrt", "bewahrte", "hat bewahrt"],
-  //     type: "verb",
-  //     variantA: "оценивать",
-  //     variantB: "осуждать, недопольствовать",
-  //     variantC: "сохранять, сберегать",
-  //     variantD: "осваивать, овладевать",
-  //     correctAnswer: "сохранять, сберегать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "nach·haken",
-  //     forms: ["hakt nach", "hakte nach", "hat nachgehackt"],
-  //     type: "verb",
-  //     variantA: "оценивать",
-  //     variantB: "осуждать, недопольствовать",
-  //     variantC: "сохранять, сберегать",
-  //     variantD: "осваивать, овладевать",
-  //     correctAnswer: "сохранять, сберегать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "bewältigen",
-  //     forms: ["bewältigt", "bewältigte", "hat bewältigt"],
-  //     type: "verb",
-  //     variantA: "оценивать, ценить",
-  //     variantB: "преодолевать, справляться",
-  //     variantC: "сохранять, сберегать",
-  //     variantD: "охранять, защищать",
-  //     correctAnswer: "преодолевать, справляться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "an·wenden SICH",
-  //     forms: ["wendet an", "wandte an", "hat angewendet"],
-  //     type: "verb",
-  //     variantA: "обращаться к, применять",
-  //     variantB: "преодоливать, справляться",
-  //     variantC: "менять, изменять",
-  //     variantD: "недопускать, устранять",
-  //     correctAnswer: "преодоливать, справляться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "ansonsten",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "необычно",
-  //     variantB: "однажды",
-  //     variantC: "в каждом случае",
-  //     variantD: "в ином случае",
-  //     correctAnswer: "в ином случае",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "ubrigens",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "привычно",
-  //     variantB: "вероятно",
-  //     variantC: "отдельно",
-  //     variantD: "кстати",
-  //     correctAnswer: "кстати",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "erweisen",
-  //     forms: ["erweist", "erwies", "hat erwiesen"],
-  //     type: "verb",
-  //     variantA: "стесняться",
-  //     variantB: "доказывать",
-  //     variantC: "меняться",
-  //     variantD: "устранять",
-  //     correctAnswer: "доказывать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "wirken",
-  //     forms: ["wirkt", "wirkte", "hat gewirkt"],
-  //     type: "verb",
-  //     variantA: "производить, насчитывать, общитывать",
-  //     variantB: "доказывать, обвинять, употреблять",
-  //     variantC: "влиять, действовать, выглядеть",
-  //     variantD: "совершать, выполнять, исполнять",
-  //     correctAnswer: "влиять, действовать, выглядеть",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "an geben",
-  //     forms: ["gibt an", "gab an", "hat angegeben"],
-  //     type: "verb",
-  //     variantA: "указывать, заявлять, хвастаться",
-  //     variantB: "отказываться, отказаться",
-  //     variantC: "менять, изменять, поменять",
-  //     variantD: "сдаваться",
-  //     correctAnswer: "указывать, заявлять, хвастаться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "aus geben",
-  //     forms: ["gibt aus", "gab aus", "hat ausgegeben"],
-  //     type: "verb",
-  //     variantA: "указывать, хвастаться",
-  //     variantB: "отказываться, отказаться",
-  //     variantC: "расходывать, тратить",
-  //     variantD: "сдаваться",
-  //     correctAnswer: "расходывать, тратить",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "auf geben",
-  //     forms: ["gibt auf", "gab auf", "hat aufgegeben"],
-  //     type: "verb",
-  //     variantA: "указывать, хвастаться, сообщать",
-  //     variantB: "отказываться, отказаться, лишаться",
-  //     variantC: "расходывать, тратить, выплачивать",
-  //     variantD: "прекращать, бросать, сдаваться",
-  //     correctAnswer: "прекращать, бросать, сдаваться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "zu geben",
-  //     forms: ["gibt zu", "gab zu", "hat zugegeben"],
-  //     type: "verb",
-  //     variantA: "указывать, хвастаться",
-  //     variantB: "прекращать, сдаваться",
-  //     variantC: "признавать, соглашаться",
-  //     variantD: "расходывать, тратить",
-  //     correctAnswer: "признавать, соглашаться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "ein geben",
-  //     forms: ["gibt ein", "gab ein", "hat eingegeben"],
-  //     type: "verb",
-  //     variantA: "указывать, хвастаться",
-  //     variantB: "прекращать, сдаваться",
-  //     variantC: "признавать, соглашаться",
-  //     variantD: "вводить, давать",
-  //     correctAnswer: "вводить, давать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "übergeben",
-  //     forms: ["übergibt", "übergab", "hat übergegeben"],
-  //     type: "verb",
-  //     variantA: "передавать, перепоручать",
-  //     variantB: "прекращать, сдаваться",
-  //     variantC: "признавать, соглашаться",
-  //     variantD: "вводить, давать",
-  //     correctAnswer: "передавать, перепоручать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "begeben",
-  //     forms: ["begibt", "begab", "hat begeben"],
-  //     type: "verb",
-  //     variantA: "отправляться, направляться",
-  //     variantB: "прекращать, сдаваться",
-  //     variantC: "признавать, соглашаться",
-  //     variantD: "вводить, давать",
-  //     correctAnswer: "отправляться, направляться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "vergeben",
-  //     forms: ["vergibt", "vergab", "hat vergeben"],
-  //     type: "verb",
-  //     variantA: "отправляться, направляться",
-  //     variantB: "прекращать, сдаваться",
-  //     variantC: "прощать, предоставлять",
-  //     variantD: "вводить, давать",
-  //     correctAnswer: "прощать, предоставлять",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "vorrätig",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "привычно, обычно",
-  //     variantB: "вероятно, возможно",
-  //     variantC: "доступно, в наличии",
-  //     variantD: "кстати, причем",
-  //     correctAnswer: "доступно, в наличии",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "demnächst",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "случайно, неожиданно",
-  //     variantB: "вероятно, возможно",
-  //     variantC: "после этого",
-  //     variantD: "вскоре, скоро",
-  //     correctAnswer: "вскоре, скоро",
-  //   },
-  //
-  //   {
-  //     language: "ger",
-  //     word: "ähnlich",
-  //     forms: ["ähnlicher, am ähnlichsten"],
-  //     type: "adj",
-  //     variantA: "обычный, обыкновенный",
-  //     variantB: "безопасный, неопасный",
-  //     variantC: "схожий, подобный",
-  //     variantD: "скорый, быстрый",
-  //     correctAnswer: "схожий, подобный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "verschwinden",
-  //     forms: ["verschwindet", "verschwand", "ist verschwunden"],
-  //     type: "verb",
-  //     variantA: "обидеться, быть обиженным",
-  //     variantB: "исчезать, скрываться",
-  //     variantC: "загрязнять, испачкать",
-  //     variantD: "обидеть, обижать",
-  //     correctAnswer: "исчезать, скрываться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "der Engpass",
-  //     forms: ["die Engpässe"],
-  //     type: "nome",
-  //     variantA: "недостача, дефицит",
-  //     variantB: "документ, паспорт",
-  //     variantC: "вложение, приложение",
-  //     variantD: "оболочка, контур",
-  //     correctAnswer: "недостача, дефицит",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "fällig",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "просроченный",
-  //     variantB: "упавший",
-  //     variantC: "подлежащий исполнению",
-  //     variantD: "потраченный",
-  //     correctAnswer: "подлежащий исполнению",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Feststellung",
-  //     forms: ["die Feststellungen"],
-  //     type: "nome",
-  //     variantA: "представление",
-  //     variantB: "заключение",
-  //     variantC: "напоминание",
-  //     variantD: "поручение",
-  //     correctAnswer: "заключение",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "unverbindlich",
-  //     forms: ["unverbindlicher, am unverbindlichsten"],
-  //     type: "adj",
-  //     variantA: "негарантированный, необязательный",
-  //     variantB: "спонтанный",
-  //     variantC: "целенаправленный",
-  //     variantD: "обязательный, необходимый",
-  //     correctAnswer: "негарантированный, необязательный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "zurück·treten VON",
-  //     forms: ["tritt züruck", "tratt züruck", "hat zurückgetreten"],
-  //     type: "verb",
-  //     variantA: "пройти, пересечь",
-  //     variantB: "переступить, перешагнуть",
-  //     variantC: "нарушать, несоблюдать",
-  //     variantD: "уйти в отставку, отказаться от",
-  //     correctAnswer: "уйти в отставку, отказаться от",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "gezwungen",
-  //     forms: ["gezwungener, am gezwungensten"],
-  //     type: "adj",
-  //     variantA: "раздражительный, нервный",
-  //     variantB: "принужденный",
-  //     variantC: "целенаправленный",
-  //     variantD: "обязательный",
-  //     correctAnswer: "принужденный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Bemühung",
-  //     forms: ["die Bemühungen"],
-  //     type: "nomen",
-  //     variantA: "забота, внимание",
-  //     variantB: "концентрация",
-  //     variantC: "исполнительность, ответсвенность",
-  //     variantD: "старания, усилия",
-  //     correctAnswer: "старания, усилия",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "unterbreiten",
-  //     forms: ["unterbreitet", "unterbreitete", "hat unterbreitet"],
-  //     type: "verb",
-  //     variantA: "пройти, пересечь",
-  //     variantB: "вынести на расмотрение, предложить",
-  //     variantC: "нарушать, несоблюдать",
-  //     variantD: "подготовиться, приготовиться",
-  //     correctAnswer: "вынести на расмотрение, предложить",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Auflösung",
-  //     forms: ["die Auflösungen"],
-  //     type: "nome",
-  //     variantA: "разрешение, роспуск",
-  //     variantB: "понятие, определение",
-  //     variantC: "исполнительность, ответсвенность",
-  //     variantD: "старания, усилия",
-  //     correctAnswer: "разрешение, роспуск",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "definieren",
-  //     forms: ["definiert", "definierte", "hat definiert"],
-  //     type: "verb",
-  //     variantA: "просить, умолять",
-  //     variantB: "вынести на расмотрение, предложить",
-  //     variantC: "давать определение, определять",
-  //     variantD: "подготовиться, приготовиться",
-  //     correctAnswer: "давать определение, определять",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "gestehen",
-  //     forms: ["gesteht", "gestand", "hat gestanden"],
-  //     type: "verb",
-  //     variantA: "просить, умолять",
-  //     variantB: "простить, прощать",
-  //     variantC: "убедить, убеждать",
-  //     variantD: "признаваться, признавать",
-  //     correctAnswer: "признаваться, признавать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "flehen UM",
-  //     forms: ["fleht", "flehte", "hat gefleht"],
-  //     type: "verb",
-  //     variantA: "просить, умолять",
-  //     variantB: "простить, прощать",
-  //     variantC: "убедить, убеждать",
-  //     variantD: "улетать, убывать",
-  //     correctAnswer: "просить, умолять",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "hinterlassen",
-  //     forms: ["hinterlässt", "hinterließ", "hat hinterlassen"],
-  //     type: "verb",
-  //     variantA: "оставлять, покидать (место)",
-  //     variantB: "простить, прощать",
-  //     variantC: "оставлять, покидать (человека)",
-  //     variantD: "улетать, убывать",
-  //     correctAnswer: "оставлять, покидать (человека)",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "verlassen",
-  //     forms: ["verlässt", "verließ", "hat verlassen"],
-  //     type: "verb",
-  //     variantA: "оставлять, покидать (место)",
-  //     variantB: "простить, прощать",
-  //     variantC: "оставлять, покидать (человека)",
-  //     variantD: "улетать, убывать",
-  //     correctAnswer: "оставлять, покидать (место)",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "veranlassen",
-  //     forms: ["veranlasst", "veranlasste", "hat veranlasst"],
-  //     type: "verb",
-  //     variantA: "оставлять, покидать (место)",
-  //     variantB: "побуждать, побудить",
-  //     variantC: "оставлять, покидать (человека)",
-  //     variantD: "забывать, забыть",
-  //     correctAnswer: "побуждать, побудить",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "bezugnehmend",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "раздражительный, нервный",
-  //     variantB: "принужденный, обязанный",
-  //     variantC: "ссылающийся, касающийся",
-  //     variantD: "превосходный",
-  //     correctAnswer: "ссылающийся, касающийся",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "anliegend",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "прилагаемый, приложенный",
-  //     variantB: "принужденный, обязанный",
-  //     variantC: "ссылающийся, касающийся",
-  //     variantD: "прилегающий, примыкающий",
-  //     correctAnswer: "прилегающий, примыкающий",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "beiliegend",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "прилагаемый, приложенный",
-  //     variantB: "принужденный, обязанный",
-  //     variantC: "ссылающийся, касающийся",
-  //     variantD: "прилегающий, примыкающий",
-  //     correctAnswer: "прилагаемый, приложенный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "hervorragend",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "впереди идущий, ведущий",
-  //     variantB: "принужденный, обязанный",
-  //     variantC: "выдающийся, замечательный",
-  //     variantD: "близкий, приятный",
-  //     correctAnswer: "выдающийся, замечательный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "gesamt",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "весь",
-  //     variantB: "вовсе",
-  //     variantC: "всем",
-  //     variantD: "вместе",
-  //     correctAnswer: "весь",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "begleichen",
-  //     forms: ["begleicht", "beglich", "hat begleichen"],
-  //     type: "verb",
-  //     variantA: "сравнивать",
-  //     variantB: "оплачивать",
-  //     variantC: "уравнивать",
-  //     variantD: "убирать",
-  //     correctAnswer: "оплачивать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "gelegen",
-  //     forms: ["gelegener, am gelegensten"],
-  //     type: "adj",
-  //     variantA: "равный, одинаковый",
-  //     variantB: "более удобный, более подходящий",
-  //     variantC: "целенаправленный, целеустремленный",
-  //     variantD: "воспитанный, образованный",
-  //     correctAnswer: "более удобный, более подходящий",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Vorlage",
-  //     forms: ["die Vorlagen"],
-  //     type: "nomen",
-  //     variantA: "проект, образец, шаблон",
-  //     variantB: "убеждение, верования",
-  //     variantC: "сомнения, неуверенность",
-  //     variantD: "старания, усилия",
-  //     correctAnswer: "проект, образец, шаблон",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Bedingung",
-  //     forms: ["die Bedingungen"],
-  //     type: "nomen",
-  //     variantA: "условия",
-  //     variantB: "убеждение, верования",
-  //     variantC: "сомнения, неуверенность",
-  //     variantD: "старания, усилия",
-  //     correctAnswer: "условия",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "empfangen",
-  //     forms: ["empfängt", "empfing", "hat empfangen"],
-  //     type: "verb",
-  //     variantA: "воспринимать, размышлять",
-  //     variantB: "принимать (человек), встречать",
-  //     variantC: "влиять, убеждать",
-  //     variantD: "убирать",
-  //     correctAnswer: "принимать (человек), встречать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "beabsichtigen",
-  //     forms: ["beabsichtigt", "beabsichtigte", "hat beabsichtigt"],
-  //     type: "verb",
-  //     variantA: "проверять, перепроверять",
-  //     variantB: "принимать (человек), встречать",
-  //     variantC: "намереваться, собираться",
-  //     variantD: "посещать (человек)",
-  //     correctAnswer: "намереваться, собираться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "verhindern",
-  //     forms: ["verhindert", "verhinderte", "hat verhindert"],
-  //     type: "verb",
-  //     variantA: "проверять, перепроверять",
-  //     variantB: "предотвращать, препятствовать, помешать",
-  //     variantC: "намереваться, собираться что-то сделать",
-  //     variantD: "выполнить, исполнить, осуществить",
-  //     correctAnswer: "предотвращать, препятствовать, помешать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "diesbezüglich",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "относительно этого, об этом",
-  //     variantB: "потому что",
-  //     variantC: "вопреки тому",
-  //     variantD: "в понимании",
-  //     correctAnswer: "относительно этого, об этом",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Panne",
-  //     forms: ["die Pannen"],
-  //     type: "nomen",
-  //     variantA: "условия, обстоятельство",
-  //     variantB: "убеждение, верования",
-  //     variantC: "сомнения, неуверенность",
-  //     variantD: "авария, поломка, неисправность",
-  //     correctAnswer: "авария, поломка, неисправность",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Pannendienst",
-  //     forms: ["die Pannendienste"],
-  //     type: "nomen",
-  //     variantA: "условие, обстоятельство",
-  //     variantB: "аварийная служба, техпомощь",
-  //     variantC: "сомнения, неуверенность",
-  //     variantD: "авария, поломка, неисправность",
-  //     correctAnswer: "аварийная служба, техпомощь",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "berühren",
-  //     forms: ["berührt", "berührte", "hat berührt"],
-  //     type: "verb",
-  //     variantA: "прикоснуться к чему-то",
-  //     variantB: "предотвращать, препятствовать, помешать",
-  //     variantC: "намереваться, собираться что-то сделать",
-  //     variantD: "сталкнуться с ситуацией, соприкоснуться",
-  //     correctAnswer: "сталкнуться с ситуацией, соприкоснуться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "anfassen",
-  //     forms: ["fasst an", "fasste an", "hat angefasst"],
-  //     type: "verb",
-  //     variantA: "прикоснуться к чему-то",
-  //     variantB: "предотвращать, препятствовать, помешать",
-  //     variantC: "намереваться, собираться что-то сделать",
-  //     variantD: "сталкнуться с ситуацией, соприкоснуться",
-  //     correctAnswer: "прикоснуться к чему-то",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "ein·setzen",
-  //     forms: ["setzt ein", "setzte ein", "hat eingesetzt"],
-  //     type: "verb",
-  //     variantA: "принять, принять к сведенью",
-  //     variantB: "казаться, случаться",
-  //     variantC: "войти, входить",
-  //     variantD: "установить, вставить",
-  //     correctAnswer: "установить, вставить",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "zurück·setzen",
-  //     forms: ["setzt zurück", "setzte zurück", "hat zurückgesetzt"],
-  //     type: "verb",
-  //     variantA: "принять, принять к сведенью",
-  //     variantB: "вернуться, возвращаться",
-  //     variantC: "поставить обратно, ставить обратно",
-  //     variantD: "установить, вставить",
-  //     correctAnswer: "поставить обратно, ставить обратно",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "aus·werfen",
-  //     forms: ["wirft aus", "warf aus", "hat ausgeworfen"],
-  //     type: "verb",
-  //     variantA: "принимать, исполнять",
-  //     variantB: "выбрасывать, выкидывать",
-  //     variantC: "осуществлять, реализовать",
-  //     variantD: "поменять, сменить",
-  //     correctAnswer: "выбрасывать, выкидывать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "auf·werfen",
-  //     forms: ["wirft auf", "warf auf", "hat aufgeworfen"],
-  //     type: "verb",
-  //     variantA: "принимать, исполнять",
-  //     variantB: "выбрасывать, выкидывать",
-  //     variantC: "добавлять, увеличивать",
-  //     variantD: "поднимать вопрос, копать, насыпать",
-  //     correctAnswer: "поднимать вопрос, копать, насыпать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "aus·rüsten MIT",
-  //     forms: ["rüstet aus", "rüstete aus", "hat ausgerüstet"],
-  //     type: "verb",
-  //     variantA: "снабжать, обеспечивать",
-  //     variantB: "окрашивать, красить",
-  //     variantC: "откидывать, выкидывать",
-  //     variantD: "отказываться от заявления",
-  //     correctAnswer: "снабжать, обеспечивать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "versiert",
-  //     forms: ["versierter, am versiertesten"],
-  //     type: "adj",
-  //     variantA: "равнодушный, безметяженый",
-  //     variantB: "квалифицированный, опытный",
-  //     variantC: "целенаправленный, целеустремленный",
-  //     variantD: "бесполезный, напрасный",
-  //     correctAnswer: "квалифицированный, опытный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "ausführlich",
-  //     forms: ["ausführlicher, am ausführlichsten"],
-  //     type: "adj",
-  //     variantA: "подробный, детальный",
-  //     variantB: "квалифицированный, опытный",
-  //     variantC: "целенаправленный, целеустремленный",
-  //     variantD: "бесполезный, напрасный",
-  //     correctAnswer: "подробный, детальный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "wieder·geben",
-  //     forms: ["gibt wieder", "gab wieder", "hat wiedergegeben"],
-  //     type: "verb",
-  //     variantA: "передавать, переносить",
-  //     variantB: "излагать, возвращать, воспроизводить",
-  //     variantC: "откидывать, выкидывать, откладывать",
-  //     variantD: "воспользоваться, организовывать",
-  //     correctAnswer: "излагать, возвращать, воспроизводить",
-  //   },
-  //
-  //   {
-  //     language: "ger",
-  //     word: "ermitteln",
-  //     forms: ["ermittelt", "ermittelte", "hat ermittelt"],
-  //     type: "verb",
-  //     variantA: "узнавать, разузнавать, выясняять",
-  //     variantB: "приобретать, зарабатывать",
-  //     variantC: "сообщать, указывать",
-  //     variantD: "происходить, возникать",
-  //     correctAnswer: "узнавать, разузнавать, выясняять",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "erkennen",
-  //     forms: ["erkennt", "erkannte", "hat erkannt"],
-  //     type: "verb",
-  //     variantA: "контролировать, обеспечивать",
-  //     variantB: "приобретать, зарабатывать",
-  //     variantC: "обнаружить, узнавать, распознать",
-  //     variantD: "знакомить, знакомиться",
-  //     correctAnswer: "обнаружить, узнавать, распознать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "der Zufall",
-  //     forms: ["die Zufälle"],
-  //     type: "nomen",
-  //     variantA: "сбережения, накопления",
-  //     variantB: "волнение",
-  //     variantC: "вознаграждение",
-  //     variantD: "случайность",
-  //     correctAnswer: "случайность",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "der Zufall",
-  //     forms: ["die Zufälle"],
-  //     type: "nomen",
-  //     variantA: "сбережения, накопления",
-  //     variantB: "волнение",
-  //     variantC: "вознаграждение",
-  //     variantD: "случайность",
-  //     correctAnswer: "случайность",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Fertigkeit",
-  //     forms: ["die Fertigkeiten"],
-  //     type: "nomen",
-  //     variantA: "сбережения, накопления, доходы",
-  //     variantB: "навык, умение, способность",
-  //     variantC: "волнения, сомнения, переживание",
-  //     variantD: "случайность, вымысел",
-  //     correctAnswer: "навык, умение, способность",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Auswirkung",
-  //     forms: ["die Auswirkungут"],
-  //     type: "nomen",
-  //     variantA: "сбережения, накопления, доходы",
-  //     variantB: "навык, умение, способность",
-  //     variantC: "волнения, сомнения, переживание",
-  //     variantD: "влияние, воздействие, действие",
-  //     correctAnswer: "влияние, воздействие, действие",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "ausnahmsweise",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "соответственно, соответствующий",
-  //     variantB: "текущий, прежний",
-  //     variantC: "каждый раз, в каждом случае",
-  //     variantD: "исключительно, по исключению",
-  //     correctAnswer: "исключительно, по исключению",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "geringfügig",
-  //     forms: ["geringfügiger", "am geringfügigsten"],
-  //     type: "adv",
-  //     variantA: "раздраженный, гневный",
-  //     variantB: "мнительный, сомнительный",
-  //     variantC: "незначительный, несущественный",
-  //     variantD: "завистливый, завидующий",
-  //     correctAnswer: "незначительный, несущественный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "auf regen ÜBER",
-  //     forms: ["regt auf", "regte auf", "hat aufgeregt"],
-  //     type: "verb",
-  //     variantA: "сожалеть, жалеть",
-  //     variantB: "волноваться, переживать",
-  //     variantC: "жаловаться, негодовать",
-  //     variantD: "заимствовать, позычать",
-  //     correctAnswer: "волноваться, переживать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "bemerken",
-  //     forms: ["bemerkt", "bemerkte", "hat bemerkt"],
-  //     type: "verb",
-  //     variantA: "сожалеть, жалеть",
-  //     variantB: "волноваться, переживать",
-  //     variantC: "жаловаться, негодовать",
-  //     variantD: "замечать, заметить",
-  //     correctAnswer: "замечать, заметить",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "heraus finden",
-  //     forms: ["findet heraus", "fand heraus", "hat herausgefunden"],
-  //     type: "verb",
-  //     variantA: "искать, ввести поиск",
-  //     variantB: "уведомлять, сообщать",
-  //     variantC: "выяснять, разобраться",
-  //     variantD: "замечать, заметить",
-  //     correctAnswer: "выяснять, разобраться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "auf bauen",
-  //     forms: ["baut auf", "baute auf", "hat aufgebaut"],
-  //     type: "verb",
-  //     variantA: "сооружать, строить, создавать",
-  //     variantB: "уведомлять, сообщать",
-  //     variantC: "разрушать, ломать, рушить",
-  //     variantD: "делиться, угощать",
-  //     correctAnswer: "сооружать, строить, создавать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "überreden ZU",
-  //     forms: ["überredet", "überredete", "hat überredet"],
-  //     type: "verb",
-  //     variantA: "разговаривать, болтать",
-  //     variantB: "переубедить, убеждать, переубеждать",
-  //     variantC: "переходить черту, заходить за границу",
-  //     variantD: "хвалиться, преувеличивать",
-  //     correctAnswer: "переубедить, убеждать, переубеждать",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "erleichtern",
-  //     forms: ["erleichtert", "erleichterte", "hat erleichtert"],
-  //     type: "verb",
-  //     variantA: "похудеть, худеть",
-  //     variantB: "переубедить, убеждать, переубеждать",
-  //     variantC: "волноваться, беспокоиться, тревожиться",
-  //     variantD: "облегчить, облегчать, приносить облегчение",
-  //     correctAnswer: "облегчить, облегчать, приносить облегчение",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "zu lassen",
-  //     forms: ["lässt zu", "ließ zu", "hat zugelassen"],
-  //     type: "verb",
-  //     variantA: "оставлять, покидать",
-  //     variantB: "разрешать, позволять",
-  //     variantC: "уходить, убывать",
-  //     variantD: "отказываться, отклонять",
-  //     correctAnswer: "разрешать, позволять",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "überein stimmen MIT",
-  //     forms: ["stimmt überein", "stimmte überein", "hat übereingestimmt"],
-  //     type: "verb",
-  //     variantA: "соответствовать, совпадать, согласовываться",
-  //     variantB: "переубеждать, убеждать, переубедить",
-  //     variantC: "договориваться, соглашаться",
-  //     variantD: "переложить, перепоручить, передавать",
-  //     correctAnswer: "соответствовать, совпадать, согласовываться",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "unvollständig",
-  //     forms: ["unvollständiger", "am unvollständigsten"],
-  //     type: "adv",
-  //     variantA: "досрочный",
-  //     variantB: "неполный",
-  //     variantC: "срочный",
-  //     variantD: "сомнительный",
-  //     correctAnswer: "неполный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "bedeutend",
-  //     forms: ["bedeutender", "am bedeutendsten"],
-  //     type: "adv",
-  //     variantA: "доволно",
-  //     variantB: "неполно",
-  //     variantC: "значительно",
-  //     variantD: "прозрачно",
-  //     correctAnswer: "значительно",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "erheblich",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "пустой",
-  //     variantB: "пережитый",
-  //     variantC: "прошлый",
-  //     variantD: "значительный",
-  //     correctAnswer: "значительный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "jedoch",
-  //     forms: ["-"],
-  //     type: "adv",
-  //     variantA: "тем более",
-  //     variantB: "также",
-  //     variantC: "иначе",
-  //     variantD: "тем не менее",
-  //     correctAnswer: "тем не менее",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Haltbarkeit",
-  //     forms: ["die Haltbarkeiten"],
-  //     type: "nomen",
-  //     variantA: "старания, умения, навык",
-  //     variantB: "годность, пригодность, добротность",
-  //     variantC: "черта, характеристика, квалификация",
-  //     variantD: "достоинство, превосходство",
-  //     correctAnswer: "годность, пригодность, добротность",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "die Faustregel",
-  //     forms: ["die Faustregeln"],
-  //     type: "nomen",
-  //     variantA: "ненужное правило",
-  //     variantB: "прилавок, полка",
-  //     variantC: "поклажа, кладь",
-  //     variantD: "общее правило",
-  //     correctAnswer: "общее правило",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "das Fazit",
-  //     forms: ["die Fazits"],
-  //     type: "nomen",
-  //     variantA: "запрет, табу",
-  //     variantB: "прилавок, полка",
-  //     variantC: "итог, сумма",
-  //     variantD: "отказ, отмена",
-  //     correctAnswer: "итог, сумма",
-  //   },
+
+
+
+
+
+
+
   //   {
   //     language: "ger",
   //     word: "die Flucht",
@@ -3874,28 +4786,8 @@ const GermanWordsTest: TestType[] = [
   //     variantD: "содействие, взаимная работа",
   //     correctAnswer: "по́мощь, подде́ржка, посо́бие",
   //   },
-  //   {
-  //     language: "ger",
-  //     word: "adäquat",
-  //     forms: ["adäquater", "am adäquatesten"],
-  //     type: "adj",
-  //     variantA: "непредсказуемый",
-  //     variantB: "спонтанный",
-  //     variantC: "целенаправленный",
-  //     variantD: "адекватный",
-  //     correctAnswer: "адекватный",
-  //   },
-  //   {
-  //     language: "ger",
-  //     word: "gering",
-  //     forms: ["geringer", "am geringsten"],
-  //     type: "adj",
-  //     variantA: "непредсказуемый",
-  //     variantB: "небольшой, незначительный",
-  //     variantC: "огромный, значительный",
-  //     variantD: "непредсказуемый",
-  //     correctAnswer: "небольшой, незначительный",
-  //   },
+  //  
+  //   
   //   {
   //     language: "ger",
   //     word: "zielstrebig",
