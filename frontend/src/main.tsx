@@ -12,7 +12,7 @@ import HomePage from './pages/HomePage.tsx';
 import CreateQuestion from './pages/CreateQuestion.tsx';
 
 import TestPageGer from './pages/TestPageGer.tsx';
-import TestPageRus from './pages/TestPageRus.tsx';
+import TestPageGerSent from './pages/TestPageGerSent.tsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,7 +21,7 @@ const router = createBrowserRouter(
       
       <Route path="create_question" element={<CreateQuestion />} />
       <Route path="test_german" element={<TestPageGer />} />
-      <Route path="test_rus" element={<TestPageRus />} />
+      <Route path="test_german_senternce" element={<TestPageGerSent />} />
       
       
     </Route>

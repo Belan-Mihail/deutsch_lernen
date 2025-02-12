@@ -17,10 +17,10 @@ const HomePage = () => {
         German Test
       </Link>
       <Link
-        to="test_german"
+        to="test_german_senternce"
         className=" font-semibold text-2xl border-solid border-2 border-green-500 p-8 rounded-xl hover:bg-green-500 hover:text-white"
       >
-        German Sentences Test
+        Sentences Test
       </Link>
       {/* <Link
         to="test_rus"
