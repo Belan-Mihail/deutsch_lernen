@@ -1,17 +1,32 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import GermanSentences from "../data1";
 import { Link } from "react-router-dom";
 
 const TestPageGerSent = () => {
-  const allSentences = GermanSentences;
+    const allSentences = GermanSentences;
 
-  const [currentSentence, setCurrentSentence] = React.useState({});
-
-  const nextQuestion = () => {
-    setCurrentSentence(
-      allSentences[Math.floor(Math.random() * allSentences.length)]
-    );
-  };
+    
+    const [remainingSentences, setRemainingSentences] = useState([...allSentences]);
+    const [currentSentence, setCurrentSentence] = useState({});
+  
+    
+    const nextQuestion = () => {
+      if (remainingSentences.length === 0) {
+        alert("No more");
+        return; 
+      }
+  
+      const randomIndex = Math.floor(Math.random() * remainingSentences.length);
+      const selectedSentence = remainingSentences[randomIndex];
+  
+      
+      const updatedRemainingSentences = remainingSentences.filter(
+        (sentence, index) => index !== randomIndex
+      );
+  
+      setRemainingSentences(updatedRemainingSentences);
+      setCurrentSentence(selectedSentence);
+    };
 
   useEffect(() => {
     setCurrentSentence(
@@ -31,7 +46,7 @@ const TestPageGerSent = () => {
           </Link>
         </div>
         <div className="text-center">
-          <span>total number of questions: {allSentences.length}</span>
+          <span>total number of questions: {remainingSentences.length}</span>
         </div>
       </div>
       <div className="h-full max-w-full mt-8 p-8 rounded-xl text-white text-center bg-gray-900 flex flex-col gap-4 items-center">
